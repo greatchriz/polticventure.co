@@ -113,11 +113,12 @@
                                                 <nav class="rs-menu hidden-md">
                                                     <ul class="nav-menu onepage-menu">
                                                         <li class="current-menu-item"><a href="/">Home</a></li>
-                                                        <li><a href="#rs-about">About</a> </li>
-                                                        <li><a href="#rs-services">Services</a> </li>
-                                                        <li><a href="#rs-project">Portfolios</a> </li>
-                                                        <li><a href="#rs-blog">Blog</a> </li>
-                                                        <li><a href="#rs-contact">Contact</a> </li>
+                                                        <li><a href="/?a=about">About</a> </li>
+                                                        <li><a href="/?a=faq">F.A.Q.</a> </li>
+                                                        <li><a href="/?a=support">Contact  Us</a> </li>
+                                                        <li><a href="/?a=rewards">Rewards</a> </li>
+                                                        <li><a href="/?a=login">Login</a> </li>
+                                                        <li><a href="/?a=signup">Signup</a> </li>
                                                     </ul> <!-- //.nav-menu -->
                                                 </nav>
                                                 
@@ -225,11 +226,12 @@
                             </div>
                             <ul class="nav-menu">
                                 <li class="current-menu-item"><a href="/">Home</a></li>
-                                <li><a href="#rs-about">About</a> </li>
-                                <li><a href="#rs-services">Services</a> </li>
-                                <li><a href="#rs-project">Portfolios</a> </li>
-                                <li><a href="#rs-blog">Blog</a> </li>
-                                <li><a href="#rs-contact">Contact</a> </li>
+                                <li><a href="/?a=about">About</a> </li>
+                                <li><a href="/?a=faq">F.A.Q.</a> </li>
+                                <li><a href="/?a=support">Contact  Us</a> </li>
+                                <li><a href="/?a=rewards">Rewards</a> </li>
+                                <li><a href="/?a=login">Login</a> </li>
+                                <li><a href="/?a=signup">Signup</a> </li>
                             </ul> <!-- //.nav-menu -->
                             <div class="canvas-contact">
                                   <div class="address-area">
