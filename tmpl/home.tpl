@@ -1,364 +1,381 @@
 {include file="main_header.tpl" current_page="home"}
     
-      <!-- Banner Section Start -->
-        <div class="rs-banner main-home">
-            <div class="container custom">
-                <div class="content-wrap">
-                    <div class="border-line"></div>
-                    <h1 class="title">We maximize</h1>
-                    <h3 class="sub-title">your business growth</h3>
-                    <div class="btn-part">
-                        <a class="readon consultant" href="contact.html">Find Consultant</a>
-                    </div>
-                </div>
-            </div>
-            <div class="animate-part">
-                <div class="spiner dot">
-                    <img class="rotate_Y" src="assets/images/banner/style1/dot-rect.png" alt="images">
-                </div>
-                <div class="spiner tri-circle">
-                    <img class="up-down" src="assets/images/banner/style1/tri-circle1.png" alt="images">
-                </div>
-                <div class="spiner circle">
-                    <img class="up-down" src="assets/images/banner/style1/circle1.png" alt="images">
-                </div>
-                <div class="spiner line">
-                    <img class="up-down" src="assets/images/banner/style1/line1.png" alt="images">
-                </div>
+<!-- Banner Section Start -->
+<div class="rs-banner main-home">
+    <div class="container custom">
+        <div class="content-wrap">
+            <div class="border-line"></div>
+            <h1 class="title">We maximize</h1>
+            <h3 class="sub-title">your portfolio growth</h3>
+            <div class="btn-part">
+                <a class="readon consultant" href="indexcca3.html?a=signup">Get Started</a>
             </div>
         </div>
-        <!-- Banner Section End -->
+    </div>
+    <div class="animate-part">
+        <div class="spiner dot">
+            <img class="rotate_Y" src="assets/images/banner/style1/dot-rect.png" alt="images">
+        </div>
+        <div class="spiner tri-circle">
+            <img class="up-down" src="assets/images/banner/style1/tri-circle1.png" alt="images">
+        </div>
+        <div class="spiner circle">
+            <img class="up-down" src="assets/images/banner/style1/circle1.png" alt="images">
+        </div>
+        <div class="spiner line">
+            <img class="up-down" src="assets/images/banner/style1/line1.png" alt="images">
+        </div>
+    </div>
+</div>
+<!-- Banner Section End -->
 
-        <!-- About Section Start -->
-        <div class="rs-about main-home bg1 pt-110 pb-110 md-pt-70 md-pb-65">
-            <div class="container">
-                <div class="row y-middle">
-                    <div class="col-lg-6 md-mb-50">
-                        <div class="images-part">
-                            <img src="assets/images/about/about.png" alt="Images">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 pl-60 md-pl-15">
-                        <div class="sec-title">
-                            <h2 class="title pb-30">
-                                We take your business to next level
-                            </h2>
-                            <span class="sub-text">30+ years experience in business and finance consulting, IT solutions, and working with 5k+ clients over the world. </span>
+<!-- About Section Start -->
+<div class="rs-about main-home bg1 pt-110 pb-110 md-pt-70 md-pb-65">
+    <div class="container">
+        <div class="row y-middle">
+            <div class="col-lg-6 md-mb-50">
+                <div class="images-part">
+                    <img src="assets/images/about/about.png" alt="Images">
+                </div>
+            </div>
+            <div class="col-lg-6 pl-60 md-pl-15">
+                <div class="sec-title">
+                    
+                    <span class="sub-text">Pinnaclegem is a global equity funding and trading platform. We connect a diverse investor network with highly vetted growth companies across international markets and, through The Marketplace, allow private investments to be traded.</span>
 
-                            <p class="margin-0">Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but occasionally circumstances occur in which toil and pain can procure him some great pleasure. Creation timelines for the digital consulting business theme 2021 bstandard lorem ipsum passage vary, with some citing the 15th century and others the 20th.</p>
-                            <div class="btn-part mt-45">
-                                <a class="readon consultant discover" href="about.html">Discover More</a>
-                            </div>
-                        </div>
+                    <p class="margin-0">With our marketplace, you can trade your investments, offering balance to your portfolio and liquidity when you need it. By saying goodbye to frustrating holding periods, you'll be in control of your investments like never before.
+                    <br><br/>
+                    Historical and live trading information is offered alongside company quarterly reports, empowering your investing decisions with relevant company KPIs, metrics and results.</p>
+                    <div class="btn-part mt-45">
+                        <a class="readon consultant discover" href="about.html">Discover More</a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- About Section End -->
-       
-        <!-- Services Section Start -->
-        <div class="rs-services main-home bg2 pt-100 pb-100 md-pt-70 md-pb-70">
-            <div class="container">
-                <div class="row y-middle">
-                    <div class="col-lg-7">
-                       <div class="sec-title mb-70 md-mb-30">
-                           <h2 class="title white-color">
-                               What services we provide to our customers business
-                           </h2>
+    </div>
+</div>
+<!-- About Section End -->
+
+<!-- Services Section Start -->
+<div class="rs-services main-home bg2 pt-100 pb-100 md-pt-70 md-pb-70">
+    <div class="container">
+        <div class="row y-middle">
+            <div class="col-lg-7">
+               <div class="sec-title mb-70 md-mb-30">
+                   <h2 class="title white-color">
+                       Fuel your growth
+                   </h2>
+               </div>
+            </div>
+            
+<h6 style="color:white;">We’ve helped dozens of clients raise funds, but we know that each one has a unique story to tell and specific needs and requirements. That’s why we’re more than just a source of funding.</h6>
+        </div>
+        
+        
+        <div class="row">
+            <div class="col-lg-4 mb-55 col-md-6">
+                <div class="services-item">
+                    <div class="services-icon">
+                        <img src="assets/images/services/main-home/1.png" alt="Services">
+                    </div>
+                    <div class="services-text">
+                        <h2 class="title"><a href="#">Cost and time effective</a></h2>
+                        <p class="services-txt">Our simple four phase Fundraising process reduces admin and lowers costs, whilst our fee’s remain competitive and transparent.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-55 col-md-6">
+                <div class="services-item">
+                    <div class="services-icon">
+                        <img src="assets/images/services/main-home/2.png" alt="Services">
+                    </div>
+                    <div class="services-text">
+                        <h2 class="title"><a href="#">Global investor exposure</a></h2>
+                        <p class="services-txt">We offer you diverse sources of capital including Angels and VC’s. With investors from 130 countries, our truly international network promotes cross-border investing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-55 col-md-6">
+                <div class="services-item">
+                    <div class="services-icon">
+                        <img src="assets/images/services/main-home/3.png" alt="Services">
+                    </div>
+                    <div class="services-text">
+                        <h2 class="title"><a href="#">Robust Technology</a></h2>
+                        <p class="services-txt">For each of the blockchain algorithms that we have proposed, we are providing some of the highest performance systems available.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 md-mb-55 col-md-6">
+                <div class="services-item">
+                    <div class="services-icon">
+                        <img src="assets/images/services/main-home/4.png" alt="Services">
+                    </div>
+                    <div class="services-text">
+                        <h2 class="title"><a href="#">Secure And Private</a></h2>
+                        <p class="services-txt">We support cryptocurrencies that promote privacy, so we try to keep user data collected to a minimum and will only require information.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 sm-mb-55 col-md-6">
+                <div class="services-item">
+                    <div class="services-icon">
+                        <img src="assets/images/services/main-home/5.png" alt="Services">
+                    </div>
+                    <div class="services-text">
+                        <h2 class="title"><a href="#">Support beyond Capital</a></h2>
+                        <p class="services-txt">With a dedicated Funding Manager and in-house legal, marketing and PR support, our team of experts help to build a compelling investment offer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="services-item">
+                    <div class="services-icon">
+                        <img src="assets/images/services/main-home/6.png" alt="Services">
+                    </div>
+                    <div class="services-text">
+                        <h2 class="title"><a href="#">Corporate Governance</a></h2>
+                        <p class="services-txt"> We offer our clients regular account statements. Our financial accounts are audited by external audit firms, to ensure constant compliance with regulations across operations.</p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+<!-- Services Section End -->
+
+
+
+<!-- Team Section Start -->
+<div class="rs-team style1 bg4 pt-100 pb-100 md-pt-70 md-pb-70">
+    <div class="container">
+        <div class="row y-middle">
+            <div class="col-lg-5">
+               <div class="sec-title mb-50 md-mb-35">
+                   <h2 class="title white-color">
+                       We’re experienced professionals
+                   </h2>
+               </div>
+            </div>
+            <div class="col-lg-7 text-right md-left">
+                <div class="btn-part mb-90 md-mb-50">
+                    <a class="readon consultant discover" href="index0d07.html?a=plan">Package List</a>
+                </div>
+            </div>
+        </div>
+         
+            <!-- Blog Section Start -->
+<div id="rs-blog" class="rs-blog blog-main-home pt-100 pb-100 md-pt-70 md-pb-70">
+    <div class="container">  
+        
+        <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="true" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="true" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="3" data-md-device-nav="false" data-md-device-dots="true">
+            <div class="blog-item">
+                
+                <div class="blog-content">
+                   
+                   <h3 class="blog-title">High performance trading platform</h3>
+                   <p class="desc">We designed and built a streamlined tading platform for newcomers and experts. Make easy deposits and hassle free withdrawals. keep track of your portfolio and grow your digital assets.</p>
+                   
+                </div>
+            </div>
+            <div class="blog-item">
+               
+                <div class="blog-content">
+                   
+                   <h3 class="blog-title">Platform security</h3>
+                   <p class="desc">Our servers reside in secure cages under 24/7 surveillance by armed guards and video monitors. Physical access and code deployment are strictly controlled.</p>
+                   
+                </div>
+            </div>
+            <div class="blog-item">
+                
+                <div class="blog-content">
+                   
+                   <h3 class="blog-title">Information security</h3>
+                   <p class="desc">All sensitive account information is encrypted at rest at both the system and data level. Access is strictly controlled and monitored. Nothing ships without intensive review.</p>
+                   
+                </div>
+            </div>
+            <div class="blog-item">
+               
+                <div class="blog-content">
+                   
+                   <h3 class="blog-title">Safe coin storage</h3>
+                   <p class="desc">95% of all deposits are kept in offline, air-gapped, geographically distributed cold storage. We keep full reserves so that you can always withdraw immediately on demand.</p>
+                   
+                </div>
+            </div>
+            <div class="blog-item">
+                
+                <div class="blog-content">
+                   
+                   <h3 class="blog-title">Global 24/7 support</h3>
+                   <p class="desc">We pair our global 24/7 live chat with an extensive Support Center to help ensure your questions are answered and your needs are met around the clock no matter who or where you are.</p>
+                   
+                </div>
+            </div>
+            
+            
+            
+         </div>
+    </div>
+</div>
+<!-- Blog Section End -->
+        </div>
+    </div>
+</div>
+<!-- Team Section Start -->
+
+
+<!-- Why Choose Section Start -->
+<div class="rs-choose bg5 pt-100 pb-100 md-pt-70 md-pb-70">
+    <div class="container">
+        <div class="row y-middle">
+            <div class="col-lg-6 pr-70 md-pr-15 md-mb-50">
+                <div class="sec-title mb-35">
+                    
+                    <p class="margin-0">For investors, we’re giving you control over your investments like never before. With ‘The Marketplace’, you can trade investments, anytime, anywhere. So whether you want to gain liquidity from your current investments, or you're looking to join an opportunity that you thought you'd missed out on, you stay in control.</p>
+                </div>
+                <!-- Skillbar Section Start -->
+                <div class="rs-skillbar style1">
+                    <div class="cl-skill-bar">
+                       <!-- Start Skill Bar -->
+                       <span class="skillbar-title">Trusted Trading Strategie</span>
+                       <div class="skillbar" data-percent="98">
+                           <p class="skillbar-bar"></p>
+                           <span class="skill-bar-percent"></span> 
                        </div>
-                    </div>
-                    <div class="col-lg-5 text-right md-left">
-                        <div class="btn-part mb-90 md-mb-50">
-                            <a class="readon consultant discover" href="services-style1.html">View Services</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 mb-55 col-md-6">
-                        <div class="services-item">
-                            <div class="services-icon">
-                                <img src="assets/images/services/main-home/1.png" alt="Services">
-                            </div>
-                            <div class="services-text">
-                                <h2 class="title"><a href="business-planning.html">Business Planning</a></h2>
-                                <p class="services-txt"> Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus consulting.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-55 col-md-6">
-                        <div class="services-item">
-                            <div class="services-icon">
-                                <img src="assets/images/services/main-home/2.png" alt="Services">
-                            </div>
-                            <div class="services-text">
-                                <h2 class="title"><a href="tax-strategy.html">Tax Strategy</a></h2>
-                                <p class="services-txt"> Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus consulting.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-55 col-md-6">
-                        <div class="services-item">
-                            <div class="services-icon">
-                                <img src="assets/images/services/main-home/3.png" alt="Services">
-                            </div>
-                            <div class="services-text">
-                                <h2 class="title"><a href="financial-advices.html">Financial Advices</a></h2>
-                                <p class="services-txt"> Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus consulting.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 md-mb-55 col-md-6">
-                        <div class="services-item">
-                            <div class="services-icon">
-                                <img src="assets/images/services/main-home/4.png" alt="Services">
-                            </div>
-                            <div class="services-text">
-                                <h2 class="title"><a href="insurance-strategy.html">Insurance Strategy</a></h2>
-                                <p class="services-txt"> Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus consulting.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 sm-mb-55 col-md-6">
-                        <div class="services-item">
-                            <div class="services-icon">
-                                <img src="assets/images/services/main-home/5.png" alt="Services">
-                            </div>
-                            <div class="services-text">
-                                <h2 class="title"><a href="start-ups.html">Start Ups</a></h2>
-                                <p class="services-txt"> Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus consulting.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="services-item">
-                            <div class="services-icon">
-                                <img src="assets/images/services/main-home/6.png" alt="Services">
-                            </div>
-                            <div class="services-text">
-                                <h2 class="title"><a href="manage-investment.html">Manage Investment</a></h2>
-                                <p class="services-txt"> Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus consulting.</p>
-                            </div>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-        </div>
-        <!-- Services Section End -->
-
-        <!-- Project Section Start -->
-        <div class="rs-project style1 bg3 pt-100 pb-100 md-pt-70 md-pb-70">
-            <div class="container">
-                <div class="sec-title text-center mb-60 md-mb-40">
-                    <h2 class="title title2">
-                        Completed business cases
-                    </h2>
-                </div>
-                <div class="gridFilter mb-50 md-mb-30 text-center">
-                    <button class="active" data-filter="*">All</button>
-                    <button data-filter=".filter1">Business Strategy</button>
-                    <button data-filter=".filter2">Financial</button>
-                    <button data-filter=".filter3">Investment</button>
-                    <button data-filter=".filter4">Tax Consulting</button>
-                </div>                    
-                <div class="row grid">
-                    <div class="col-lg-4 col-md-6 mb-30 grid-item filter1">
-                        <div class="project-item">
-                            <div class="project-img">
-                                <img src="assets/images/project/style1/1.jpg" alt="images">
-                            </div>
-                            <div class="project-content"> 
-                                <div class="project-inner">
-                                    <span class="category"><a href="project-single.html">Investment</a></span>
-                                    <h3 class="title"><a href="project-single.html">Business planning</a></h3>
-                                    <a class="p-icon" href="project-single.html"><i class="custom-icon"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-30 grid-item filter3 filter1">
-                        <div class="project-item">
-                            <div class="project-img">
-                                <img src="assets/images/project/style1/2.jpg" alt="images">
-                            </div>
-                            <div class="project-content"> 
-                                <div class="project-inner">
-                                    <span class="category"><a href="project-single.html">Investment</a></span>
-                                    <h3 class="title"><a href="project-single.html">Strength solutions</a></h3>
-                                    <a class="p-icon" href="project-single.html"><i class="custom-icon"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-30 grid-item filter2 filter4">
-                        <div class="project-item">
-                            <div class="project-img">
-                                <img src="assets/images/project/style1/3.jpg" alt="images">
-                            </div>
-                            <div class="project-content"> 
-                                <div class="project-inner">
-                                    <span class="category"><a href="project-single.html">Business Strategy</a></span>
-                                    <h3 class="title"><a href="project-single.html">Business analytics</a></h3>
-                                    <a class="p-icon" href="project-single.html"><i class="custom-icon"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 md-mb-30 grid-item filter2 filter3">
-                        <div class="project-item">
-                            <div class="project-img">
-                                <img src="assets/images/project/style1/4.jpg" alt="images">
-                            </div>
-                            <div class="project-content"> 
-                                <div class="project-inner">
-                                    <span class="category"><a href="project-single.html">Business Strategy</a></span>
-                                    <h3 class="title"><a href="project-single.html">Stock market analysis</a></h3>
-                                    <a class="p-icon" href="project-single.html"><i class="custom-icon"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 sm-mb-30 grid-item filter3 filter4">
-                        <div class="project-item">
-                            <div class="project-img">
-                                <img src="assets/images/project/style1/5.jpg" alt="images">
-                            </div>
-                            <div class="project-content"> 
-                                <div class="project-inner">
-                                    <span class="category"><a href="project-single.html">Financial</a></span>
-                                    <h3 class="title"><a href="project-single.html">Sales analysis</a></h3>
-                                    <a class="p-icon" href="project-single.html"><i class="custom-icon"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 grid-item filter2 filter4">
-                        <div class="project-item">
-                            <div class="project-img">
-                                <img src="assets/images/project/style1/6.jpg" alt="images">
-                            </div>
-                            <div class="project-content"> 
-                                <div class="project-inner">
-                                    <span class="category"><a href="project-single.html">Tax Consulting</a></span>
-                                    <h3 class="title"><a href="project-single.html">Stock investments</a></h3>
-                                    <a class="p-icon" href="project-single.html"><i class="custom-icon"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Project Section End -->  
-
-        <!-- Team Section Start -->
-        <div class="rs-team style1 bg4 pt-100 pb-100 md-pt-70 md-pb-70">
-            <div class="container">
-                <div class="row y-middle">
-                    <div class="col-lg-5">
-                       <div class="sec-title mb-50 md-mb-35">
-                           <h2 class="title white-color">
-                               We’re experienced professionals
-                           </h2>
+                       <!-- Start Skill Bar -->
+                       <span class="skillbar-title">Partnership</span>
+                       <div class="skillbar" data-percent="90">
+                           <p class="skillbar-bar"></p>
+                           <span class="skill-bar-percent"></span> 
                        </div>
-                    </div>
-                    <div class="col-lg-7 text-right md-left">
-                        <div class="btn-part mb-90 md-mb-50">
-                            <a class="readon consultant discover" href="about.html">View Peoples</a>
-                        </div>
+                       <!-- Start Skill Bar -->
+                       <span class="skillbar-title">System all Time Online</span>
+                       <div class="skillbar" data-percent="99">
+                           <p class="skillbar-bar"></p>
+                           <span class="skill-bar-percent"></span> 
+                       </div>    
+                       
                     </div>
                 </div>
-                <div class="rs-carousel owl-carousel" 
-                    data-loop="true" 
-                    data-items="3" 
-                    data-margin="30" 
-                    data-autoplay="true" 
-                    data-hoverpause="true" 
-                    data-autoplay-timeout="5000" 
-                    data-smart-speed="800" 
-                    data-dots="true" 
-                    data-nav="false" 
-                    data-nav-speed="false" 
-
-                    data-md-device="3" 
-                    data-md-device-nav="false" 
-                    data-md-device-dots="true" 
-                    data-center-mode="false"
-
-                    data-ipad-device2="2" 
-                    data-ipad-device-nav2="false" 
-                    data-ipad-device-dots2="true"
-
-                    data-ipad-device="2" 
-                    data-ipad-device-nav="false" 
-                    data-ipad-device-dots="true" 
-
-                    data-mobile-device="1" 
-                    data-mobile-device-nav="false" 
-                    data-mobile-device-dots="true"> 
-                    <div class="team-wrap">
-                        <div class="image-wrap">
-                            <a href="team-single.html"><img src="assets/images/team/1.jpg" alt="Team"></a>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="team-name"><a href="team-single.html">Dakota Johnson</a></h3>
-                            <span class="team-title">Business Advisor</span>
-                        </div>
+                <!-- Skillbar Section End -->
+            </div>
+            <div class="col-lg-6">
+                <div class="rs-videos choose-video">
+                    <div class="images-video">
+                        <img src="assets/images/choose/chosse-video.jpg" alt="images">
                     </div>
-                    <div class="team-wrap">
-                        <div class="image-wrap">
-                            <a href="team-single.html"><img src="assets/images/team/2.jpg" alt="Team"></a>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>                                
-                            </ul>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="team-name"><a href="team-single.html">Morgan Freeman</a></h3>
-                            <span class="team-title">Senior Consultant</span>
-                        </div>
-                    </div>
-                    <div class="team-wrap">
-                        <div class="image-wrap">
-                            <a href="team-single.html"><img src="assets/images/team/3.jpg" alt="Team"></a>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>                            
-                            </ul>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="team-name"><a href="team-single.html">Natalie Martinez</a></h3>
-                            <span class="team-title">Business Advisor</span>
-                        </div>
-                    </div>
-                    <div class="team-wrap">
-                        <div class="image-wrap">
-                            <a href="team-single.html"><img src="assets/images/team/4.jpg" alt="Team"></a>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>                               
-                            </ul>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="team-name"><a href="team-single.html">Al Pacino</a></h3>
-                            <span class="team-title">Finance Consultant</span>
-                        </div>
+                    <div class="animate-border">
+                        <a class="popup-border" href="assets/images/video/video.mp4">
+                            <i class="fa fa-play"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Team Section Start -->
+    </div>
+    <!-- Services Section Start -->
+    <div id="rs-services" class="rs-services chooseus-style pt-100 md-pt-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 md-mb-30">
+                    <div class="services-item">
+                        <div class="services-icon">
+                            <img src="assets/images/choose/icons/1.png" alt="Images">
+                        </div>
+                        <div class="services-text">
+                            <h3 class="title"><a href="#">Effective trading strategy</a></h3>
+                            <p class="services-txt">We implement trading strategy that has been tried, tested and perfected and pair it with a wide selection of cryptocurrencies and trading options to maximize profits.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 md-mb-30">
+                    <div class="services-item">
+                        <div class="services-icon">
+                            <img src="assets/images/choose/icons/2.png" alt="Images">
+                        </div>
+                        <div class="services-text">
+                            <h3 class="title"><a href="#">Efficient, easy, transparent process</a></h3>
+                            <p class="services-txt">We’ve made investing a simple, transparent process, with built in channels to keep you up to date with your investments.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="services-item">
+                        <div class="services-icon">
+                            <img src="assets/images/choose/icons/3.png" alt="Images">
+                        </div>
+                        <div class="services-text">
+                            <h3 class="title"><a href="#">Licensed & Regulated</a></h3>
+                            <p class="services-txt">Authorised and regulated by the Estonian Financial Supervision Authority in the EU, by the Financial Conduct Authority in the UK and licensed as a Recognised Market Operator and as a Capital Markets Services entity by the Monetary Authority of Singapore.</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- Services Section End -->
+</div>
+
+<!-- Partner Section Start -->
+<div class="rs-patter-section black-bg pt-80 pb-75">
+    <div class="container custom">
+        <div class="rs-carousel owl-carousel" 
+            data-loop="true" 
+            data-items="5" 
+            data-margin="30" 
+            data-autoplay="true" 
+            data-hoverpause="true" 
+            data-autoplay-timeout="5000" 
+            data-smart-speed="800" 
+            data-dots="false" 
+            data-nav="false" 
+            data-nav-speed="false" 
+
+            data-md-device="5" 
+            data-md-device-nav="false" 
+            data-md-device-dots="false" 
+            data-center-mode="false"
+
+            data-ipad-device2="4" 
+            data-ipad-device-nav2="false" 
+            data-ipad-device-dots2="false"
+
+            data-ipad-device="4" 
+            data-ipad-device-nav="false" 
+            data-ipad-device-dots="false" 
+
+            data-mobile-device="2" 
+            data-mobile-device-nav="false" 
+            data-mobile-device-dots="false">  
+            <div class="logo-img">
+                
+                    <img class="hovers-logos rs-grid-img" src="assets/images/partner/main-home/1.png" title="" alt="">
+                    
+            </div>
+            <div class="logo-img">
+                
+                    <img class="hovers-logos rs-grid-img" src="assets/images/partner/main-home/2.png" title="" alt="">
+                   
+            </div>
+            <div class="logo-img">
+                
+                    <img class="hovers-logos rs-grid-img" src="assets/images/partner/main-home/3.png" title="" alt="">
+                    
+            </div>
+            <div class="logo-img">
+                
+                    <img class="hovers-logos rs-grid-img" src="assets/images/partner/main-home/4.png" title="" alt="">
+                    
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- Partner Section End -->
 
         <!-- Why Choose Section Start -->
         <div class="rs-choose bg5 pt-100 pb-100 md-pt-70 md-pb-70">
