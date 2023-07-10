@@ -1,4 +1,4 @@
-{include file="main_header.tpl" current_page="home"}
+{include file="header.tpl"}
 
 
 <h3>Support Form:</h3><br>
@@ -88,4 +88,4 @@ function checkform() {
 {/if}
 
 
-{include file="main_footer.tpl"}
+{include file="footer.tpl"}
