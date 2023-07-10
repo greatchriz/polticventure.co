@@ -5,7 +5,7 @@
     <head>
             <!-- meta tag -->
             <meta charset="utf-8">
-            <title>Bizup Consulting Business HTML Template</title>
+            <title>Polticventure | We maximize your profit</title>
             <meta name="description" content="">
             <!-- responsive tag -->
             <meta http-equiv="x-ua-compatible" content="ie=edge">

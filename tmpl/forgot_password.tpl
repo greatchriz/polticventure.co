@@ -6,7 +6,7 @@
       <a href="?a=home">
         <img
           class="mx-auto w-36 lg:hidden"
-          src="images/logo.png"
+          src="assets/images/logo-dark.png"
           alt="logo"
         />
       </a>
