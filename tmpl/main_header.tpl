@@ -101,7 +101,7 @@
                                 <div class="row-table">
                                     <div class="col-cell header-logo">                                  
                                         <div class="logo-area">
-                                            <a href="index.html">
+                                            <a href="/">
                                                 <img class="normal-logo" src="assets/images/logo.png" alt="logo">  
                                                 <img class="sticky-logo" src="assets/images/logo-dark.png" alt="logo">
                                             </a>
@@ -112,7 +112,7 @@
                                             <div class="main-menu">
                                                 <nav class="rs-menu hidden-md">
                                                     <ul class="nav-menu onepage-menu">
-                                                        <li class="current-menu-item"><a href="#rs-header">Home</a></li>
+                                                        <li class="current-menu-item"><a href="/">Home</a></li>
                                                         <li><a href="#rs-about">About</a> </li>
                                                         <li><a href="#rs-services">Services</a> </li>
                                                         <li><a href="#rs-project">Portfolios</a> </li>
@@ -166,7 +166,7 @@
                                 </a>
                             </div>
                             <div class="canvas-logo">
-                                <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                                <a href="/"><img src="assets/images/logo.png" alt="logo"></a>
                             </div>
                             <div class="offcanvas-text">
                                 <p>We denounce with righteous indig nation in and dislike men who are so beguiled and to demo realized, that they data forest see best business consulting wordpress theme 2021.</p>
@@ -224,7 +224,7 @@
                                 </a>
                             </div>
                             <ul class="nav-menu">
-                                <li class="current-menu-item"><a href="#rs-header">Home</a></li>
+                                <li class="current-menu-item"><a href="/">Home</a></li>
                                 <li><a href="#rs-about">About</a> </li>
                                 <li><a href="#rs-services">Services</a> </li>
                                 <li><a href="#rs-project">Portfolios</a> </li>

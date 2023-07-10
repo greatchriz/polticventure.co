@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-12 col-sm-12 md-mb-10">
                     <div class="footer-logo mb-40">
-                        <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                        <a href="/"><img src="assets/images/logo.png" alt=""></a>
                     </div>
                       <div class="textwidget white-color pb-40"><p>We denounce with righteous indig nation in and dislike men who are so beguiled and to demo realized by the, so blinded by desire, that they cannot foresee.</p>
                       </div>
@@ -83,7 +83,7 @@
             <div class="row y-middle">
                 <div class="col-lg-6 md-mb-10 text-lg-end text-center order-last">
                     <ul class="copy-right-menu">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="faqs.html">Faqs</a></li>
                         <li><a href="contact.html">Contact</a></li>
