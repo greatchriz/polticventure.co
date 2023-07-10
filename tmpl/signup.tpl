@@ -255,12 +255,6 @@
                             <input type=hidden name=action value="signup">
                               <fieldset>
                                 <div class="row">
-
-                                  <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                    <input class="from-control" type="text" id="name" name="fullname"
-                                        placeholder="Your Full Name" required="" value='{$frm.fullname|escape:"quotes"}'>
-                                  </div>
-
                                   <table cellspacing=0 cellpadding=2 border=0>
                                   <tr>
                                   <td>Your Full Name:</td>

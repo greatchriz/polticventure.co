@@ -59,19 +59,23 @@
                             <input type=hidden name=a value='do_login'>
                             <input type=hidden name=follow value='{$frm.follow}'>
                             <input type=hidden name=follow_id value='{$frm.follow_id}'>
-                            <table cellspacing=0 cellpadding=2 border=0>
-                            <tr>
-                            <td>Username:</td>
-                            <td><input type=text name=username value='{$frm.username|escape:"html"}' class=inpts size=30 autofocus="autofocus"></td>
-                            </tr><tr>
-                            <td>Password:</td>
-                            <td><input type=password name=password value='' class=inpts size=30></td>
-                            </tr>
-                            {include file="captcha.tpl" action="login"}
-                            <tr>
-                            <td>&nbsp;</td>
-                            <td><input type=submit value="Login" class=sbmt></td>
-                            </tr></table>
+                              <fieldset>
+                                <div class="row">
+                                    <table cellspacing=0 cellpadding=2 border=0>
+                                    <tr>
+                                    <td>Username:</td>
+                                    <td><input type=text name=username value='{$frm.username|escape:"html"}' class=inpts size=30 autofocus="autofocus"></td>
+                                    </tr><tr>
+                                    <td>Password:</td>
+                                    <td><input type=password name=password value='' class=inpts size=30></td>
+                                    </tr>
+                                    {include file="captcha.tpl" action="login"}
+                                    <tr>
+                                    <td>&nbsp;</td>
+                                    <td><input type=submit value="Login" class=sbmt></td>
+                                    </tr></table>
+                                </div>
+                              </fieldset>
                             </form>
                             <br><br>
                             or <a href="{"?a=forgot_password"|encurl}">remember your login information</a>.
