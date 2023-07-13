@@ -205,7 +205,5 @@
 </div>
 <!-- Pricing section end -->
 
-</div>
-<!-- Main content End -->
 
 {include file="main_footer.tpl"}

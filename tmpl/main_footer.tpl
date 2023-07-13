@@ -1,4 +1,7 @@
- <!-- Footer Start -->
+
+</div> 
+<!-- Main content End -->
+<!-- Footer Start -->
     <footer id="rs-footer" class="rs-footer style1">
         <div class="footer-top">
             <div class="container">
