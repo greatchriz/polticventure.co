@@ -200,11 +200,14 @@
                                                         <a href="/?a=safe">Safety of Funds</a>
 
                                                     </li>
+                                                    <li class="">
+                                                        <li><a href="/?a=packages">Investment Plans</a></li>
+
+                                                    </li>
                                                     <li class="menu-item-has-children">
                                                         <a href="#">Information</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="/?a=faq">FAQ</a></li>
-                                                            <li><a href="/?a=packages">Investment Plans</a></li>
                                                             <li><a href="/?a=privacy">Privacy Policy</a></li>
 
                                                         </ul>
@@ -297,11 +300,14 @@
                                 <a href="/?a=safe">Safety of Funds</a>
 
                             </li>
+                            <li class="">
+                                <li><a href="/?a=packages">Investment Plans</a></li>
+
+                            </li>
                             <li class="menu-item-has-children">
                                 <a href="#">Information</a>
                                 <ul class="sub-menu">
                                     <li><a href="/?a=faq">FAQ</a></li>
-                                    <li><a href="/?a=packages">Investment Plans</a></li>
                                     <li><a href="/?a=privacy">Privacy Policy</a></li>
 
                                 </ul>
