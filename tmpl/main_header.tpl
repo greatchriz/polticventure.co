@@ -204,7 +204,7 @@
                                                         <a href="#">Information</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="/?a=faq">FAQ</a></li>
-                                                            <li><a href="/?a=rules">Terms of Use</a></li>
+                                                            <li><a href="/?a=packages">Investment Plans</a></li>
                                                             <li><a href="/?a=privacy">Privacy Policy</a></li>
 
                                                         </ul>
@@ -301,7 +301,7 @@
                                 <a href="#">Information</a>
                                 <ul class="sub-menu">
                                     <li><a href="/?a=faq">FAQ</a></li>
-                                    <li><a href="/?a=rules">Terms of Use</a></li>
+                                    <li><a href="/?a=packages">Investment Plans</a></li>
                                     <li><a href="/?a=privacy">Privacy Policy</a></li>
 
                                 </ul>
