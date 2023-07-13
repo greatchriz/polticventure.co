@@ -11,9 +11,8 @@
             alt=""
           >
         </div>
-        
-        <p>Duration: {$p.duration}</p>
-        <p>Duration: {$p.Minimum}</p>
+        <p><i class="fa fa-check"></i><span>Duration: {$p.q_days|escape:html}</span></p>
+
 
         {if $p.plans}
           {foreach from=$p.plans item=o}
@@ -28,6 +27,7 @@
               <ul>
                 <li><i class="fa fa-check"></i><span>ROI: {$o.name|escape:html}</span></li>
                 <li><i class="fa fa-check"></i><span>Deposit Amount: {$o.deposit}</span></li>
+                <li><i class="fa fa-check"></i><span>Duration: {$p.q_days|escape:html}</span></li>
                 {* <li><i class="fa fa-check"></i><span>Minimum: $100</span></li>
                               <li><i class="fa fa-check"></i><span>Maximum: $4,999</span></li> *}
                 <li><i class="fa fa-check"></i><span>Referral Bonus: 10%</span></li>
