@@ -5,7 +5,7 @@
         <div class="container">
             <div class="breadcrumbs-inner">
                 <h1 class="page-title">
-                    About Pinnaclegem
+                    About Polticventure
                     <span class="watermark">About</span>
                 </h1>
                 <span class="sub-text">Connecting ambitious companies with smart capital, and creating unique liquidity for investors.</span>
@@ -26,9 +26,9 @@
                 <div class="col-lg-6 ">
                     <div class="sec-title">
                         
-                        <span class="sub-text big">Pinnaclegem is a global equity funding and trading platform. We connect a diverse investor network with highly vetted growth companies across international markets and, through The Marketplace, allow private investments to be traded.</span>
+                        <span class="sub-text big">Polticventure is a global equity funding and trading platform. We connect a diverse investor network with highly vetted growth companies across international markets and, through The Marketplace, allow private investments to be traded.</span>
 
-                        <p class="margin-0 pt-15">Pinnaclegem activities are regulated by IFSC (International Financial Services Commission). The mission of the Commission is to examine effective administration to confirm investors and traders' protection and security. IFSC contributes to market's healthy and fast development. The Commission monitors the operation of investment firms to comply with the directives of the legislative and regulatory framework. This public authority holds control over the activities and operations on the stock exchange.</p>
+                        <p class="margin-0 pt-15">Polticventure activities are regulated by IFSC (International Financial Services Commission). The mission of the Commission is to examine effective administration to confirm investors and traders' protection and security. IFSC contributes to market's healthy and fast development. The Commission monitors the operation of investment firms to comply with the directives of the legislative and regulatory framework. This public authority holds control over the activities and operations on the stock exchange.</p>
                         <div class="btn-part mt-45 md-mt-30">
                             <a class="readon consultant discover" href="contact.html">Contact Us</a>
                         </div>
