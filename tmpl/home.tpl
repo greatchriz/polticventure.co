@@ -1,3 +1,5 @@
+{literal}
+
 <!DOCTYPE html>
     <html lang="zxx"> 
         
@@ -925,3 +927,5 @@
     
     <!-- Mirrored from www.pinnaclegem.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Jul 2023 13:37:09 GMT -->
     </html>
+    
+    {/literal}
