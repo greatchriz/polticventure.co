@@ -17,7 +17,7 @@
 
 {if $say eq 'send'}
 Message has been successfully sent. We will back to you in next 24 hours. Thank you.<br><br>
-{else}
+{/if}
 
 <script language=javascript>
 {if $userinfo.logged == 1}
@@ -178,7 +178,7 @@ function checkform() {
 </div>
 <!-- Contact Section End -->
 
-{/if}
+
 
 
 {include file="main_footer.tpl"}
