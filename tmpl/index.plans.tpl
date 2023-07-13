@@ -24,8 +24,8 @@
             <div class="pricing-table-body">
               <ul>
                 <li><i class="fa fa-check"></i><span><b>Duration: </b>&nbsp; &nbsp; &nbsp; {$p.q_days|escape:html} Days</span></li>
-                <li><i class="fa fa-check"></i><span><b>Minimum Deposit:</b>&nbsp; &nbsp; &nbsp; {$o.min_deposit}</span></li>
-                <li><i class="fa fa-check"></i><span><b>Maximum Deposit: </b>&nbsp; &nbsp; &nbsp; {$o.max_deposit}</span></li>
+                <li><i class="fa fa-check"></i><span><b>Minimum Deposit:</b>&nbsp; &nbsp; &nbsp; ${$o.min_deposit}</span></li>
+                <li><i class="fa fa-check"></i><span><b>Maximum Deposit: </b>&nbsp; &nbsp; &nbsp; ${$o.max_deposit}</span></li>
                 <li><i class="fa fa-check"></i><span><b>Referral Bonus: </b>&nbsp; &nbsp; &nbsp;  10%</span></li>
               </ul>
             </div>
