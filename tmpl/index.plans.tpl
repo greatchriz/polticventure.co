@@ -1,20 +1,22 @@
 {foreach from=$index_plans item=p}
   {if !$p.closed}
-      <div class="col-lg-4 col-md-6 md-mb-30">
-          <div class="pricing-table">
-              <div class="pricing-table-header">
+    <div class="col-lg-4 col-md-6 md-mb-30 md-mb-0 sm-mb-30">
+      <div class="pricing-table white-bg">
+        <div class="pricing-table-header">
                   <h3 class="table-title">{$p.name|escape:html}</h3>
               </div>
               <div class="pricing-icon mb-40">
-                  <img
-                      src="assets/images/pricing/style1/1.png"
-                      alt=""
-                  >
+                <img src="assets/images/pricing/style1/2.png" alt="">
               </div>
               {if $p.plans}
                   {foreach from=$p.plans item=o}
                       <div class="pricing-table-price">
                           <div class="pricing-table-bags">
+                            <div class="pricing-table-bags">
+                              <span class="pricing-currency">%</span>
+                              <span class="table-price-text">{$o.percent|string_format:"%.2f"}</span>
+                              <span class="table-period">/ Daily</span>
+                          </div>
 
                               <span class="table-price-text">{$o.percent|string_format:"%.2f"}%</span>
 
@@ -26,7 +28,7 @@
                               <li><i class="fa fa-check"></i><span>Deposit Amount: {$o.deposit}</span></li>
                               {* <li><i class="fa fa-check"></i><span>Minimum: $100</span></li>
                               <li><i class="fa fa-check"></i><span>Maximum: $4,999</span></li> *}
-                              {* <li><i class="fa fa-check"></i><span>Duration: 5 Days</span></li> *}
+                              <li><i class="fa fa-check"></i><span>Duration: {$o.duration}</span></li>
                               <li><i class="fa fa-check"></i><span>Referral Bonus: 10%</span></li>
                           </ul>
                       </div>
