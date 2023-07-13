@@ -12,7 +12,7 @@
     <head>
         <!-- meta tag -->
         <meta charset="utf-8">
-        <title>Pinnaclegem</title>
+        <title>Polticventure | Trading For You</title>
         <meta
             name="description"
             content=""

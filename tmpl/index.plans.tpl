@@ -1,76 +1,69 @@
 {foreach from=$index_plans item=p}
   {if !$p.closed}
-    <table
-      cellspacing=1
-      cellpadding=2
-      border=0
-      width=100%
-    >
-      <tr>
-        <td
-          colspan=3
-          align=center
-        >{if $p.dsc != ''}<a href="{"?a=show_package_info&id=`$p.id`"|encurl}">{/if}<b>{$p.name|escape:html}</b></a></td>
-      </tr>
-      {if $p.plans}
-        <tr>
-          <td class=inheader>Plan</td>
-          <td
-            class=inheader
-            width=200
-          >Spent Amount ({$currency_sign})</td>
-          <td
-            class=inheader
-            width=100
-            nowrap
-          >
-            <nobr>{$p.period} Profit (%)</nobr>
-          </td>
-        </tr>
-        {foreach from=$p.plans item=o}
-          <tr>
-            <td class=item>{$o.name|escape:html}</td>
-            <td
-              class=item
-              align=right
-            >{$o.deposit}</td>
-            <td
-              class=item
-              align=right
-            >{$o.percent|string_format:"%.2f"}</td>
-          </tr>
-        {/foreach}
-        {if $settings.enable_calculator and $p.period != 'Floating'}
-          <tr>
-            <td
-              colspan=3
-              align=right
-            ><a href="javascript:openCalculator('{$p.id}')">Calculate your profit &gt;&gt;</a></td>
-          </tr>
-        {/if}
-      {/if}
-    </table>
+      <div class="col-lg-4 col-md-6 md-mb-30">
+          <div class="pricing-table">
+              <div class="pricing-table-header">
+                  <h3 class="table-title">{$p.name|escape:html}</h3>
+              </div>
+              <div class="pricing-icon mb-40">
+                  <img
+                      src="assets/images/pricing/style1/1.png"
+                      alt=""
+                  >
+              </div>
+              {if $p.plans}
+                  {foreach from=$p.plans item=o}
+                      <div class="pricing-table-price">
+                          <div class="pricing-table-bags">
 
-    {if $userinfo.logged}
-      <br>
-      <form method=post>
-        <input
-          type=hidden
-          name=a
-          value=deposit
-        >
-        <input
-          type=submit
-          value="Make deposit"
-          class=sbmt
-        >
-        <input
-          type=hidden
-          name=h_id
-          value={$p.id}
-        >
-      </form>
-      <br><br>
-    {/if}
+                              <span class="table-price-text">{$o.percent|string_format:"%.2f"}%</span>
+
+                          </div>
+                      </div>
+                      <div class="pricing-table-body">
+                          <ul>
+                              <li><i class="fa fa-check"></i><span>ROI: {$o.name|escape:html}</span></li>
+                              <li><i class="fa fa-check"></i><span>Deposit Amount: {$o.deposit}</span></li>
+                              {* <li><i class="fa fa-check"></i><span>Minimum: $100</span></li>
+                              <li><i class="fa fa-check"></i><span>Maximum: $4,999</span></li> *}
+                              {* <li><i class="fa fa-check"></i><span>Duration: 5 Days</span></li> *}
+                              <li><i class="fa fa-check"></i><span>Referral Bonus: 10%</span></li>
+                          </ul>
+                      </div>
+                  {/foreach}
+
+              {/if}
+              {if $userinfo.logged}
+                  <form method=post>
+                      <input
+                          type=hidden
+                          name=a
+                          value=deposit
+                      >
+                      <div class="btn-part">
+                          <input
+                              type=submit
+                              value="Make deposit"
+                              class="readon price"
+                          >
+                      </div>
+                      <input
+                          type=hidden
+                          name=h_id
+                          value={$p.id}
+                      >
+                  </form>
+
+              {else}
+                  <div class="btn-part">
+                      <a
+                          class="readon price"
+                          href="/?a=login"
+                      >Get Started</a>
+                  </div>
+              {/if}
+
+          </div>
+      </div>
   {/if}
 {/foreach}
