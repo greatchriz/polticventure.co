@@ -11,8 +11,6 @@
             alt=""
           >
         </div>
-        <p><i class="fa fa-check"></i><span>Duration: {$p.q_days|escape:html}</span></p>
-
 
         {if $p.plans}
           {foreach from=$p.plans item=o}
@@ -25,12 +23,10 @@
             </div>
             <div class="pricing-table-body">
               <ul>
-                <li><i class="fa fa-check"></i><span>ROI: {$o.name|escape:html}</span></li>
-                <li><i class="fa fa-check"></i><span>Deposit Amount: {$o.deposit}</span></li>
-                <li><i class="fa fa-check"></i><span>Duration: {$p.q_days|escape:html}</span></li>
-                {* <li><i class="fa fa-check"></i><span>Minimum: $100</span></li>
-                              <li><i class="fa fa-check"></i><span>Maximum: $4,999</span></li> *}
-                <li><i class="fa fa-check"></i><span>Referral Bonus: 10%</span></li>
+                <li><i class="fa fa-check"></i><span><b>Duration: </b>&nbsp; &nbsp; &nbsp; {$p.q_days|escape:html} Days</span></li>
+                <li><i class="fa fa-check"></i><span><b>Minimum Deposit:</b>&nbsp; &nbsp; &nbsp; {$o.min_deposit}</span></li>
+                <li><i class="fa fa-check"></i><span><b>Maximum Deposit: </b>&nbsp; &nbsp; &nbsp; {$o.max_deposit}</span></li>
+                <li><i class="fa fa-check"></i><span><b>Referral Bonus: </b>&nbsp; &nbsp; &nbsp;  10%</span></li>
               </ul>
             </div>
           {/foreach}
@@ -47,7 +43,7 @@
               <input
                 type=submit
                 value="Make deposit"
-                class="readon price"
+                class="readon price price2"
               >
             </div>
             <input
@@ -60,7 +56,7 @@
         {else}
           <div class="btn-part">
             <a
-              class="readon price"
+              class="readon price price2"
               href="/?a=login"
             >Get Started</a>
           </div>
