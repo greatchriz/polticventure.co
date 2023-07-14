@@ -105,6 +105,13 @@
             type="text/css"
             href="assets/css/responsive.css"
         >
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+            integrity="sha512-vKMx8UnXk60zUwyUnUPM3HbQo8QfmNx7+ltw8Pm5zLusl1XIfwcxo8DbWCqMGKaWeNxWA8yrx5v3SaVpMvR3CA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
 
     </head>
 
@@ -201,7 +208,7 @@
 
                                                     </li>
                                                     <li class="">
-                                                        <li><a href="/?a=packages">Investment Plans</a></li>
+                                                    <li><a href="/?a=packages">Investment Plans</a></li>
 
                                                     </li>
                                                     <li class="menu-item-has-children">
@@ -301,7 +308,7 @@
 
                             </li>
                             <li class="">
-                                <li><a href="/?a=packages">Investment Plans</a></li>
+                            <li><a href="/?a=packages">Investment Plans</a></li>
 
                             </li>
                             <li class="menu-item-has-children">
