@@ -546,7 +546,6 @@ $(function () {
     toasts.push(toast);
   }
 
-  toastr.options.positionClass = "toast-bottom-left";
   toastr.options.extendedTimeOut = 0; //1000;
   toastr.options.timeOut = 500;
   toastr.options.fadeOut = 250;
