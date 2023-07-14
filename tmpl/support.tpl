@@ -125,57 +125,42 @@
                 </ul>
               {/if}
 
-              <table
-                cellspacing=0
-                cellpadding=2
-                border=0
-              >
-                <tr>
-                  <td>Your Name:</td>
-                  {if $userinfo.logged}
-                    <td><b>{$userinfo.name}</b></td>
-                  {else}
-                    <td><input
-                        type="text"
-                        name="name"
-                        value="{$frm.name|escape:htmlall}"
-                        size=30
-                        class=inpts
-                      ></td>
-                  {/if}
-                </tr>
-                <tr>
-                  <td>Your Email:</td>
-                  {if $userinfo.logged}
-                    <td><b>{$userinfo.email}</b></td>
-                  {else}
-                    <td><input
-                        type="text"
-                        name="email"
-                        value="{$frm.email|escape:htmlall}"
-                        size=30
-                        class=inpts
-                      ></td>
-                  {/if}
-                </tr>
-                <tr>
-                  <td colspan=2>Message:<br><br><textarea
-                      name=message
-                      class=inpts
-                      cols=45
-                      rows=4
-                    >{$frm.message|escape:htmlall}</textarea>
-                </tr>
-                {include file="captcha.tpl" action="support"}
-                <tr>
-                  <td>&nbsp;</td>
-                  <td><input
-                      type=submit
-                      value="Send"
-                      class=sbmt
-                    ></td>
-                </tr>
-              </table>
+              <fieldset>
+                <div class="row">
+
+                  <fieldset>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
+                            {if $userinfo.logged}
+                            <input class="from-control" type="text" id="name" name="name" placeholder="Name" value="{$userinfo.name}" disabled>
+                            {else}
+                            
+                            <input class="from-control" type="text" id="name" name="name" placeholder="Name" value="{$frm.name|escape:htmlall}" required="">
+                            {/if}
+                            
+                        </div> 
+            
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
+                            {if $userinfo.logged}
+                            <input class="from-control" type="text" id="email" value="{$userinfo.email}" name="email" placeholder="E-mail" required="">
+                            {else}
+                            <input class="from-control" type="text" id="email" value="{$frm.email|escape:htmlall}" name="email" placeholder="E-mail" required="">
+                            {/if}
+                        </div>
+                  
+                        <div class="col-lg-12 mb-35">
+                            <textarea class="from-control" id="message" name="message" placeholder="Your message Here" required=""></textarea>
+                        </div>
+                    </div>
+                    <div class="btn-part">                                            
+                        <div class="form-group mb-0">
+                            <input class="readon submit" type="submit" value="Send">
+                        </div>
+                    </div> 
+                </fieldset>
+
+                </div>
+              </fieldset>
             </form>
 
           </div>
