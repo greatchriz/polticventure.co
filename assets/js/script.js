@@ -548,9 +548,11 @@ $(function () {
 
   toastr.options.positionClass = "toast-top-full-width";
   toastr.options.extendedTimeOut = 0; //1000;
-  toastr.options.timeOut = 1000;
+  toastr.options.timeOut = 500;
   toastr.options.fadeOut = 250;
   toastr.options.fadeIn = 250;
+  toastr.options.closeButton = true;
+
 
   var i = 0;
 
