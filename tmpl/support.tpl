@@ -201,7 +201,7 @@
                 </div>
                 <div class="content-text">
                   <h2 class="title"><a href="#">Email us</a></h2>
-                  <a href="mailto:support@pinnaclegem.com">support@pinnaclegem.com</a><br>
+                  <a href="mailto:support@Polticventure.com">support@Polticventure.com</a><br>
 
                 </div>
               </div>
