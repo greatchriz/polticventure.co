@@ -13,23 +13,25 @@
   </div>
 </div>
 <!-- Breadcrumbs End -->
-{if $say eq 'send'}
-  <!-- Contact Section Start -->
-  <div class="rs-contact contact-style2 bg9 pt-100 pb-100 md-pt-70 md-pb-70">
+
+  {if $say eq 'send'}
+
+  <div class="rs-about main-home pt-50 pb-50 md-pt-20 md-pb-20">
     <div class="container">
-      <div class="row">
-        <div
-          class="col-12"
-          style="border: 1px; border-radius: 2px; border-color: red; padding: 5px;"
-        >
-          <p
-            style="font-family: 'Times New Roman', Times, serif; font-size: large; font-weight: 500; line-height: normal;">
-            Message has been successfully sent. We will back to you in next 24 hours. Thank you. </p>
+        <div class="row y-middle">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <div class="sec-title">
+                    <span class="sub-text" style="color: green; font-weight: bold; font-size: 20px;">Email  has been successfully sent. We will get back to you in next 24 hours. Thank you. 
+                    </span>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
         </div>
-      </div>
     </div>
-  </div>
-{else}
+</div>
+{/if}
+
 
 
   <!-- Contact Section Start -->
@@ -226,9 +228,6 @@
     <!-- Contact Icon Section End -->
   </div>
   <!-- Contact Section End -->
-
-
-{/if}
 
 
 {include file="main_footer.tpl"}
