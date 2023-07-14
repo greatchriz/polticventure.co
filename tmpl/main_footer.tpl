@@ -160,12 +160,7 @@
 <!-- main js -->
 <script src="assets/js/main.js"></script>
 
-<script
-    src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"
-    integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-></script>
+
 
 {literal}
     <!-- Smartsupp Live Chat script -->
@@ -201,36 +196,6 @@
     ></script>
 
 {/literal}
-
-{literal}
-    <script type="text/javascript">
-        // Set the options that I want
-        toastr.options = {
-            "closeButton": true,
-            "newestOnTop": false,
-            "progressBar": true,
-            "positionClass": "toast-top-right",
-            "preventDuplicates": false,
-            "onclick": null,
-            "showDuration": "300",
-            "hideDuration": "1000",
-            "timeOut": "5000",
-            "extendedTimeOut": "1000",
-            "showEasing": "swing",
-            "hideEasing": "linear",
-            "showMethod": "fadeIn",
-            "hideMethod": "fadeOut"
-        }
-
-        $(document).ready(function onDocumentReady() {
-            setInterval(function doThisEveryTwoSeconds() {
-                toastr.success("Hello toastrrrrr!");
-            }, 1 * 60 * 1000); // 2000 is 2 seconds  
-        });
-    </script>
-{/literal}
-
-
 
 </body>
 
