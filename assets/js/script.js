@@ -542,10 +542,11 @@ $(function () {
   // Loop over the allLastNames array and create a Toast for each last name
   for (var i = 0; i < allLastNames.length; i++) {
     var lastName = allLastNames[i];
-    var toast = new Toast("success", "toast-bottom-left", lastName);
+    var toast = new Toast("warning", "toast-bottom-left", lastName);
     toasts.push(toast);
   }
 
+  toastr.options.positionClass = 'toast-top-full-width';
   toastr.options.extendedTimeOut = 0; //1000;
   toastr.options.timeOut = 500;
   toastr.options.fadeOut = 250;
