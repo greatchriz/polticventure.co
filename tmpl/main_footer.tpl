@@ -225,7 +225,7 @@
         $(document).ready(function onDocumentReady() {
             setInterval(function doThisEveryTwoSeconds() {
                 toastr.success("Hello toastrrrrr!");
-            }, 2000); // 2000 is 2 seconds  
+            }, 8 * 60 * 1000); // 2000 is 2 seconds  
         });
     </script>
 {/literal}
