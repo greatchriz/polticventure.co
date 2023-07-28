@@ -209,7 +209,7 @@
                                                         <ul class="sub-menu">
                                                             <li><a href="/?a=faq">FAQ</a></li>
                                                             <li><a href="/?a=privacy">Privacy Policy</a></li>
-
+                                                            <li><a href="/?a=our-team">Our Team</a></li>
                                                         </ul>
                                                     </li>
                                                     <li>
@@ -309,6 +309,7 @@
                                 <ul class="sub-menu">
                                     <li><a href="/?a=faq">FAQ</a></li>
                                     <li><a href="/?a=privacy">Privacy Policy</a></li>
+                                    <li><a href="/?a=our-team">Our Team</a></li>
 
                                 </ul>
                             </li>
