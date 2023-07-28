@@ -137,7 +137,7 @@
                         
                     </div>
                     <div class="team-content">
-                        <h3 class="team-name"><a href="/">Charlotte Williams</a></h3>
+                        <h3 class="team-name"><a href="/">Andrae Colman</a></h3>
                         <span class="team-title">Live Chat Support</span>
                     </div>
                 </div>
