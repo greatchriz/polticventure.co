@@ -162,9 +162,6 @@
 
 
 
-{literal}
-    
-{/literal}
 
 {literal}
     <div class="gtranslate_wrapper"></div>
