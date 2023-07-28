@@ -106,7 +106,20 @@
             href="assets/css/responsive.css"
         >
 
-       
+        {literal}
+            <!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = 'a97bcec3b0545c63429a968770cce494447efbf1';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
+</script>
+<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
+        {/literal}
         
 
     </head>
@@ -116,7 +129,7 @@
         <div class="offwrap"></div>
 
         <!--Preloader start here-->
-        <div id="pre-load">
+        {* <div id="pre-load">
             <div
                 id="loader"
                 class="loader"
@@ -128,7 +141,7 @@
                         ></div>
                 </div>
             </div>
-        </div>
+        </div> *}
         <!--Preloader area end here-->
 
         <!-- Main content Start -->
