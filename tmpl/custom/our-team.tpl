@@ -36,8 +36,9 @@
                         
                     </div>
                     <div class="team-content">
-                        <h3 class="team-name"><a href="/">Dakota Johnson</a></h3>
-                        <span class="team-title">Business Advisor</span>
+                        <h3 class="team-name"><a href="/">Akira Tanaka</a></h3>
+                        <span class="team-title">Former Chief Financial Officer</span>
+                        
                     </div>
                 </div>
             </div>
@@ -51,8 +52,8 @@
                         
                     </div>
                     <div class="team-content">
-                        <h3 class="team-name"><a href="/">Johnny Depp</a></h3>
-                        <span class="team-title">Senior Consultant</span>
+                        <h3 class="team-name"><a href="/">Brian Suzuki</a></h3>
+                        <span class="team-title">Former Head of Customer Relations and Support</span>
                     </div>
                 </div>
             </div>
@@ -66,8 +67,8 @@
                         
                     </div>
                     <div class="team-content">
-                        <h3 class="team-name"><a href="/">Natalie Martinez</a></h3>
-                        <span class="team-title">Business Advisor</span>
+                        <h3 class="team-name"><a href="/">Amelia Turner</a></h3>
+                        <span class="team-title">Former Data Security Specialist</span>
                     </div>
                 </div>
             </div>
@@ -81,8 +82,8 @@
                         
                     </div>
                     <div class="team-content">
-                        <h3 class="team-name"><a href="/">Al Pacino</a></h3>
-                        <span class="team-title">Finance Consultant</span>
+                        <h3 class="team-name"><a href="/">Étienne Lambert</a></h3>
+                        <span class="team-title">Former Marketing Strategist</span>
                     </div>
                 </div>
             </div>
@@ -120,8 +121,9 @@
                         
                     </div>
                     <div class="team-content">
-                        <h3 class="team-name"><a href="/">Dakota Johnson</a></h3>
-                        <span class="team-title">Business Advisor</span>
+                        <h3 class="team-name"><a href="/">Haruki Nakamura</a></h3>
+                        <span class="team-title">Chief Financial Officer</span>
+                        
                     </div>
                 </div>
             </div>
@@ -135,8 +137,8 @@
                         
                     </div>
                     <div class="team-content">
-                        <h3 class="team-name"><a href="/">Johnny Depp</a></h3>
-                        <span class="team-title">Senior Consultant</span>
+                        <h3 class="team-name"><a href="/">Charlotte Williams</a></h3>
+                        <span class="team-title">Head of Customer Relations and Support</span>
                     </div>
                 </div>
             </div>
@@ -150,8 +152,8 @@
                         
                     </div>
                     <div class="team-content">
-                        <h3 class="team-name"><a href="/">Natalie Martinez</a></h3>
-                        <span class="team-title">Business Advisor</span>
+                        <h3 class="team-name"><a href="/">Rajiv Gupta</a></h3>
+                        <span class="team-title">Data Security Specialist</span>
                     </div>
                 </div>
             </div>
@@ -165,8 +167,8 @@
                         
                     </div>
                     <div class="team-content">
-                        <h3 class="team-name"><a href="/">Al Pacino</a></h3>
-                        <span class="team-title">Finance Consultant</span>
+                        <h3 class="team-name"><a href="/">Étienne Lambert</a></h3>
+                        <span class="team-title">Marketing Strategist</span>
                     </div>
                 </div>
             </div>
