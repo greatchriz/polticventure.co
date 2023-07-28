@@ -30,13 +30,13 @@
                 <div class="team-wrap">
                     <div class="image-wrap">
                         <a href="/"><img
-                                src="assets/images/team/1.jpg"
+                                src="assets/images/team/2.jpg"
                                 alt="Team"
                             ></a>
                         
                     </div>
                     <div class="team-content">
-                        <h3 class="team-name"><a href="/">Akira Tanaka</a></h3>
+                        <h3 class="team-name"><a href="/">Tasha Jefferson</a></h3>
                         <span class="team-title">Former Chief Financial Officer</span>
                         
                     </div>
@@ -46,7 +46,7 @@
                 <div class="team-wrap">
                     <div class="image-wrap">
                         <a href="/"><img
-                                src="assets/images/team/2.jpg"
+                                src="assets/images/team/1.jpg"
                                 alt="Team"
                             ></a>
                         
