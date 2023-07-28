@@ -53,7 +53,7 @@
                     </div>
                     <div class="team-content">
                         <h3 class="team-name"><a href="/">Brian Suzuki</a></h3>
-                        <span class="team-title">Former Head of Customer Relations and Support</span>
+                        <span class="team-title">Former Live Chat Support</span>
                     </div>
                 </div>
             </div>
@@ -138,7 +138,7 @@
                     </div>
                     <div class="team-content">
                         <h3 class="team-name"><a href="/">Charlotte Williams</a></h3>
-                        <span class="team-title">Head of Customer Relations and Support</span>
+                        <span class="team-title">Live Chat Support</span>
                     </div>
                 </div>
             </div>
