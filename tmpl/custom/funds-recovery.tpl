@@ -39,7 +39,7 @@
 
                             <li><a href="#" style="margin-right: 35px;">Sourabh pal</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-funds">Recover Now</a></span> </li>
 
-                            <li><a href="#" style="margin-right: 35px;">yousef</a><span><a class="readon price price2" style="color: white; background-color: green;" href="/?a=recover-funds">Funds Received</a></span> </li>
+                            <li><a href="#" style="margin-right: 35px;">yousef</a><span><a class="readon price price2" style="color: white; background-color: green;" href="#">Funds Received</a></span> </li>
 
                             <li><a href="#" style="margin-right: 35px;">Darioush Mahmoudi</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-funds">Recover Now</a></span> </li>
 
