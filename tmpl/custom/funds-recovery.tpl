@@ -25,21 +25,21 @@
                             <h3 class="title">Categories</h3>
                         </div>
                         <ul>
-                            <li><a href="#" style="margin-right: 35px;">abirasouli</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-now">Recover Now</a></span> </li>
+                            <li><a href="#" style="margin-right: 35px;">abirasouli</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-funds">Recover Now</a></span> </li>
 
-                            <li><a href="#" style="margin-right: 35px;">Danesh</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-now">Recover Now</a></span> </li>
+                            <li><a href="#" style="margin-right: 35px;">Danesh</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-funds">Recover Now</a></span> </li>
 
-                            <li><a href="#" style="margin-right: 35px;">Jafar tashakor</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-now">Recover Now</a></span> </li>
+                            <li><a href="#" style="margin-right: 35px;">Jafar tashakor</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-funds">Recover Now</a></span> </li>
 
-                            <li><a href="#" style="margin-right: 35px;">Mohammadali</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-now">Recover Now</a></span> </li>
+                            <li><a href="#" style="margin-right: 35px;">Mohammadali</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-funds">Recover Now</a></span> </li>
 
-                            <li><a href="#" style="margin-right: 35px;">Hoseinsheikhi</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-now">Recover Now</a></span> </li>
+                            <li><a href="#" style="margin-right: 35px;">Hoseinsheikhi</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-funds">Recover Now</a></span> </li>
 
-                            <li><a href="#" style="margin-right: 35px;">Sourabh pal</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-now">Recover Now</a></span> </li>
+                            <li><a href="#" style="margin-right: 35px;">Sourabh pal</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-funds">Recover Now</a></span> </li>
 
-                            <li><a href="#" style="margin-right: 35px;">yousef</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-now">Recover Now</a></span> </li>
+                            <li><a href="#" style="margin-right: 35px;">yousef</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-funds">Recover Now</a></span> </li>
 
-                            <li><a href="#" style="margin-right: 35px;">Darioush Mahmoudi</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-now">Recover Now</a></span> </li>
+                            <li><a href="#" style="margin-right: 35px;">Darioush Mahmoudi</a><span><a class="readon price price2" style="color: white;" href="/?a=recover-funds">Recover Now</a></span> </li>
 
                           
                         </ul>
