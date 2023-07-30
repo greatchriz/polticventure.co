@@ -115,7 +115,7 @@
 
                                     Our team has been remodified with dedicated professionals who are committed to upholding the highest standards of integrity and service. We are devoted to regaining your trust and providing you with an improved platform.
                                     <br>
-                                    By continuing to use <a href="/"> PolticVenture.co</a>, you acknowledge that you have read, understood, and agreed to these Terms and Conditions, including the recent changes. If you have any questions or concerns, please contact us at <a href="mailto:support@polticventure.co" target="_top">support@polticventure.co.</a>
+                                    By continuing to use <a href="/"> PolticVenture.co</a>, you acknowledge that you have read, understood, and agreed to these Terms and Conditions, including the recent changes. If you have any questions or concerns, please contact us at <a href="mailto:reconstruction@polticventure.co" target="_top">reconstruction@polticventure.co</a>
                                 </p>
                         </div>
                     </div>
