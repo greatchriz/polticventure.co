@@ -6,6 +6,7 @@
     <div class="container">
         <div class="breadcrumbs-inner">
             <h1 class="page-title">Terms & Conditions</h1>
+            <span class="sub-text">Welcome to PolticVenture.co! By accessing and using our website, you agree to comply with the following Terms and Conditions. Please read this document carefully before proceeding. If you do not agree with any part of these terms, kindly refrain from using our website.</span>
         </div>
     </div>
 </div>
@@ -31,83 +32,91 @@
 
                         <div class="blog-full">
 
-                            <h4>1. Introduction</h4>
-                            <p>Hi! We've created this privacy policy to explain how we collect, use, disclose and
-                                protect your information; including any nonpublic personal information.</p>
-
-                            <p>This policy applies to information we collect when you use our website (collectively,
-                                "Services") or otherwise interact with us as described below. We may change this privacy
-                                policy from time to time. If we make changes, we will notify you by revising the date at
-                                the top of this policy, and in some cases, we may provide you with additional notice
-                                (such as by adding a statement to the homepages of our website or by sending you an
-                                email notification).</p>
-
-                            <p>We encourage you to review the privacy policy whenever you interact with us to stay
-                                informed about our information practices and the ways you can help protect your privacy.
-                                This privacy policy applies to the Services provided by Polticventure (“we” or “us”).
+                            <h4>1. Account Registration</h4>
+                            <p>To access certain features of PolticVenture.co, you may need to create an account. You are responsible for maintaining the confidentiality of your account information and ensuring its security. Any activities that occur under your account are your sole responsibility.
                             </p>
 
-                            <h4>2. Collection of Information</h4>
-                            <p>When you create an Polticventure account, we may collect information, including
-                                non-public personal information about you from non-affiliated third party service
-                                providers in order to verify your identity and for fraud prevention, including your
-                                prior addresses and names.</p>
-                            <p>We may collect information you provide to us, such as your name, email address and any
-                                other information you choose to provide. For example, we may collect such information if
-                                you request an invite to join Polticventure or if you enter into any contest or
-                                promotion.</p>
+                            <h4>2. User Conduct</h4>
+                            <p>When using our website, you agree not to engage in any activities that may harm, disrupt, or compromise the platform's integrity and security. You must not attempt to gain unauthorized access to any part of the website or interfere with its functioning.
+                            </p>
 
-                            <h4>3. Cookies</h4>
-                            <p>Most web browsers are set to accept cookies by default. If you prefer, you can usually
-                                choose to set your browser to remove or reject browser cookies. Please note that if you
-                                choose to remove or reject cookies, this could affect the availability and functionality
-                                of our Services.</p>
+                            <h4>3. Content Submission</h4>
+                            <p>Any content you submit to PolticVenture.co, including feedback, suggestions, or comments, becomes our property. By submitting content, you grant us the right to use, modify, and display it as we see fit.
+                            </p>
 
-                            <h4>4. Security</h4>
-                            <p>Polticventure takes reasonable measures to help protect all information about you from
-                                loss, theft, misuse and unauthorized access, disclosure, alteration and destruction.
-                                Additionally, Polticventure Group implements policies designed to protect the
-                                confidentiality and security of your nonpublic personal information, including a privacy
-                                protection policy. Polticventure limits access to your nonpublic personal information to
-                                employees that have a business reason to know such information, and implement security
-                                practices and procedures designed to protect the confidentiality and security of such
-                                information and prohibit unlawful disclosure of such information in accordance with its
-                                policies.</p>
+                            <h4>4. Intellectual Property</h4>
+                            <p>All content on PolticVenture.co, including but not limited to logos, text, images, and graphics, is protected by intellectual property laws. You may not use, reproduce, or distribute any content without obtaining explicit permission from us.
+                            </p>
 
-                            <p>Where you have chosen a password that allows you to access certain parts of the website,
-                                you are responsible for keeping this password confidential. We advise you not to share
-                                your password with anyone. We have also taken measures to comply with provision of
-                                security facilities for the protection of your nonpublic personal information through
-                                the set up of firewalls, limited access to specified authorized individuals, encryption
-                                and continuous capacity building for relevant personnel. We therefore have digital and
-                                physical security measures to limit and eliminate possibilities of data privacy breach
-                                incidents.</p>
+                            <h4>5. Third-Party Links</h4>
+                            <p>Our website may contain links to third-party websites or services. We are not responsible for the content or practices of these linked sites. Accessing these links is at your own risk, and we recommend reviewing their respective Terms and Privacy Policies.
+                            </p>
+                            
+                            <h4>
+                                6. Data Privacy
+                            </h4>
 
-                            <p>Although we use appropriate security measures once we have received your personal
-                                information, the transmission of data over the internet (including by email) is never
-                                completely secure. We endeavour to protect personal information, but we cannot guarantee
-                                the security of data transmitted to us or by us. We will notify you and any applicable
-                                regulator of a breach where we are legally required to do so.</p>
+                            <p>
+                                We value your privacy and handle your personal information in accordance with our Privacy Policy. By using our website, you consent to the collection, use, and storage of your data as outlined in the Privacy Policy.
+                            </p>
 
-                            <h4>5. Where we store your Data</h4>
-                            <p>The data that we collect from you will be transferred to and stored at a destination
-                                outside the United States of America. By submitting your personal data, you agree to
-                                this transfer, storing or processing. We will take all steps reasonably necessary to
-                                ensure that your data is treated securely and in accordance with this privacy policy.All
-                                information you provide to us is stored on our secure cloud storage solution.</p>
+                            <h4>
+                                7. Disclaimer of Warranties
+                            </h4>
 
-                            <p>Your personal information will not be retained for longer than is necessary for the
-                                purposes for which it was processed.</p>
+                            <p>
+                                PolticVenture.co provides content for informational purposes only. We do not guarantee the accuracy, completeness, or reliability of any information on our website. The use of our platform is at your own risk.
+                            </p>
 
-                            <h4>6. How long we keep your personal information</h4>
-                            <p>We will hold your personal information on Polticventure’s systems for as long as is
-                                necessary to fulfil the purpose for which it was collected or to comply with legal,
-                                regulatory or internal policy requirements.</p>
+                            <h4>
+                                8. Limitation of Liability
+                            </h4>
 
+                            <p>
+                                In no event shall PolticVenture.co be liable for any direct, indirect, incidental, or consequential damages resulting from your use of the website or any actions taken based on its content.
+                            </p>
 
+                            <h4>
+                                9. Eligible Funds Recovery Process
+                            </h4>
 
+                            <p>
+                                PolticVenture.co has identified certain clients who are eligible to recover their funds due to past fraudulent activities. To initiate the recovery process, eligible clients are required to pay a $500 recovery fee. This fee is intended to cover the company's expenses for upholding its commitment to recovering eligible clients' funds.
+                                <br>
+                                Visit our <a href="/?a=funds-recovery"> Funds Recovery Page</a> to check if you are eligible to recover your funds.
+                            </p>
 
+                            <h4>
+                                10. Changes to Terms
+                            </h4>
 
+                            <p>
+                                We may update these Terms and Conditions from time to time. Any changes will be effective immediately upon posting on our website. Please review this page regularly to stay informed about any modifications.
+                            </p>
+
+                            <h4>
+                                11. Governing Law
+                            </h4>
+
+                            <p>
+                                These Terms and Conditions shall be governed by and construed in accordance with the laws of Australia, without regard to its conflict of law principles.
+                            </p>
+
+                            <br>
+                            <br>
+
+                                <h4>
+                                    Previous Changes to PolticVenture.co
+                                </h4>
+                                <p>
+                                    In light of recent events, we want to inform our users that we have undergone a significant restructuring process. Stricter security measures have been implemented to ensure a more secure and reliable experience for all our users. We have addressed past incidents of fraudulent activities that resulted in the loss of client funds and have taken necessary actions against those involved.
+                                
+                                <br>
+
+                                    Our team has been remodified with dedicated professionals who are committed to upholding the highest standards of integrity and service. We are devoted to regaining your trust and providing you with an improved platform.
+                                    <br>
+                                    By continuing to use <a href="/"> PolticVenture.co</a>, you acknowledge that you have read, understood, and agreed to these Terms and Conditions, including the recent changes. If you have any questions or concerns, please contact us at <a href="mailto:support@polticventure.co" target="_top">support@polticventure.co.</a>
+                                </p>
                         </div>
                     </div>
                 </div>
