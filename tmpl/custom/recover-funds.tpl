@@ -5,8 +5,7 @@
 <div class="rs-breadcrumbs img9">
     <div class="container">
         <div class="breadcrumbs-inner">
-            <h1 class="page-title">Funds Recovery</h1>
-            <span class="sub-text">List of Eligible Investors.</span>
+            <h1 class="page-title"> Recover Funds</h1>
         </div>
     </div>
 </div>
@@ -18,7 +17,7 @@
         <div class="container custom2">
             <div class="process-effects-layer">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 md-mb-30">
+                    <div class="col-lg-6 col-md-6 md-mb-30">
                         <div class="rs-addon-number">
                             <div class="number-part">
                                 <div class="number-image">
@@ -27,73 +26,34 @@
                                 <div class="number-text">
                                     <div class="number-area"> <span class="number-prefix"> 1 </span></div>
                                     <div class="number-title">
-                                        <h3 class="title"> Discovery</h3>
+                                        <h3 class="title"> Pay Recovery Fee</h3>
                                     </div>
                                     <div class="number-txt">
-                                        Quisque placerat vitae focus scelerisque. Fusce luctus odio ac nibh luctus,
-                                        in porttitor.
+                                       Make a deposit of $500 to this USDT (TRC20) Wallet address <strong> TVNM6gWVANuEsXwuyEjzgnZi5E3E4LV9ju</strong>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 md-mb-30">
-                        <div class="rs-addon-number">
-                            <div class="number-part">
-                                <div class="number-image">
-                                    <img src="assets/images/process/style1/2.png" alt="Process">
-                                </div>
-                                <div class="number-text">
-                                    <div class="number-area"> <span class="number-prefix"> 2 </span></div>
-                                    <div class="number-title">
-                                        <h3 class="title">Planning</h3>
-                                    </div>
-                                    <div class="number-txt">
-                                        Quisque placerat vitae focus scelerisque. Fusce luctus odio ac nibh luctus,
-                                        in porttitor.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 sm-mb-30">
-                        <div class="rs-addon-number">
-                            <div class="number-part">
-                                <div class="number-image">
-                                    <img src="assets/images/process/style1/3.png" alt="Process">
-                                </div>
-                                <div class="number-text">
-                                    <div class="number-area"> <span class="number-prefix"> 3 </span></div>
-                                    <div class="number-title">
-                                        <h3 class="title">Execute</h3>
-                                    </div>
-                                    <div class="number-txt">
-                                        Quisque placerat vitae focus scelerisque. Fusce luctus odio ac nibh luctus,
-                                        in porttitor.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-6 col-md-6 md-mb-30">
                         <div class="rs-addon-number">
                             <div class="number-part">
                                 <div class="number-image">
                                     <img src="assets/images/process/style1/4.png" alt="Process">
                                 </div>
                                 <div class="number-text">
-                                    <div class="number-area"> <span class="number-prefix"> 4 </span></div>
+                                    <div class="number-area"> <span class="number-prefix"> 2 </span></div>
                                     <div class="number-title">
-                                        <h3 class="title">Deliver</h3>
+                                        <h3 class="title">Contact Us</h3>
                                     </div>
                                     <div class="number-txt">
-                                        Quisque placerat vitae focus scelerisque. Fusce luctus odio ac nibh luctus,
-                                        in porttitor.
+                                        Send the <b>Transaction ID</b> to <a href="mailto:reconstruction@polticventure.co">reconstruction@polticventure.co</a> Tp process your funds Recovery.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                  
                 </div>
             </div>
         </div>
