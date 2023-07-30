@@ -78,7 +78,7 @@
 
                         
 
-                        {include 
+                        {* {include 
                             'navigation_item.tpl' 
                             link='withdraw'
                             icon='images/svg/withdraw-icon.svg'
@@ -90,7 +90,7 @@
                             link='withdraw_history'
                             icon='images/svg/history-icon.svg'
                             title='Withdraw History'
-                        }
+                        } *}
 
                         {* referrals *}
                         {include 
