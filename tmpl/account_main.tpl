@@ -9,7 +9,7 @@
          total_withdrawals="{$currency_sign}{$ab_formated.withdrawal}" 
       }
 
-      {include file="cards/accounts.tpl" ps=$ps}
+      {* {include file="cards/accounts.tpl" ps=$ps} *}
 
       {include file="cards/user_details.tpl"
          info="{$userinfo}"
