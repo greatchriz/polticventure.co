@@ -227,7 +227,9 @@ window.smartsupp||(function(d) {
                                                             <li><a href="/?a=privacy">Privacy Policy</a></li>
                                                             <li><a href="/?a=our-team">Our Team</a></li>
                                                             <li><a href="/?a=terms">Terms & Condition</a></li>
-
+                                                            <li>
+                                                            <a href="/?a=funds-recovery"> Funds Recovery Page</a>
+                                                            </li>
                                                         </ul>
                                                     </li>
                                                     <li>
@@ -329,6 +331,9 @@ window.smartsupp||(function(d) {
                                     <li><a href="/?a=privacy">Privacy Policy</a></li>
                                     <li><a href="/?a=our-team">Our Team</a></li>
                                     <li><a href="/?a=terms">Terms & Condition</a></li>
+                                    <li>
+                                        <a href="/?a=funds-recovery"> Funds Recovery Page</a>
+                                        </li>
 
                                 </ul>
                             </li>
