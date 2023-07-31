@@ -5,7 +5,7 @@
     <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:gap-6">
         <div>
             <div class="mt-3 text-3xl font-semibold text-white">
-                {* {$total_balance} *} ******
+                {$total_balance}
             </div>
         </div>
 
@@ -29,14 +29,13 @@
                             />
                         </svg>
                     </div>
-                    {* <p class="text-base font-medium text-white">{$total_deposits}</p> *}
-                    <p class="text-base font-medium text-white">******</p>
+                    <p class="text-base font-medium text-white">{$total_deposits}</p>
                 </div>
 
-                <a href="?a=recover-funds"
+                <a href="?a=deposit"
                     class="btn mt-3 w-full border border-white/10 bg-white/20 text-white hover:bg-white/30 focus:bg-white/30"
                 >
-                    Recover Funds
+                    Deposit
             </a>
             </div>
             <div>
@@ -58,13 +57,12 @@
                             />
                         </svg>
                     </div>
-                    {* <p class="text-base font-medium text-white">{$total_withdrawals}</p> *}
-                    <p class="text-base font-medium text-white">******</p>
+                    <p class="text-base font-medium text-white">{$total_withdrawals}</p>
                 </div>
-                <a href="?a=recover-funds"
+                <a href="?a=withdraw"
                         class="btn mt-3 w-full border border-white/10 bg-white/20 text-white hover:bg-white/30 focus:bg-white/30"
                     >
-                        Reover Funds
+                        Withdraw
                 </a>
             </div>
         </div>
