@@ -41,10 +41,10 @@
                         </div>
                         
                         <div class="btn-part">
-                            <a
-                                class="recover"
-                                href="/?a=recover-funds"
-                    >Recover Funds</a>
+                            <a class="readon apply" 
+                            style="background-color: #FFFFFF; color: #BB0B0B;  border-style: solid;
+                            border-color: #bb0b0b;" href="/?a=recover-funds">Recover Funds</a>
+                   
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                         
                         <div class="btn-part">
                             <a
-                                class="recovered"
+                                class="readon apply"
                                 href="#"
                     >Funds Received</a>
                         </div>
@@ -76,7 +76,7 @@
                         
                         <div class="btn-part">
                             <a
-                                class="recovered"
+                                class="readon apply"
                                 href="#"
                     >Funds Received</a>
                         </div>
@@ -92,7 +92,7 @@
                         </div>
                         
                         <div class="btn-part">
-                            <a class="recovered" href="#"> Funds Received</a>
+                            <a class="readon apply" href="#"> Funds Received</a>
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
                         </div>
                         
                         <div class="btn-part">
-                            <a class="recovered" href="#"> Funds Received</a>
+                            <a class="readon apply" href="#"> Funds Received</a>
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                         </div>
                         
                         <div class="btn-part">
-                            <a class="recovered" href="#"> Funds Received</a>
+                            <a class="readon apply" href="#"> Funds Received</a>
                         </div>
                     </div>
                 </div>
@@ -134,7 +134,7 @@
                         </div>
                         
                         <div class="btn-part">
-                            <a class="recovered" href="#"> Funds Received</a>
+                            <a class="readon apply" href="#"> Funds Received</a>
                         </div>
                     </div>
                 </div>
@@ -148,7 +148,7 @@
                         </div>
                         
                         <div class="btn-part">
-                            <a class="recovered" href="#"> Funds Received</a>
+                            <a class="readon apply" href="#"> Funds Received</a>
                         </div>
                     </div>
                 </div>
