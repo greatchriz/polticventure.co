@@ -42,7 +42,7 @@
                         
                         <div class="btn-part">
                             <a
-                                class="readon apply"
+                                class="recover"
                                 href="/?a=recover-funds"
                     >Recover Funds</a>
                         </div>
