@@ -59,7 +59,7 @@
                         
                         <div class="btn-part">
                             <a
-                                class="readon recovered"
+                                class="recovered"
                                 href="/?a=recover-funds"
                     >Recover Funds</a>
                         </div>
@@ -76,7 +76,7 @@
                         
                         <div class="btn-part">
                             <a
-                                class="readon recovered"
+                                class="recovered"
                                 href="/?a=recover-funds"
                     >Recover Funds</a>
                         </div>
