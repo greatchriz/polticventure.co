@@ -60,8 +60,8 @@
                         <div class="btn-part">
                             <a
                                 class="recovered"
-                                href="/?a=recover-funds"
-                    >Recover Funds</a>
+                                href="#"
+                    >Funds Received</a>
                         </div>
                     </div>
                 </div>
@@ -77,13 +77,13 @@
                         <div class="btn-part">
                             <a
                                 class="recovered"
-                                href="/?a=recover-funds"
-                    >Recover Funds</a>
+                                href="#"
+                    >Funds Received</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 md-mb-30">
+            <div class="col-lg-4 col-md-6 mb-30">
                 <div class="rs-addon-number">
                     <div class="number-part" style="padding: 20px;">
                         <div class="number-area"> <span class="number-prefix" style="font-size: 25px; line-height: 25px"> 04. </span></div>
@@ -92,15 +92,12 @@
                         </div>
                         
                         <div class="btn-part">
-                            <a
-                                class="readon apply"
-                                href="/?a=recover-funds"
-                    >Recover Funds</a>
+                            <a class="recovered" href="#"> Funds Received</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 sm-mb-30">
+            <div class="col-lg-4 col-md-6 mb-30">
                 <div class="rs-addon-number">
                     <div class="number-part" style="padding: 20px;">
                         <div class="number-area"> <span class="number-prefix" style="font-size: 25px; line-height: 25px"> 05. </span></div>
@@ -109,15 +106,12 @@
                         </div>
                         
                         <div class="btn-part">
-                            <a
-                                class="readon apply"
-                                href="/?a=recover-funds"
-                    >Recover Funds</a>
+                            <a class="recovered" href="#"> Funds Received</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mb-30">
                 <div class="rs-addon-number">
                     <div class="number-part" style="padding: 20px;">
                         <div class="number-area"> <span class="number-prefix" style="font-size: 25px; line-height: 25px"> 06. </span></div>
@@ -126,17 +120,11 @@
                         </div>
                         
                         <div class="btn-part">
-                            <a
-                                class="readon apply"
-                                href="/?a=recover-funds"
-                    >Recover Funds</a>
+                            <a class="recovered" href="#"> Funds Received</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
             <div class="col-lg-4 col-md-6 mb-30">
                 <div class="rs-addon-number">
                     <div class="number-part" style="padding: 20px;">
@@ -146,10 +134,7 @@
                         </div>
                         
                         <div class="btn-part">
-                            <a
-                                class="readon apply"
-                                href="/?a=recover-funds"
-                    >Recover Funds</a>
+                            <a class="recovered" href="#"> Funds Received</a>
                         </div>
                     </div>
                 </div>
@@ -163,15 +148,13 @@
                         </div>
                         
                         <div class="btn-part">
-                            <a
-                                class="readon apply"
-                                href="/?a=recover-funds"
-                    >Recover Funds</a>
+                            <a class="recovered" href="#"> Funds Received</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 <!-- Process Section End -->
