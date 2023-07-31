@@ -1015,6 +1015,16 @@ blockquote cite:before {
   color: #fff;
   background-color: #bb0b0b;
 }
+
+.readon.done {
+  padding: 5px 15px 5px 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #4caf50;
+}
+
+
 .readon.view-more {
   padding: 7px 25px 7px;
   font-size: 14px;
