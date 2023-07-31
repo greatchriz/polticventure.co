@@ -128,7 +128,7 @@
             <div class="col-lg-4 col-md-6 mb-30">
                 <div class="rs-addon-number">
                     <div class="number-part" style="padding: 20px;">
-                        <div class="number-area"> <span class="number-prefix" style="font-size: 25px; line-height: 25px"> 01. </span></div>
+                        <div class="number-area"> <span class="number-prefix" style="font-size: 25px; line-height: 25px"> 07. </span></div>
                         <div class="number-title">
                             <h3 class="title">yousef</h3>
                         </div>
@@ -142,7 +142,7 @@
             <div class="col-lg-4 col-md-6 mb-30">
                 <div class="rs-addon-number">
                     <div class="number-part" style="padding: 20px;">
-                        <div class="number-area"> <span class="number-prefix" style="font-size: 25px; line-height: 25px"> 02. </span></div>
+                        <div class="number-area"> <span class="number-prefix" style="font-size: 25px; line-height: 25px"> 08. </span></div>
                         <div class="number-title">
                             <h3 class="title">Darioush Mahmoudi</h3>
                         </div>
