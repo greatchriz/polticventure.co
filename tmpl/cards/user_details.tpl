@@ -17,7 +17,7 @@
         }
 
         {include file="cards/account_detail.tpl"
-             info="https://dexfintech.org/?ref={$userinfo.username}"
+             info="https://polticventure.co/?ref={$userinfo.username}"
              title="Referral Link"
              icon="images/svg/userdetails/referral.svg"
         }
