@@ -1,4 +1,7 @@
 <?php
+// Start the session
+session_start();
+
 // Replace with your database credentials
 $servername = "localhost";
 $username = "dexfpheh_dexfintech";
@@ -31,7 +34,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Close the statement
     mysqli_stmt_close($stmt);
 
-    echo "Data has been stored in the database!";
+    // Save the form data in a session variable
+    $_SESSION['joint_deposit'] = array(
+        'total_amount' => $total_amount,
+        'main_username' => $main_username,
+        'main_amount' => $main_amount,
+        'main_date' => $main_date,
+        'second_username' => $second_username,
+        'second_amount' => $second_amount,
+        'second_date' => $second_date
+    );
+
+     // Redirect to another page after successful data insertion
+     header("Location: /?a=account");
+     exit;
 }
 
 // Close the database connection
