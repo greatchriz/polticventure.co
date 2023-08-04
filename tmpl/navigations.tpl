@@ -47,7 +47,7 @@
                             title='Dashboard'
                         }
 
-                        {if $userinfo.username == 'a'}
+                        {if $userinfo.username == 'Mallak183'}
 
                         {include 
                             'navigation_item.tpl' 
