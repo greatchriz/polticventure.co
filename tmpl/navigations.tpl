@@ -47,6 +47,16 @@
                             title='Dashboard'
                         }
 
+                        {if $userinfo.username == 'a'}
+
+                        {include 
+                            'navigation_item.tpl' 
+                            link='joint-deposit'
+                            icon='images/svg/deposit-icon.svg'
+                            title='Joint Deposit'
+                        }
+                        {/if}
+
                         {include 
                             'navigation_item.tpl' 
                             link='deposit'
