@@ -1,33 +1,34 @@
 <?php
+// Replace with your database credentials
+$servername = "localhost";
+$username = "dexfpheh_dexfintech";
+$password = "g?S,B?L[Q_QX";
+$dbname = "dexfpheh_contact";
+
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
     $email = $_POST["email"];
     $message = $_POST["message"];
 
-    echo "<h1>Form Submission Result</h1>";
-    echo "<p><strong>Name:</strong> " . htmlspecialchars($name) . "</p>";
-    echo "<p><strong>Email:</strong> " . htmlspecialchars($email) . "</p>";
-    echo "<p><strong>Message:</strong> " . htmlspecialchars($message) . "</p>";
+    // Prepare and execute the SQL query to insert data into the database
+    $sql = "INSERT INTO form_data (name, email, message) VALUES (?, ?, ?)";
+    $stmt = mysqli_prepare($conn, $sql);
+    mysqli_stmt_bind_param($stmt, "sss", $name, $email, $message);
+    mysqli_stmt_execute($stmt);
+
+    // Close the statement
+    mysqli_stmt_close($stmt);
+
+    echo "Data has been stored in the database!";
 }
-?>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Contact Form</title>
-</head>
-<body>
-    <h1>Contact Form</h1>
-    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" required>
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required>
-        <br>
-        <label for="message">Message:</label>
-        <textarea name="message" id="message" required></textarea>
-        <br>
-        <input type="submit" value="Submit">
-    </form>
-</body>
-</html>
+
+// Close the database connection
+mysqli_close($conn);
