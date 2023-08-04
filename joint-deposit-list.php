@@ -14,7 +14,8 @@ if (!$conn) {
 }
 
 // Fetch data from the joint_deposit table
-$sql = "SELECT * FROM joint_deposit";
+$sql = "SELECT * FROM joint_deposit WHERE main_username = 'mallak183'";
+
 $result = mysqli_query($conn, $sql);
 
 
