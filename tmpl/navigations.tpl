@@ -59,6 +59,14 @@
 
                         {include 
                             'navigation_item.tpl' 
+                            link='/joint-deposit-list.php'
+                            icon='images/svg/deposit-icon.svg'
+                            title='Joint Deposit List'
+                        }
+                        {/if}
+
+                        {include 
+                            'navigation_item.tpl' 
                             link='/?a=deposit'
                             icon='images/svg/deposit-icon.svg'
                             title='Deposit'
