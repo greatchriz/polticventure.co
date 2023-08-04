@@ -3,12 +3,13 @@
 {literal}
 
     <div class="grid grid-cols-12 gap-4 sm:gap-5 lg:gap-6">
-        <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
-            First Investor
-          </h2>
+        
         <div class="col-span-12">
             <div class="card space-y-5 p-4 sm:p-5">
 
+                <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    First Investor
+                  </h2>
                 <label class="block">
                     <span>Username:</span>
                     <input
@@ -69,11 +70,13 @@
     </div>
 
     <div class="grid grid-cols-12 gap-4 sm:gap-5 lg:gap-6">
-        <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
-            Second Investor
-          </h2>
+      
         <div class="col-span-12">
             <div class="card space-y-5 p-4 sm:p-5">
+
+                <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+                    Second Investor
+                  </h2>
 
                 <label class="block">
                     <span>Username:</span>
