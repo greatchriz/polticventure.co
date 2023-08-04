@@ -6,11 +6,12 @@
     @see https://alpinejs.dev/directives/teleport
   -->
 <div id="x-teleport-target"></div>
+
+
+{literal}
 <script>
   window.addEventListener("DOMContentLoaded", () => Alpine.start());
 </script>
-
-{literal}
   <script>
     function handleClick(event) {
       const anchor = event.currentTarget.querySelector('a');
