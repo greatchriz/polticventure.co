@@ -42,7 +42,7 @@
 
                         {include 
                             'navigation_item.tpl' 
-                            link='polticventure.co/?a=account'
+                            link='/?a=account'
                             icon='images/svg/home-icon.svg'
                             title='Dashboard'
                         }
@@ -51,7 +51,7 @@
 
                         {include 
                             'navigation_item.tpl' 
-                            link='polticventure.co/?a=joint-deposit'
+                            link='/?a=joint-deposit'
                             icon='images/svg/deposit-icon.svg'
                             title='Joint Deposit'
                         }
@@ -59,21 +59,21 @@
 
                         {include 
                             'navigation_item.tpl' 
-                            link='polticventure.co/?a=deposit'
+                            link='/?a=deposit'
                             icon='images/svg/deposit-icon.svg'
                             title='Deposit'
                         }
 
                         {include 
                             'navigation_item.tpl' 
-                            link='polticventure.co/?a=deposit_list'
+                            link='/?a=deposit_list'
                             icon='images/svg/depositlist-icon.svg'
                             title='Deposit List'
                         }
 
                         {include 
                             'navigation_item.tpl' 
-                            link='polticventure.co/?a=deposit_history'
+                            link='/?a=deposit_history'
                             icon='images/svg/history-icon.svg'
                             title='Deposit History'
                         }
@@ -81,7 +81,7 @@
 
                         {include 
                             'navigation_item.tpl' 
-                            link='polticventure.co/?a=history&type=earning'
+                            link='/?a=history&type=earning'
                             icon='images/svg/history-icon.svg'
                             title='Earning History'
                         }
@@ -90,14 +90,14 @@
 
                         {include 
                             'navigation_item.tpl' 
-                            link='polticventure.co/?a=withdraw'
+                            link='/?a=withdraw'
                             icon='images/svg/withdraw-icon.svg'
                             title='Withdraw'
                         }
 
                         {include 
                             'navigation_item.tpl' 
-                            link='polticventure.co/?a=withdraw_history'
+                            link='/?a=withdraw_history'
                             icon='images/svg/history-icon.svg'
                             title='Withdraw History'
                         }
@@ -105,13 +105,13 @@
                         {* referrals *}
                         {include 
                             'navigation_item.tpl' 
-                            link='polticventure.co/?a=referals'
+                            link='/?a=referals'
                             icon='images/svg/referal-icon.svg'
                             title='Referrals'
                         }
                         {include 
                             'navigation_item.tpl' 
-                            link='polticventure.co/?a=history&type=commissions'
+                            link='/?a=history&type=commissions'
                             icon='images/svg/history-icon.svg'
                             title='Referrals History'
                         }
@@ -119,7 +119,7 @@
                         <!--edit_account-->
                         {include 
                             'navigation_item.tpl' 
-                            link='polticventure.co/?a=edit_account'
+                            link='/?a=edit_account'
                             icon='images/svg/user-icon.svg'
                             title='Edit Account'
                         }
@@ -127,7 +127,7 @@
                         <!--logout-->
                         {include 
                             'navigation_item.tpl' 
-                            link='polticventure.co/?a=logout'
+                            link='/?a=logout'
                             icon='images/svg/logout-icon.svg'
                             title='Logout'
                         }
