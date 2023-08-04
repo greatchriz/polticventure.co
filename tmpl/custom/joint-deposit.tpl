@@ -1,6 +1,5 @@
 {include file="header.tpl" pagetitle="Joint Deposit" pageurl="joint-deposit"}
 
-{literal}
 
 <div class="grid grid-cols-12 gap-4 sm:gap-5 lg:gap-6">
     <div class="col-span-12">
