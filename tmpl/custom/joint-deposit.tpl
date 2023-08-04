@@ -1,29 +1,12 @@
 {include file="header.tpl" pagetitle="Joint Deposit" pageurl="joint-deposit"}
 
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $main_amount = $_POST["main_amount"];
-    
 
-    <div class="grid grid-cols-12 gap-4 sm:gap-5 lg:gap-6">
-
-        <div class="col-span-12">
-            <div class="card space-y-5 p-4 sm:p-5">
-
-               echo "<h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base"> " . htmlspecialchars($name) . "</h2>";
-            </div>
-        </div>
-    </div>
-
-
-}
-?>
 
 {literal}
 
     <form
         method=post
-        action="<?php echo $_SERVER['PHP_SELF']; ?>"
+        action="contact.php"
     >
         <div class="grid grid-cols-12 gap-4 sm:gap-5 lg:gap-6">
 
