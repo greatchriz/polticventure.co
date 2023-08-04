@@ -217,7 +217,6 @@ while ($row = mysqli_fetch_assoc($result)) {
 </div>
 
 {include file="footer.tpl"}
-
-<?php
+{php}
 mysqli_close($conn);
-?>
+{/php}
