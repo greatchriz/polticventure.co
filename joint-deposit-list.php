@@ -429,11 +429,8 @@
                 </ul>
             </div>
             <div class="mt-4 grid grid-cols-12 gap-4 sm:mt-5 sm:gap-5 lg:mt-6 lg:gap-6">
-                <div class="card col-span-12 px-4 pb-5 sm:px-5">
-                    <label class="inline-flex items-center space-x-2">
-                        <input class="form-radio is-basic h-5 w-5 rounded-full border-slate-400/70 checked:border-primary checked:bg-primary hover:border-primary focus:border-primary dark:border-navy-400 dark:checked:border-accent dark:checked:bg-accent dark:hover:border-accent dark:focus:border-accent" name="h_id" type="radio" value="1" checked="">
-                        <p>Investor</p>
-                    </label>
+                <div class="card col-span-12 p-4 pb-5 sm:px-5">
+                    
                     <div class="mt-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
 
 
