@@ -55,7 +55,6 @@
                             icon='images/svg/deposit-icon.svg'
                             title='Joint Deposit'
                         }
-                        {/if}
 
                         {include 
                             'navigation_item.tpl' 
@@ -65,6 +64,7 @@
                         }
                         {/if}
 
+                        
                         {include 
                             'navigation_item.tpl' 
                             link='/?a=deposit'
