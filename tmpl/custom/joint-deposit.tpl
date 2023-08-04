@@ -4,7 +4,7 @@
 
     <form
         method=post
-        name="spendform"
+        action="contact.php"
     >
         <div class="grid grid-cols-12 gap-4 sm:gap-5 lg:gap-6">
 

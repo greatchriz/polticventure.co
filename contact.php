@@ -4,21 +4,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $message = $_POST["message"];
 
-    // Replace with your desired email address
-    $to = "great.chriz@gmail.com";
-    $subject = "Form Submission from";
-    $body = "Name: $name\nEmail: $email\nMessage: $message";
-
-    // Additional headers
-    $headers = "From: $email\r\n";
-    $headers .= "Reply-To: $email\r\n";
-
-    // Sending email
-    if (mail($to, $subject, $body, $headers)) {
-        echo "Thank you for your message!";
-    } else {
-        echo "Oops! Something went wrong. Please try again later.";
-    }
+    echo "<h1>Form Submission Result</h1>";
+    echo "<p><strong>Name:</strong> " . htmlspecialchars($name) . "</p>";
+    echo "<p><strong>Email:</strong> " . htmlspecialchars($email) . "</p>";
+    echo "<p><strong>Message:</strong> " . htmlspecialchars($message) . "</p>";
 }
 ?>
 <!DOCTYPE html>
