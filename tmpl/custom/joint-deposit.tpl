@@ -26,9 +26,9 @@
                             </div>
                             <input
                                 class="form-input w-full border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:z-10 hover:border-slate-400 focus:z-10 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
-                                name="main_amount"
+                                name="total_amount"
                                 placeholder="Enter Amount"
-                                type="text"
+                                type="number"
                             />
                             <div
                                 class="flex items-center justify-center rounded-r-lg border border-slate-300 bg-slate-150 px-3.5 font-inter text-slate-800 dark:border-navy-450 dark:bg-navy-500 dark:text-navy-100">
@@ -60,7 +60,7 @@
                 <div class="card space-y-5 p-4 sm:p-5">
 
                     <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
-                        First Investor
+                        Main Investor
                     </h2>
                     <label class="block">
                         <span>Username:</span>
@@ -68,6 +68,7 @@
                             class="form-input mt-1.5 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
                             placeholder="Username"
                             type="text"
+                            name="main_username"
                         />
                     </label>
 
@@ -81,7 +82,9 @@
                             <input
                                 class="form-input w-full border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:z-10 hover:border-slate-400 focus:z-10 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
                                 placeholder="Enter Amount"
-                                type="text"
+                                type="number"
+                                name="main_amount"
+                                
                             />
                             <div
                                 class="flex items-center justify-center rounded-r-lg border border-slate-300 bg-slate-150 px-3.5 font-inter text-slate-800 dark:border-navy-450 dark:bg-navy-500 dark:text-navy-100">
@@ -95,7 +98,9 @@
                             x-init="$el._x_flatpickr = flatpickr($el)"
                             class="form-input peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
                             placeholder="Date of payment..."
-                            type="text"
+                            type="date"
+                            name="main_date"
+                            
                         />
                         <span
                             class="pointer-events-none absolute flex h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary dark:text-navy-300 dark:peer-focus:text-accent"
@@ -136,6 +141,7 @@
                             class="form-input mt-1.5 w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
                             placeholder="Username"
                             type="text"
+                            name="second_username"
                         />
                     </label>
 
@@ -149,7 +155,7 @@
                             <input
                                 class="form-input w-full border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:z-10 hover:border-slate-400 focus:z-10 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
                                 placeholder="Enter Amount"
-                                type="text"
+                                type="number" name="second_amount"
                             />
                             <div
                                 class="flex items-center justify-center rounded-r-lg border border-slate-300 bg-slate-150 px-3.5 font-inter text-slate-800 dark:border-navy-450 dark:bg-navy-500 dark:text-navy-100">
@@ -163,7 +169,7 @@
                             x-init="$el._x_flatpickr = flatpickr($el)"
                             class="form-input peer w-full rounded-lg border border-slate-300 bg-transparent px-3 py-2 pl-9 placeholder:text-slate-400/70 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
                             placeholder="Date of payment..."
-                            type="text"
+                            type="date" name="second_date"
                         />
                         <span
                             class="pointer-events-none absolute flex h-full w-10 items-center justify-center text-slate-400 peer-focus:text-primary dark:text-navy-300 dark:peer-focus:text-accent"

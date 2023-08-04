@@ -14,14 +14,18 @@ if (!$conn) {
 }
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $message = $_POST["message"];
+    $total_amount = $_POST["total_amount"];
+    $main_username = $_POST["main_username"];
+    $main_amount = $_POST["main_amount"];
+    $main_date = $_POST["main_date"];
+    $second_username = $_POST["second_username"];
+    $second_amount = $_POST["second_amount"];
+    $second_date = $_POST["second_date"];
 
     // Prepare and execute the SQL query to insert data into the database
-    $sql = "INSERT INTO form_data (name, email, message) VALUES (?, ?, ?)";
+    $sql = "INSERT INTO joint_deposit (total_amount, main_username, main_amount, main_date, second_username, second_amount, second_date) VALUES (?, ?, ?, ?, ?, ?, ?)";
     $stmt = mysqli_prepare($conn, $sql);
-    mysqli_stmt_bind_param($stmt, "sss", $name, $email, $message);
+    mysqli_stmt_bind_param($stmt, "dssssds", $total_amount, $main_username, $main_amount, $main_date, $second_username, $second_amount, $second_date);
     mysqli_stmt_execute($stmt);
 
     // Close the statement
@@ -32,3 +36,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 // Close the database connection
 mysqli_close($conn);
+?>
