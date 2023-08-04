@@ -402,7 +402,7 @@
         </nav>
 
 
-        <main class="main-content w-full px-[var(--margin-x)] pb-8">
+        <main class="main-content w-full px-[var(--margin-x)] pb-8 mt-4">
 
 
             <div class="grid grid-cols-1 gap-4 sm:gap-5 lg:gap-6">
