@@ -41,6 +41,7 @@
                         </div>
 
                         <button
+                        type="button"
                             class="btn h-6 shrink-0 rounded bg-primary px-2 text-xs text-white active:bg-primary"
                             @click="$clipboard({
         content:document.querySelector('#clipboardContent1').innerText,
