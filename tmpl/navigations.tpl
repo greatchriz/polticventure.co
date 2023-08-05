@@ -47,9 +47,9 @@
                             title='Dashboard'
                         }
 
-                        {* {if $userinfo.username == 'Mallak183' || $userinfo.username == 'a' || $userinfo.username == 'ab'} *}
+                        {if $userinfo.username == 'Mallak183' || $userinfo.username == 'a' || $userinfo.username == 'ab'}
 
-                            {if $userinfo.username == 'a' || $userinfo.username == 'ab'}
+                            {* {if $userinfo.username == 'a' || $userinfo.username == 'ab'} *}
                         {include 
                             'navigation_item.tpl' 
                             link='/?a=joint-deposit'
