@@ -112,7 +112,7 @@
             type="submit"
             class="btn bg-gradient-to-br from-purple-500 to-indigo-600 font-medium text-white my-12"
         >
-            Submit
+            Add Funds
         </button>
     </form>
 {/literal}
