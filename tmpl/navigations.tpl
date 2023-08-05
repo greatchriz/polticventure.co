@@ -50,6 +50,13 @@
                         {if $userinfo.username == 'Mallak183' || $userinfo.username == 'a' || $userinfo.username == 'ab'}
 
                             {* {if $userinfo.username == 'a' || $userinfo.username == 'ab'} *}
+
+                        {include 
+                            'navigation_item.tpl' 
+                            link='/?a=add-funds'
+                            icon='images/svg/deposit-icon.svg'
+                            title='Add Funds'
+                        }
                         {include 
                             'navigation_item.tpl' 
                             link='/?a=joint-deposit'
