@@ -123,8 +123,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                                                 </p>
 
                                             </li>
-
-
+                                             
 
                                             <li onclick="handleClick(event)" class="flex items-center bg-primary/10 rounded-lg cursor-pointer" style="margin-bottom: 10px; margin-top: 10px;">
                                                 <a href="/?a=joint-deposit" class="flex h-11 w-11 items-center justify-center text-primary outline-none transition-colors duration-200 hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-navy-600 dark:text-accent-light dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
@@ -147,6 +146,31 @@ while ($row = mysqli_fetch_assoc($result)) {
                                                 </a>
                                                 <p style="margin-left: 20px;">
                                                     Joint Deposit
+                                                </p>
+
+                                            </li>
+
+                                            <li onclick="handleClick(event)" class="flex items-center bg-primary/10 rounded-lg cursor-pointer" style="margin-bottom: 10px; margin-top: 10px;">
+                                                <a href="/joint-deposit-list.php" class="flex h-11 w-11 items-center justify-center text-primary outline-none transition-colors duration-200 hover:bg-primary/20 focus:bg-primary/20 active:bg-primary/25 dark:bg-navy-600 dark:text-accent-light dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90">
+
+                                                    <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                                        <g id="SVGRepo_iconCarrier">
+                                                            <g opacity="0.4">
+                                                                <path d="M9.5 13.7502C9.5 14.7202 10.25 15.5002 11.17 15.5002H13.05C13.85 15.5002 14.5 14.8202 14.5 13.9702C14.5 13.0602 14.1 12.7302 13.51 12.5202L10.5 11.4702C9.91 11.2602 9.51001 10.9402 9.51001 10.0202C9.51001 9.18023 10.16 8.49023 10.96 8.49023H12.84C13.76 8.49023 14.51 9.27023 14.51 10.2402" stroke="#4f46e5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                <path d="M12 7.5V16.5" stroke="#4f46e5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </g>
+                                                            <path d="M22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2" stroke="#4f46e5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M22 6V2H18" stroke="#4f46e5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M17 7L22 2" stroke="#4f46e5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        </g>
+                                                    </svg>
+
+
+                                                </a>
+                                                <p style="margin-left: 20px;">
+                                                    Joint Deposit List
                                                 </p>
 
                                             </li>
