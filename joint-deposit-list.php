@@ -461,113 +461,84 @@ while ($row = mysqli_fetch_assoc($result)) {
                 </ul>
             </div>
 
-
             <div class="mt-4 sm:mt-5 lg:mt-6">
                
 
-                <?php foreach ($dataArray as $data) { ?>
-                    <div class="mt-3 grid grid-cols-1 gap-4 sm:gap-5 lg:gap-6">
+                                    <div class="mt-3 grid grid-cols-1 gap-4 sm:gap-5 lg:gap-6">
                         <div class="card space-y-6 p-4 sm:px-5">
                             <div class="flex items-center justify-between">
                                 <div>
-                                    <p class="text-lg font-semibold uppercase text-primary dark:text-accent-light">
-                                        <?php echo $data['main_username']; ?>
-                                    </p>
+                                    <p class="text-lg font-semibold uppercase text-primary dark:text-accent-light">Mallak183 AND dreahimself08
+</p>
                                 </div>
-                                <div x-data="usePopper({placement:'bottom-end',offset:4})" @click.outside="isShowPopper &amp;&amp; (isShowPopper = false)" class="inline-flex">
-                                    <button x-ref="popperRef" @click="isShowPopper = !isShowPopper" class="btn -mr-1.5 h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path>
-                                        </svg>
-                                    </button>
-
-                                    <div x-ref="popperRoot" class="popper-root" :class="isShowPopper &amp;&amp; 'show'" style="position: fixed; inset: 0px 0px auto auto; margin: 0px; transform: translate(0px, 232px);" data-popper-placement="bottom-end">
-                                        <div class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
-                                            <ul>
-                                                <li>
-                                                    <a href="#" class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Action</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Another Action</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Something else</a>
-                                                </li>
-                                            </ul>
-                                            <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
-                                            <ul>
-                                                <li>
-                                                    <a href="#" class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100">Separated Link</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             </div>
                             <div>
                                 <p class="text-xs uppercase">Current Status</p>
-                                <p class="text-base font-medium text-success">Up for 7 hours</p>
+                                <p class="text-base font-medium text-warning">To be completed in 7 Days</p>
                             </div>
+                                <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
+
                             <div class="flex grow justify-between space-x-2">
                                 <div>
                                     <p class="text-xs+ text-slate-400 dark:text-navy-300">
-                                        Total Uptime
+                                        Total Amount
                                     </p>
                                     <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
-                                        96.4%
+                                        500$
                                     </p>
                                 </div>
                                 <div>
                                     <p class="text-xs+ text-slate-400 dark:text-navy-300">
-                                        Response
+                                        Paid Amount
                                     </p>
                                     <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
-                                        3.4 s
+                                        300$
                                     </p>
                                 </div>
                                 <div>
                                     <p class="text-xs+ text-slate-400 dark:text-navy-300">
-                                        Memory
+                                       Remaining Balance
                                     </p>
                                     <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
-                                        14 GB
+                                        200$
                                     </p>
                                 </div>
                             </div>
+
+                                <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
+
                             <div class="space-y-3">
                                 <div class="flex justify-between">
-                                    <p class="text-xs uppercase text-slate-400 dark:text-navy-300">
-                                        Country
-                                    </p>
-                                    <p class="text-xs uppercase text-slate-400 dark:text-navy-300">
-                                        traffic
-                                    </p>
+                                    <p class="text-sm uppercase text-slate-400 dark:text-navy-300 font-bold">Username</p>
+
+<p class="text-sm uppercase text-slate-400 dark:text-navy-300 font-bold">Amount</p>
+
+<p class="text-sm uppercase text-slate-400 dark:text-navy-300 font-bold">Date of payment</p>
+                                    
                                 </div>
                                 <div class="flex items-center justify-between">
-                                    <div class="flex items-center space-x-2">
-                                        <img class="h-6 w-6" src="images/flags/usa-round.svg" alt="flag">
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
-                                            Unated States
-                                        </p>
-                                    </div>
-                                    <div class="font-inter">
+                                    
+                                    
+
+                                    
+
+<div class="font-inter">
+                                        <span class="text-right font-medium text-slate-700 dark:text-navy-100">4.5 GB</span>
+                                        <span class="text-xs">/8 GB</span>
+                                    </div><div class="font-inter">
+                                        <span class="text-right font-medium text-slate-700 dark:text-navy-100">4.5 GB</span>
+                                        <span class="text-xs">/8 GB</span>
+                                    </div><div class="font-inter">
                                         <span class="text-right font-medium text-slate-700 dark:text-navy-100">4.5 GB</span>
                                         <span class="text-xs">/8 GB</span>
                                     </div>
                                 </div>
-                                <div class="flex items-center justify-between">
-                                    <div class="flex items-center space-x-2">
-                                        <img class="h-6 w-6" src="images/flags/russia-round.svg" alt="flag">
-                                        <p class="font-medium text-slate-700 dark:text-navy-100">
-                                            Russia
-                                        </p>
-                                    </div>
-                                    <div class="font-inter">
-                                        <span class="text-right font-medium text-slate-700 dark:text-navy-100">6.22 GB</span>
-                                        <span class="text-xs">/12 GB</span>
-                                    </div>
-                                </div>
+                                
                             </div>
+
+                                <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
+
                             <div class="flex flex-wrap space-x-2">
                                 <div class="badge bg-info/10 text-info dark:bg-info/15">
                                     195.161.66.25
@@ -580,8 +551,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 
                     </div>
 
-                <?php } ?>
-
+                
                 <!-- content goes here -->
             </div>
         </main>
