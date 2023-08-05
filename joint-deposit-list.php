@@ -462,96 +462,128 @@ while ($row = mysqli_fetch_assoc($result)) {
             </div>
 
             <div class="mt-4 sm:mt-5 lg:mt-6">
-               
 
-                                    <div class="mt-3 grid grid-cols-1 gap-4 sm:gap-5 lg:gap-6">
-                        <div class="card space-y-6 p-4 sm:px-5">
-                            <div class="flex items-center justify-between">
-                                <div>
-                                    <p class="text-lg font-semibold uppercase text-primary dark:text-accent-light">Mallak183 AND dreahimself08
-</p>
-                                </div>
-                                
+
+                <div class="mt-3 grid grid-cols-1 gap-4 sm:gap-5 lg:gap-6">
+
+
+                    <div class="card space-y-6 p-4 sm:px-5">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-lg font-semibold uppercase text-primary dark:text-accent-light">Mallak183 AND dreahimself08
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
+                        <p class="text-sm uppercase font-bold text-primary">Current Status</p>
+                        <div>
+
+                            <p class="text-base font-medium text-warning">To be completed in 7 Days</p>
+                        </div>
+                        <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
+                        <p class="text-sm uppercase font-bold text-primary">Deposit Detail</p>
+
+                        <div class="flex grow justify-between space-x-2">
+                            <div>
+                                <p class="text-xs+ text-slate-400 dark:text-navy-300">
+                                    Total Amount
+                                </p>
+                                <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
+                                    500$
+                                </p>
                             </div>
                             <div>
-                                <p class="text-xs uppercase">Current Status</p>
-                                <p class="text-base font-medium text-warning">To be completed in 7 Days</p>
+                                <p class="text-xs+ text-slate-400 dark:text-navy-300">
+                                    Paid Amount
+                                </p>
+                                <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
+                                    300$
+                                </p>
                             </div>
-                                <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
-
-                            <div class="flex grow justify-between space-x-2">
-                                <div>
-                                    <p class="text-xs+ text-slate-400 dark:text-navy-300">
-                                        Total Amount
-                                    </p>
-                                    <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
-                                        500$
-                                    </p>
-                                </div>
-                                <div>
-                                    <p class="text-xs+ text-slate-400 dark:text-navy-300">
-                                        Paid Amount
-                                    </p>
-                                    <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
-                                        300$
-                                    </p>
-                                </div>
-                                <div>
-                                    <p class="text-xs+ text-slate-400 dark:text-navy-300">
-                                       Remaining Balance
-                                    </p>
-                                    <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
-                                        200$
-                                    </p>
-                                </div>
-                            </div>
-
-                                <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
-
-                            <div class="space-y-3">
-                                <div class="flex justify-between">
-                                    <p class="text-sm uppercase text-slate-400 dark:text-navy-300 font-bold">Username</p>
-
-<p class="text-sm uppercase text-slate-400 dark:text-navy-300 font-bold">Amount</p>
-
-<p class="text-sm uppercase text-slate-400 dark:text-navy-300 font-bold">Date of payment</p>
-                                    
-                                </div>
-                                <div class="flex items-center justify-between">
-                                    
-                                    
-
-                                    
-
-<div class="font-inter">
-                                        <span class="text-right font-medium text-slate-700 dark:text-navy-100">4.5 GB</span>
-                                        <span class="text-xs">/8 GB</span>
-                                    </div><div class="font-inter">
-                                        <span class="text-right font-medium text-slate-700 dark:text-navy-100">4.5 GB</span>
-                                        <span class="text-xs">/8 GB</span>
-                                    </div><div class="font-inter">
-                                        <span class="text-right font-medium text-slate-700 dark:text-navy-100">4.5 GB</span>
-                                        <span class="text-xs">/8 GB</span>
-                                    </div>
-                                </div>
-                                
-                            </div>
-
-                                <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
-
-                            <div class="flex flex-wrap space-x-2">
-                                <div class="badge bg-info/10 text-info dark:bg-info/15">
-                                    195.161.66.25
-                                </div>
-                                <div class="badge bg-info/10 text-info dark:bg-info/15">
-                                    215.122.127.155
-                                </div>
+                            <div>
+                                <p class="text-xs+ text-slate-400 dark:text-navy-300">
+                                    Remaining Balance
+                                </p>
+                                <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
+                                    200$
+                                </p>
                             </div>
                         </div>
 
+                        <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
+                        <p class="text-sm uppercase font-bold text-primary">Main Investor</p>
+
+
+
+                        <div class="space-y-3">
+                            <div class="flex justify-between">
+                                <p class="text-sm uppercase text-slate-400 dark:text-navy-300 font-bold">Username</p>
+
+                                <p class="text-sm uppercase text-slate-400 dark:text-navy-300 font-bold">Deposit Amount</p>
+
+                                <p class="text-sm uppercase text-slate-400 dark:text-navy-300 font-bold">Status</p>
+
+                            </div>
+                            <div class="flex items-center justify-between">
+
+
+
+
+
+                                <div class="font-inter">
+                                    <span class="text-right font-medium text-slate-700 dark:text-navy-100">Mallak183</span>
+                                </div>
+                                <div class="font-inter">
+                                    <span class="text-right font-medium text-slate-700 dark:text-navy-100">200$</span>
+                                </div>
+                                <div class="font-inter">
+                                    <span class="text-right font-medium text-warning dark:text-warning">Pending</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
+                        <p class="text-sm uppercase font-bold text-primary">Second Investor</p>
+
+
+
+                        <div class="space-y-3">
+                            <div class="flex justify-between">
+                                <p class="text-sm uppercase text-slate-400 dark:text-navy-300 font-bold">Username</p>
+
+                                <p class="text-sm uppercase text-slate-400 dark:text-navy-300 font-bold">Deposit Amount</p>
+
+                                <p class="text-sm uppercase text-slate-400 dark:text-navy-300 font-bold">Status</p>
+
+                            </div>
+                            <div class="flex items-center justify-between">
+
+
+
+
+
+                                <div class="font-inter">
+                                    <span class="text-right font-medium text-slate-700 dark:text-navy-100">Dreahimself08</span>
+                                </div>
+                                <div class="font-inter">
+                                    <span class="text-right font-medium text-slate-700 dark:text-navy-100">300$</span>
+                                </div>
+                                <div class="font-inter">
+                                    <span class="text-right font-medium text-success dark:text-success">Completed</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
                     </div>
 
-                
+                </div>
+
+
                 <!-- content goes here -->
             </div>
         </main>
