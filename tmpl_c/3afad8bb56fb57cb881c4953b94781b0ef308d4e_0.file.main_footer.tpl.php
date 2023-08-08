@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-07-27 22:31:37
+<?php /* Smarty version 3.1.27, created on 2023-08-08 22:28:25
          compiled from "/home/dexfpheh/polticventure.co/tmpl/main_footer.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:13191615864c2f049c768b6_25939142%%*/
+/*%%SmartyHeaderCode:156701321764d2c1891ad0c2_72626519%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,20 +9,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '3afad8bb56fb57cb881c4953b94781b0ef308d4e' => 
     array (
       0 => '/home/dexfpheh/polticventure.co/tmpl/main_footer.tpl',
-      1 => 1690496952,
+      1 => 1690511494,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '13191615864c2f049c768b6_25939142',
+  'nocache_hash' => '156701321764d2c1891ad0c2_72626519',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64c2f049c80b38_37173040',
+  'unifunc' => 'content_64d2c1891b64c3_93631320',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64c2f049c80b38_37173040')) {
-function content_64c2f049c80b38_37173040 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_64d2c1891b64c3_93631320')) {
+function content_64d2c1891b64c3_93631320 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '13191615864c2f049c768b6_25939142';
+$_smarty_tpl->properties['nocache_hash'] = '156701321764d2c1891ad0c2_72626519';
 ?>
 </div>
 <!-- Main content End -->
@@ -217,30 +217,6 @@ $_smarty_tpl->properties['nocache_hash'] = '13191615864c2f049c768b6_25939142';
 >
 
 
-
-
-    <!-- Smartsupp Live Chat script -->
-    <?php echo '<script'; ?>
- type="text/javascript">
-        var _smartsupp = _smartsupp || {};
-        _smartsupp.key = '792e261a41524d6872646a6fc6ebc3bc189d0301';
-        window.smartsupp || (function(d) {
-            var s, c, o = smartsupp = function() { o._.push(arguments) };
-            o._ = [];
-            s = d.getElementsByTagName('script')[0];
-            c = d.createElement('script');
-            c.type = 'text/javascript';
-            c.charset = 'utf-8';
-            c.async = true;
-            c.src = 'https://www.smartsuppchat.com/loader.js?';
-            s.parentNode.insertBefore(c, s);
-        })(document);
-    <?php echo '</script'; ?>
->
-    <noscript> Powered by <a
-            href=“https://www.smartsupp.com”
-            target=“_blank”
-        >Smartsupp</a></noscript>
 
 
 

@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-07-27 22:31:37
+<?php /* Smarty version 3.1.27, created on 2023-08-08 22:28:25
          compiled from "/home/dexfpheh/polticventure.co/tmpl/main_header.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:24774366864c2f049c5df98_91570715%%*/
+/*%%SmartyHeaderCode:26071726664d2c18918b4f7_01988004%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,20 +9,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '709cd43b8cb964e9c8d609cb592bb944bc49e8ea' => 
     array (
       0 => '/home/dexfpheh/polticventure.co/tmpl/main_header.tpl',
-      1 => 1690496952,
+      1 => 1691249377,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '24774366864c2f049c5df98_91570715',
+  'nocache_hash' => '26071726664d2c18918b4f7_01988004',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64c2f049c70125_16070957',
+  'unifunc' => 'content_64d2c1891a00b3_84798579',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64c2f049c70125_16070957')) {
-function content_64c2f049c70125_16070957 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_64d2c1891a00b3_84798579')) {
+function content_64d2c1891a00b3_84798579 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '24774366864c2f049c5df98_91570715';
+$_smarty_tpl->properties['nocache_hash'] = '26071726664d2c18918b4f7_01988004';
 ?>
 <!DOCTYPE html>
 <html lang="zxx">
@@ -132,6 +132,38 @@ $_smarty_tpl->properties['nocache_hash'] = '24774366864c2f049c5df98_91570715';
             href="assets/css/responsive.css"
         >
 
+        
+            <!-- Smartsupp Live Chat script -->
+<?php echo '<script'; ?>
+ type="text/javascript">
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = 'a97bcec3b0545c63429a968770cce494447efbf1';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
+<?php echo '</script'; ?>
+>
+<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
+
+<!-- Google tag (gtag.js) -->
+<?php echo '<script'; ?>
+ async src="https://www.googletagmanager.com/gtag/js?id=G-W311WTG5DY"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W311WTG5DY');
+<?php echo '</script'; ?>
+>
+        
+        
+
     </head>
 
     <body class="defult-home">
@@ -139,19 +171,7 @@ $_smarty_tpl->properties['nocache_hash'] = '24774366864c2f049c5df98_91570715';
         <div class="offwrap"></div>
 
         <!--Preloader start here-->
-        <div id="pre-load">
-            <div
-                id="loader"
-                class="loader"
-            >
-                <div class="loader-container">
-                    <div class='loader-icon'><img
-                            src="assets/images/fav.png"
-                            alt=""
-                        ></div>
-                </div>
-            </div>
-        </div>
+        
         <!--Preloader area end here-->
 
         <!-- Main content Start -->
@@ -235,7 +255,11 @@ $_smarty_tpl->properties['nocache_hash'] = '24774366864c2f049c5df98_91570715';
                                                         <ul class="sub-menu">
                                                             <li><a href="/?a=faq">FAQ</a></li>
                                                             <li><a href="/?a=privacy">Privacy Policy</a></li>
-
+                                                            <li><a href="/?a=our-team">Our Team</a></li>
+                                                            <li><a href="/?a=terms">Terms & Condition</a></li>
+                                                            <li>
+                                                            <a href="/?a=funds-recovery"> Funds Recovery Page</a>
+                                                            </li>
                                                         </ul>
                                                     </li>
                                                     <li>
@@ -335,6 +359,11 @@ $_smarty_tpl->properties['nocache_hash'] = '24774366864c2f049c5df98_91570715';
                                 <ul class="sub-menu">
                                     <li><a href="/?a=faq">FAQ</a></li>
                                     <li><a href="/?a=privacy">Privacy Policy</a></li>
+                                    <li><a href="/?a=our-team">Our Team</a></li>
+                                    <li><a href="/?a=terms">Terms & Condition</a></li>
+                                    <li>
+                                        <a href="/?a=funds-recovery"> Funds Recovery Page</a>
+                                        </li>
 
                                 </ul>
                             </li>

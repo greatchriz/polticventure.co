@@ -115,7 +115,7 @@
                 <div class="col-lg-6 pl-60 md-pl-15">
                     <div class="sec-title">
 
-                        <span class="sub-text">Pinnaclegem is a global equity funding and trading platform. We
+                        <span class="sub-text">Polticventure is a global equity funding and trading platform. We
                             connect a diverse investor network with highly vetted growth companies across
                             international markets and, through The Marketplace, allow private investments to be
                             traded.</span>

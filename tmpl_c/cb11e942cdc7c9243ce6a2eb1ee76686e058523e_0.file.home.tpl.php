@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-07-27 22:31:37
+<?php /* Smarty version 3.1.27, created on 2023-08-08 22:28:09
          compiled from "/home/dexfpheh/polticventure.co/tmpl/home.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:117715305364c2f049c38971_61566280%%*/
+/*%%SmartyHeaderCode:188518333464d2c179ad8343_13057994%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,20 +9,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cb11e942cdc7c9243ce6a2eb1ee76686e058523e' => 
     array (
       0 => '/home/dexfpheh/polticventure.co/tmpl/home.tpl',
-      1 => 1690496952,
+      1 => 1691228690,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '117715305364c2f049c38971_61566280',
+  'nocache_hash' => '188518333464d2c179ad8343_13057994',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64c2f049c55475_20094407',
+  'unifunc' => 'content_64d2c179b00347_85783245',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64c2f049c55475_20094407')) {
-function content_64c2f049c55475_20094407 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_64d2c179b00347_85783245')) {
+function content_64d2c179b00347_85783245 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '117715305364c2f049c38971_61566280';
+$_smarty_tpl->properties['nocache_hash'] = '188518333464d2c179ad8343_13057994';
 echo $_smarty_tpl->getSubTemplate ("main_header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
 ?>
 
@@ -142,7 +142,7 @@ echo $_smarty_tpl->getSubTemplate ("main_header.tpl", $_smarty_tpl->cache_id, $_
                 <div class="col-lg-6 pl-60 md-pl-15">
                     <div class="sec-title">
 
-                        <span class="sub-text">Pinnaclegem is a global equity funding and trading platform. We
+                        <span class="sub-text">Polticventure is a global equity funding and trading platform. We
                             connect a diverse investor network with highly vetted growth companies across
                             international markets and, through The Marketplace, allow private investments to be
                             traded.</span>
