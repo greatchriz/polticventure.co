@@ -14,3 +14,47 @@
         </div>
     </div>
 </div>
+
+
+
+<div class="blog-item">
+    
+   
+<ul class="address-widget">
+    <li>
+        <i
+            class="flaticon-location"
+            style="color: #bb0b0b; position: absolute; left: 0px;"
+        ></i>
+        <div class="desc">1010 Avenue<br>
+            New York, US.</div>
+    </li>
+
+    <hr align="center" size="2" color="#000000">
+
+
+    <li>
+        <i
+            class="flaticon-location"
+            style="color: #bb0b0b; position: absolute; left: 0px;"
+        ></i>
+        <div class="desc">1010 Avenue<br>
+            New York, US.</div>
+    </li>
+
+    <hr align="center" size="2" color="#000000">
+
+    <li>
+        <i
+            class="flaticon-location"
+            style="color: #bb0b0b; position: absolute; left: 0px;"
+        ></i>
+        <div class="desc">1010 Avenue<br>
+            New York, US.</div>
+    </li>
+    <hr align="center" size="2" color="#000000">
+
+</ul>
+</div>
+
+
