@@ -1,10 +1,18 @@
-<div class="contact-item">
-    <div class="contact-icon">
-        <img src="assets/images/contact/icons/1.png" alt="images">
+<div class="blog-item">
+    <div class="image-wrap">
+        <a href="#"><img src="assets/images/blog/1.jpg" alt="Blog"></a>
+        <ul class="post-categories">
+            <li><a href="blog-details.html">Branding</a></li>
+        </ul>
     </div>
-    <div class="content-text">
-        <h2 class="title"><a href="#">USA office</a></h2>
-        <p class="services-txt">55 Gerad Lane,<br> 
-         NY 11201, USA</p>
+    <div class="blog-content">
+        <ul class="blog-meta mb-10">
+            <li class="admin"> <i class="fa fa-user-o"></i> admin</li>
+            <li class="date"> <i class="fa fa-calendar-check-o"></i> 16 Aug 2021</li>
+        </ul>
+        <h3 class="blog-title"><a href="blog-details.html">Customer Onboarding Strategy: A Guide to
+                Class</a></h3>
+        <p>We denounce with righteous indige nation and dislike men who are so beguiled and demo...
+        </p>
     </div>
- </div>
+</div>

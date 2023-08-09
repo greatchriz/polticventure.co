@@ -260,30 +260,42 @@
     <!-- Services Section End -->
         {/literal}
     
-    <!-- Contact Section Start -->
-    <div class="rs-contact main-home office-modify1 responsive pb-100 md-pb-70">
-        <!-- Contact Icons Section End -->
-        <div class="rs-contact pt-100 md-pt-70">
-            <div class="container">
-                <div class="sec-title text-center mb-50 md-mb-35">
-                    <span class="sub-text small">Expert People</span>
-                    <h2 class="title title3 pb-20">Our Team Members</h2>
-                    <p class="margin-0">
-                        Meet the Bright Minds<br>
-                            Ushering in a New Era at PolticVenture.
-                    </p>
+   <!-- Blog Start -->
+    <div class="rs-blog style2 pt-100 pb-100 md-pt-70 md-pb-70">
+        <div class="container">
+            <div class="row y-middle md-mb-30">
+                <div class="col-lg-5 mb-20 md-mb-10">
+                    <div class="sec-title2">
+                        <div class="sub-text">News Updates</div>
+                        <h2 class="title mb-23">Read our latest updates & business <span>tips & tricks.</span></h2>
+                    </div>
                 </div>
-                <div class="rs-carousel owl-carousel" data-loop="true" data-items="4" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="true" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="true" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="4" data-md-device-nav="false" data-md-device-dots="true" data-lg-device="3">
-                    {include file="stat-item.tpl"}
-                    {include file="stat-item.tpl"}
-                    {include file="stat-item.tpl"}
-                    {include file="stat-item.tpl"}
+                <div class="col-lg-7 mb-20">
+                    <div class="btn-part text-right md-left">
+                        <a class="readon consultant discover" href="blog-details.html">View Updates</a>
+                    </div>
+                </div>
+            </div>
+            <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30"
+                data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800"
+                data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false"
+                data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="true"
+                data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="2"
+                data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="3"
+                data-md-device-nav="false" data-md-device-dots="true">
 
-                </div>
-            </div> 
+                {include file="stat-item.tpl"}
+                {include file="stat-item.tpl"}
+                {include file="stat-item.tpl"}
+                {include file="stat-item.tpl"}
+
+
+            </div>
         </div>
     </div>
-    <!-- Team Section End -->
+    <!-- Blog End -->
+
+
         {literal}
 
     <!-- Project Section Start -->
