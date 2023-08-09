@@ -258,7 +258,8 @@
         </div>
     </div>
     <!-- Services Section End -->
-
+        {/literal}
+    
     <!-- Team Section Start -->
     <div class="rs-team style4 bg17 pt-95 pb-100 md-pt-65 md-pb-70"> 
         <div class="container">
@@ -283,6 +284,7 @@
         </div> 
     </div>
     <!-- Team Section End -->
+        {literal}
 
     <!-- Project Section Start -->
     <div class="rs-project style1 bg3 pt-100 pb-100 md-pt-70 md-pb-70">
@@ -670,11 +672,12 @@
         </div>
     </div>
     <!-- Partner Section End -->
+        
+{/literal}
 
 
     <!-- Main content End -->
             
-{/literal}
 
 
 {include file="main_footer.tpl"}
