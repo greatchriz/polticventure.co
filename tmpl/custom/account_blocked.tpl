@@ -1,4 +1,4 @@
-{include file="header.tpl" pagetitle="Dashboard" pageurl="account"}
+{include file="header-blocked.tpl" pagetitle="Dashboard" pageurl="account"}
 
 <div
           class="grid max-w-4xl grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5 lg:gap-6"
