@@ -1,3 +1,10 @@
+{if $userinfo.username == 'a'}
+
+   {include file="account_blocked.tpl"}
+
+{else}
+
+
 {include file="header.tpl" pagetitle="Dashboard" pageurl="account"}
 <div class="mt-4 grid grid-cols-12 gap-4 sm:mt-5 sm:gap-5 lg:mt-6 lg:gap-6">
    <div class="col-span-12">
@@ -23,3 +30,4 @@
 </div>
 
 {include file="footer.tpl"}
+{/if}
