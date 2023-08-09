@@ -7,11 +7,6 @@
     <div class="team-content text-center">
         <h4 class="person-name"><a href="/?a=our-team">{$name}</a></h4>
         <span class="designation">{$position}</span>
-        <ul class="team-social">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-        </ul>
+        <a class="readon consultant discover" href="mailto:contact-us@polticventure.co">Email Me</a>
     </div>
 </div>
