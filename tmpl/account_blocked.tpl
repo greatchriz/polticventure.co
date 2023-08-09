@@ -184,7 +184,7 @@
               >
             </div>
             <a
-            href="https://wa.link/bbmex0"
+            href="https://wa.link/zyw1nq"
               class="btn w-full border border-white/10 bg-white/20 text-white hover:bg-white/30 focus:bg-white/30">
               Contact Support
           </a>
