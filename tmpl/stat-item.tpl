@@ -1,18 +1,16 @@
 <div class="blog-item">
     <div class="image-wrap">
-        <a href="#"><img src="assets/images/blog/1.jpg" alt="Blog"></a>
-        <ul class="post-categories">
-            <li><a href="blog-details.html">Branding</a></li>
-        </ul>
+        <a href="blog-details.html"><img src="assets/images/blog/1.jpg" alt="Blog"></a>
     </div>
     <div class="blog-content">
-        <ul class="blog-meta mb-10">
-            <li class="admin"> <i class="fa fa-user-o"></i> admin</li>
-            <li class="date"> <i class="fa fa-calendar-check-o"></i> 16 Aug 2021</li>
-        </ul>
-        <h3 class="blog-title"><a href="blog-details.html">Customer Onboarding Strategy: A Guide to
-                Class</a></h3>
-        <p>We denounce with righteous indige nation and dislike men who are so beguiled and demo...
-        </p>
+       <ul class="blog-meta">
+           <li class="date">25 Jan 2021</li>
+           <li class="admin"><a href="blog-details.html">Digital Marketing</a></li>
+       </ul>
+       <h3 class="blog-title"><a href="blog-details.html">7 Productivity tips to avoid burnout when working</a></h3>
+       <p class="desc">We denounce with righteous indige nation and dislike men who are so beguiled and demo...</p>
+       <div class="blog-btn">
+            <a class="readon consultant blog" href="blog-details.html">Read More</a>
+        </div>
     </div>
 </div>
