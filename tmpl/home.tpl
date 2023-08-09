@@ -261,8 +261,8 @@
         {/literal}
     
    <!-- Blog Start -->
-
-    {* <div id="rs-blog" class="rs-blog blog-main-home bg7 pt-100 pb-100 md-pt-70 md-pb-70">
+    
+    <div id="rs-blog" class="rs-blog blog-main-home bg7 pt-100 pb-100 md-pt-70 md-pb-70">
         <div class="container">  
             <div class="sec-title text-center mb-60 md-mb-40">
                 <h2 class="title title2">
@@ -279,7 +279,7 @@
 
             </div>
         </div>
-    </div> *}
+    </div>
     <!-- Blog End -->
 
 
