@@ -261,7 +261,10 @@
         {/literal}
     
    <!-- Blog Start -->
+<<<<<<< HEAD
     
+=======
+>>>>>>> parent of 1fa8d0e (Update home.tpl)
     <div id="rs-blog" class="rs-blog blog-main-home bg7 pt-100 pb-100 md-pt-70 md-pb-70">
         <div class="container">  
             <div class="sec-title text-center mb-60 md-mb-40">
