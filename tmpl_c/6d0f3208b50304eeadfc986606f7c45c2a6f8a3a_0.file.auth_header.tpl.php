@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-08-08 18:14:50
+<?php /* Smarty version 3.1.27, created on 2023-08-08 23:33:54
          compiled from "/home/dexfpheh/polticventure.co/tmpl/auth_header.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:171045151164d2861a9c4524_26635387%%*/
+/*%%SmartyHeaderCode:58328337564d2d0e2014db3_78538490%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,20 +9,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6d0f3208b50304eeadfc986606f7c45c2a6f8a3a' => 
     array (
       0 => '/home/dexfpheh/polticventure.co/tmpl/auth_header.tpl',
-      1 => 1691248222,
+      1 => 1691535957,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '171045151164d2861a9c4524_26635387',
+  'nocache_hash' => '58328337564d2d0e2014db3_78538490',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64d2861a9ca817_31535349',
+  'unifunc' => 'content_64d2d0e201b379_88879565',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64d2861a9ca817_31535349')) {
-function content_64d2861a9ca817_31535349 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_64d2d0e201b379_88879565')) {
+function content_64d2d0e201b379_88879565 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '171045151164d2861a9c4524_26635387';
+$_smarty_tpl->properties['nocache_hash'] = '58328337564d2d0e2014db3_78538490';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -125,20 +125,6 @@ $_smarty_tpl->properties['nocache_hash'] = '171045151164d2861a9c4524_26635387';
                     href=“https://www.smartsupp.com”
                     target=“_blank”
                 >Smartsupp</a></noscript>
-                
-                <!-- Google tag (gtag.js) -->
-<?php echo '<script'; ?>
- async src="https://www.googletagmanager.com/gtag/js?id=G-W311WTG5DY"><?php echo '</script'; ?>
->
-<?php echo '<script'; ?>
->
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-W311WTG5DY');
-<?php echo '</script'; ?>
->
         
     </head>
 

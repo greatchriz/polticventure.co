@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-08-06 22:18:40
+<?php /* Smarty version 3.1.27, created on 2023-08-08 23:30:26
          compiled from "my:admin_header" */ ?>
 <?php
-/*%%SmartyHeaderCode:139810988364d01c40240d02_91972016%%*/
+/*%%SmartyHeaderCode:206588261664d2d012035197_39110720%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '3bd9534807ff7b65596065df987a8276d1411829' => 
     array (
       0 => 'my:admin_header',
-      1 => 1691360320,
+      1 => 1691537426,
       2 => 'my',
     ),
   ),
-  'nocache_hash' => '139810988364d01c40240d02_91972016',
+  'nocache_hash' => '206588261664d2d012035197_39110720',
   'variables' => 
   array (
     'admin_arabic_direction' => 0,
@@ -22,13 +22,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64d01c40253050_35856703',
+  'unifunc' => 'content_64d2d0120d3cd1_04147949',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64d01c40253050_35856703')) {
-function content_64d01c40253050_35856703 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_64d2d0120d3cd1_04147949')) {
+function content_64d2d0120d3cd1_04147949 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '139810988364d01c40240d02_91972016';
+$_smarty_tpl->properties['nocache_hash'] = '206588261664d2d012035197_39110720';
 ?>
  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
 <html <?php if ($_smarty_tpl->tpl_vars['admin_arabic_direction']->value) {?>dir="rtl"<?php }?>> <head> <title>HYIP Manager Pro. Auto-payment, mass payment included.</title> <link href="images/adminstyle.css" rel="stylesheet" type="text/css"> <?php if ($_smarty_tpl->tpl_vars['settings']->value['admin_charset']) {?> <meta http-equiv="content-type" content="text/html; charset=<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['settings']->value['admin_charset'], ENT_QUOTES, 'UTF-8', true);?>

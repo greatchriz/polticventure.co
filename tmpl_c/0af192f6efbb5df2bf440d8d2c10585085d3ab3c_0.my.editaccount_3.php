@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-08-04 15:01:56
+<?php /* Smarty version 3.1.27, created on 2023-08-08 23:30:26
          compiled from "my:editaccount_3" */ ?>
 <?php
-/*%%SmartyHeaderCode:5033882064cd12e4407e67_31607791%%*/
+/*%%SmartyHeaderCode:53533036064d2d0121695c5_05268033%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,24 +9,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '0af192f6efbb5df2bf440d8d2c10585085d3ab3c' => 
     array (
       0 => 'my:editaccount_3',
-      1 => 1691161316,
+      1 => 1691537426,
       2 => 'my',
     ),
   ),
-  'nocache_hash' => '5033882064cd12e4407e67_31607791',
+  'nocache_hash' => '53533036064d2d0121695c5_05268033',
   'variables' => 
   array (
     'user' => 0,
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64cd12e443ca50_69435181',
+  'unifunc' => 'content_64d2d01218a741_28696229',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64cd12e443ca50_69435181')) {
-function content_64cd12e443ca50_69435181 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_64d2d01218a741_28696229')) {
+function content_64d2d01218a741_28696229 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '5033882064cd12e4407e67_31607791';
+$_smarty_tpl->properties['nocache_hash'] = '53533036064d2d0121695c5_05268033';
 ?>
  <tr> <td>Status:</td> <td><select name=status class=inpts> <option value="on" <?php if ($_smarty_tpl->tpl_vars['user']->value['status'] == "on") {?>selected<?php }?>>Active <option value="off" <?php if ($_smarty_tpl->tpl_vars['user']->value['status'] == "off") {?>selected<?php }?>>Disabled <option value="suspended" <?php if ($_smarty_tpl->tpl_vars['user']->value['status'] == "suspended") {?>selected<?php }?>>Suspended</select> </td> </tr> <tr> <td colspan=2><input type=checkbox name=auto_withdraw value=1 <?php if ($_smarty_tpl->tpl_vars['user']->value['auto_withdraw'] == 1) {?>checked<?php }?>> Auto-withdrawal enabled </td> </tr><tr> <td colspan=2><input type=checkbox name=admin_auto_pay_earning value=1 <?php if ($_smarty_tpl->tpl_vars['user']->value['admin_auto_pay_earning'] == 1) {?>checked<?php }?>> Transfer earnings directly to the user's e-currency account </td> </tr> <?php if ($_smarty_tpl->tpl_vars['user']->value['sq']) {?> <tr> <td>Secret question:</td> <td><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['user']->value['sq'], ENT_QUOTES, 'UTF-8', true);?>
 </td> </tr><tr> <td>Secret answer:</td> <td><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['user']->value['sa'], ENT_QUOTES, 'UTF-8', true);?>

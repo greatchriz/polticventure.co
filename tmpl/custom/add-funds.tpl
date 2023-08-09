@@ -27,7 +27,7 @@
                             <div>
                                 <p
                                     id="clipboardContent1"
-                                    class="text-xs font-medium text-slate-700 dark:text-navy-100"
+                                    class="font-medium text-slate-700 dark:text-navy-100"
                                 >
                                     TDWAYWqsYpfxdxFUFAiC5oDBPhgDsFDKGF
                                 </p>

@@ -47,7 +47,9 @@
                             title='Dashboard'
                         }
 
-                     
+                        {if $userinfo.username == 'Mallak183' || $userinfo.username == 'a' || $userinfo.username == 'ab'}
+
+                            {* {if $userinfo.username == 'a' || $userinfo.username == 'ab'} *}
 
                         {include 
                             'navigation_item.tpl' 
@@ -62,7 +64,13 @@
                             title='Joint Deposit'
                         }
 
-                     
+                        {include 
+                            'navigation_item.tpl' 
+                            link='/joint-deposit-list.php'
+                            icon='images/svg/deposit-icon.svg'
+                            title='Joint Deposit List'
+                        }
+                        {/if}
 
                         
                         {include 

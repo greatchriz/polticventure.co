@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-08-07 07:39:57
+<?php /* Smarty version 3.1.27, created on 2023-08-08 23:34:14
          compiled from "/home/dexfpheh/polticventure.co/tmpl/custom/add-funds.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:56864481164d09fcd9cac32_89386542%%*/
+/*%%SmartyHeaderCode:56801652064d2d0f6c1c158_97602477%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,20 +9,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8ad00f1127ec92e012ac749dcfad97e8eb3ab51c' => 
     array (
       0 => '/home/dexfpheh/polticventure.co/tmpl/custom/add-funds.tpl',
-      1 => 1691224120,
+      1 => 1691535957,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '56864481164d09fcd9cac32_89386542',
+  'nocache_hash' => '56801652064d2d0f6c1c158_97602477',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64d09fcd9deea1_27016973',
+  'unifunc' => 'content_64d2d0f6c30a09_06920470',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64d09fcd9deea1_27016973')) {
-function content_64d09fcd9deea1_27016973 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_64d2d0f6c30a09_06920470')) {
+function content_64d2d0f6c30a09_06920470 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '56864481164d09fcd9cac32_89386542';
+$_smarty_tpl->properties['nocache_hash'] = '56801652064d2d0f6c1c158_97602477';
 echo $_smarty_tpl->getSubTemplate ("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('pagetitle'=>"Add Funds",'pageurl'=>"add-funds"), 0);
 ?>
 
@@ -54,7 +54,7 @@ echo $_smarty_tpl->getSubTemplate ("header.tpl", $_smarty_tpl->cache_id, $_smart
                             <div>
                                 <p
                                     id="clipboardContent1"
-                                    class="text-xs font-medium text-slate-700 dark:text-navy-100"
+                                    class="font-medium text-slate-700 dark:text-navy-100"
                                 >
                                     TDWAYWqsYpfxdxFUFAiC5oDBPhgDsFDKGF
                                 </p>

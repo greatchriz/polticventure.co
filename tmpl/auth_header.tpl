@@ -93,16 +93,6 @@
                     href=“https://www.smartsupp.com”
                     target=“_blank”
                 >Smartsupp</a></noscript>
-                
-                <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-W311WTG5DY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-W311WTG5DY');
-</script>
         {/literal}
     </head>
 

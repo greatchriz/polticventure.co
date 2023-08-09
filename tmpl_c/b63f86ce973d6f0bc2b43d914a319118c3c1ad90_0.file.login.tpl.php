@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-08-08 18:14:50
+<?php /* Smarty version 3.1.27, created on 2023-08-08 23:33:53
          compiled from "/home/dexfpheh/polticventure.co/tmpl/login.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:164758903564d2861a996300_80816733%%*/
+/*%%SmartyHeaderCode:104438491564d2d0e1f282d4_45279640%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -13,21 +13,21 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '164758903564d2861a996300_80816733',
+  'nocache_hash' => '104438491564d2d0e1f282d4_45279640',
   'variables' => 
   array (
     'frm' => 0,
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64d2861a9be660_74007978',
+  'unifunc' => 'content_64d2d0e200e9f7_74094735',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64d2861a9be660_74007978')) {
-function content_64d2861a9be660_74007978 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_64d2d0e200e9f7_74094735')) {
+function content_64d2d0e200e9f7_74094735 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_myescape')) require_once '/home/dexfpheh/polticventure.co/inc/libs/smarty3/plugins/modifier.myescape.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '164758903564d2861a996300_80816733';
+$_smarty_tpl->properties['nocache_hash'] = '104438491564d2d0e1f282d4_45279640';
 echo $_smarty_tpl->getSubTemplate ("auth_header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
 ?>
 

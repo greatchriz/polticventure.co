@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-08-04 15:00:52
+<?php /* Smarty version 3.1.27, created on 2023-08-08 23:28:30
          compiled from "my:addmember" */ ?>
 <?php
-/*%%SmartyHeaderCode:85021361464cd12a4a4d037_64983174%%*/
+/*%%SmartyHeaderCode:180495015564d2cf9e75ed89_85838625%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '20287eb473d92061799273215f4ab31f635d6945' => 
     array (
       0 => 'my:addmember',
-      1 => 1691161252,
+      1 => 1691537310,
       2 => 'my',
     ),
   ),
-  'nocache_hash' => '85021361464cd12a4a4d037_64983174',
+  'nocache_hash' => '180495015564d2cf9e75ed89_85838625',
   'variables' => 
   array (
     'frm' => 0,
@@ -24,13 +24,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64cd12a4a69dd8_07890176',
+  'unifunc' => 'content_64d2cf9e77c155_73107186',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64cd12a4a69dd8_07890176')) {
-function content_64cd12a4a69dd8_07890176 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_64d2cf9e77c155_73107186')) {
+function content_64d2cf9e77c155_73107186 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '85021361464cd12a4a4d037_64983174';
+$_smarty_tpl->properties['nocache_hash'] = '180495015564d2cf9e75ed89_85838625';
 ?>
 <b>Add A New Member Account:</b><br> <br> <table cellspacing=0 cellpadding=2 border=0 width=100<?php echo '%>';?><tr><td valign=top> <form method=post name="regform"> <input type=hidden name=a value="editaccount"> <input type=hidden name=action value="editaccount"> <input type=hidden name=id value="0"> <table cellspacing=0 cellpadding=2 border=0> <tr> <td>Status:</td> <td> <select name=status class=inpts> <option value="on" selected>Active</option> <option value="off">Disabled</option> <option value="suspended">Suspended</option> </select> </td> </tr> <tr> <td>Full name:</td> <td><input type=text name=fullname value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['frm']->value['fullname'], ENT_QUOTES, 'UTF-8', true);?>
 " class=inpts size=30></td> </tr><tr> <td>Username:</td> <td><input type=text name=username value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['frm']->value['username'], ENT_QUOTES, 'UTF-8', true);?>

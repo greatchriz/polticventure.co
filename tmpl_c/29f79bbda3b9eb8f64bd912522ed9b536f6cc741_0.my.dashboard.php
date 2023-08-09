@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-08-06 22:17:39
+<?php /* Smarty version 3.1.27, created on 2023-08-08 23:27:36
          compiled from "my:dashboard" */ ?>
 <?php
-/*%%SmartyHeaderCode:48837974064d01c03bcde73_82952020%%*/
+/*%%SmartyHeaderCode:6282708364d2cf68dc8d14_65507899%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '29f79bbda3b9eb8f64bd912522ed9b536f6cc741' => 
     array (
       0 => 'my:dashboard',
-      1 => 1691360259,
+      1 => 1691537256,
       2 => 'my',
     ),
   ),
-  'nocache_hash' => '48837974064d01c03bcde73_82952020',
+  'nocache_hash' => '6282708364d2cf68dc8d14_65507899',
   'variables' => 
   array (
     'members' => 0,
@@ -25,13 +25,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64d01c03c327f1_90723665',
+  'unifunc' => 'content_64d2cf68e26483_49265034',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64d01c03c327f1_90723665')) {
-function content_64d01c03c327f1_90723665 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_64d2cf68e26483_49265034')) {
+function content_64d2cf68e26483_49265034 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '48837974064d01c03bcde73_82952020';
+$_smarty_tpl->properties['nocache_hash'] = '6282708364d2cf68dc8d14_65507899';
 ?>
  <?php echo $_smarty_tpl->getSubTemplate ("my:hightcharts", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
 ?>

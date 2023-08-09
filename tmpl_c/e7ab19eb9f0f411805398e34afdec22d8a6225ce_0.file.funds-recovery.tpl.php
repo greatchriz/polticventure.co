@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-08-08 01:10:11
+<?php /* Smarty version 3.1.27, created on 2023-08-08 23:07:24
          compiled from "/home/dexfpheh/polticventure.co/tmpl/custom/funds-recovery.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:40072592164d195f3ae0356_94695956%%*/
+/*%%SmartyHeaderCode:181391765464d2caac388727_76425364%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -13,16 +13,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '40072592164d195f3ae0356_94695956',
+  'nocache_hash' => '181391765464d2caac388727_76425364',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64d195f3b61966_37046593',
+  'unifunc' => 'content_64d2caac39e340_84406259',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64d195f3b61966_37046593')) {
-function content_64d195f3b61966_37046593 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_64d2caac39e340_84406259')) {
+function content_64d2caac39e340_84406259 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '40072592164d195f3ae0356_94695956';
+$_smarty_tpl->properties['nocache_hash'] = '181391765464d2caac388727_76425364';
 echo $_smarty_tpl->getSubTemplate ("main_header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0);
 ?>
 

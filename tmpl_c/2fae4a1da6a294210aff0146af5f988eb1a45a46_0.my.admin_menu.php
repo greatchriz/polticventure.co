@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-08-06 22:18:40
+<?php /* Smarty version 3.1.27, created on 2023-08-08 23:30:26
          compiled from "my:admin_menu" */ ?>
 <?php
-/*%%SmartyHeaderCode:58109233964d01c40263753_18438068%%*/
+/*%%SmartyHeaderCode:132151345364d2d0120e7409_27460832%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,24 +9,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2fae4a1da6a294210aff0146af5f988eb1a45a46' => 
     array (
       0 => 'my:admin_menu',
-      1 => 1691360320,
+      1 => 1691537426,
       2 => 'my',
     ),
   ),
-  'nocache_hash' => '58109233964d01c40263753_18438068',
+  'nocache_hash' => '132151345364d2d0120e7409_27460832',
   'variables' => 
   array (
     'admin_menu' => 0,
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64d01c40276ec4_53350376',
+  'unifunc' => 'content_64d2d0120f3709_99684107',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64d01c40276ec4_53350376')) {
-function content_64d01c40276ec4_53350376 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_64d2d0120f3709_99684107')) {
+function content_64d2d0120f3709_99684107 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '58109233964d01c40263753_18438068';
+$_smarty_tpl->properties['nocache_hash'] = '132151345364d2d0120e7409_27460832';
 ?>
  <table cellspacing=0 cellpadding=2 border=0 width="172"> <tr> <th colspan=2><img src=images/q.gif width=1 height=3></th> </tr> <tr> <th colspan=2 class=title>Menu</th> </tr> <tr> <td class=menutxt><a href=?a=rates>Investment Packages</a></td> </tr> <?php echo $_smarty_tpl->getSubTemplate ("my:admin_menu_section", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('section'=>$_smarty_tpl->tpl_vars['admin_menu']->value['hyip']), 0);
 ?>

@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-08-07 07:39:51
+<?php /* Smarty version 3.1.27, created on 2023-08-08 23:34:06
          compiled from "/home/dexfpheh/polticventure.co/tmpl/cards/balance.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:60160398564d09fc7b24688_27251594%%*/
+/*%%SmartyHeaderCode:35592561864d2d0ee7213a1_10525203%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -13,7 +13,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '60160398564d09fc7b24688_27251594',
+  'nocache_hash' => '35592561864d2d0ee7213a1_10525203',
   'variables' => 
   array (
     'total_balance' => 0,
@@ -22,14 +22,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64d09fc7b2aeb0_58191063',
+  'unifunc' => 'content_64d2d0ee728188_04931366',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64d09fc7b2aeb0_58191063')) {
-function content_64d09fc7b2aeb0_58191063 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_64d2d0ee728188_04931366')) {
+function content_64d2d0ee728188_04931366 ($_smarty_tpl) {
 if (!is_callable('smarty_modifier_myescape')) require_once '/home/dexfpheh/polticventure.co/inc/libs/smarty3/plugins/modifier.myescape.php';
 
-$_smarty_tpl->properties['nocache_hash'] = '60160398564d09fc7b24688_27251594';
+$_smarty_tpl->properties['nocache_hash'] = '35592561864d2d0ee7213a1_10525203';
 ?>
 <div class="card bg-gradient-to-br from-purple-500 to-indigo-600 px-4 pb-4 sm:px-5">
     <div class="flex items-center justify-between py-3 text-white">

@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-08-08 22:28:25
+<?php /* Smarty version 3.1.27, created on 2023-08-08 23:33:37
          compiled from "/home/dexfpheh/polticventure.co/tmpl/main_header.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:26071726664d2c18918b4f7_01988004%%*/
+/*%%SmartyHeaderCode:205350323064d2d0d124f372_35277362%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,20 +9,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '709cd43b8cb964e9c8d609cb592bb944bc49e8ea' => 
     array (
       0 => '/home/dexfpheh/polticventure.co/tmpl/main_header.tpl',
-      1 => 1691249377,
+      1 => 1691535957,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '26071726664d2c18918b4f7_01988004',
+  'nocache_hash' => '205350323064d2d0d124f372_35277362',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64d2c1891a00b3_84798579',
+  'unifunc' => 'content_64d2d0d126eae4_19835424',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64d2c1891a00b3_84798579')) {
-function content_64d2c1891a00b3_84798579 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_64d2d0d126eae4_19835424')) {
+function content_64d2d0d126eae4_19835424 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '26071726664d2c18918b4f7_01988004';
+$_smarty_tpl->properties['nocache_hash'] = '205350323064d2d0d124f372_35277362';
 ?>
 <!DOCTYPE html>
 <html lang="zxx">
@@ -147,20 +147,6 @@ window.smartsupp||(function(d) {
 <?php echo '</script'; ?>
 >
 <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
-
-<!-- Google tag (gtag.js) -->
-<?php echo '<script'; ?>
- async src="https://www.googletagmanager.com/gtag/js?id=G-W311WTG5DY"><?php echo '</script'; ?>
->
-<?php echo '<script'; ?>
->
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-W311WTG5DY');
-<?php echo '</script'; ?>
->
         
         
 

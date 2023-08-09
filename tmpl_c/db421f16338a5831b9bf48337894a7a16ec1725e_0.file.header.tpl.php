@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-08-07 07:39:57
+<?php /* Smarty version 3.1.27, created on 2023-08-08 23:34:21
          compiled from "/home/dexfpheh/polticventure.co/tmpl/header.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:36670986064d09fcd9e4342_03370114%%*/
+/*%%SmartyHeaderCode:167705584464d2d0fd7e4f43_97687916%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,24 +9,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'db421f16338a5831b9bf48337894a7a16ec1725e' => 
     array (
       0 => '/home/dexfpheh/polticventure.co/tmpl/header.tpl',
-      1 => 1691249390,
+      1 => 1691535957,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '36670986064d09fcd9e4342_03370114',
+  'nocache_hash' => '167705584464d2d0fd7e4f43_97687916',
   'variables' => 
   array (
     'pagetitle' => 0,
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64d09fcd9ee488_27307892',
+  'unifunc' => 'content_64d2d0fd7ee519_11206564',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64d09fcd9ee488_27307892')) {
-function content_64d09fcd9ee488_27307892 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_64d2d0fd7ee519_11206564')) {
+function content_64d2d0fd7ee519_11206564 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '36670986064d09fcd9e4342_03370114';
+$_smarty_tpl->properties['nocache_hash'] = '167705584464d2d0fd7e4f43_97687916';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -96,37 +96,6 @@ $_smarty_tpl->properties['nocache_hash'] = '36670986064d09fcd9e4342_03370114';
         document.documentElement.classList.add("dark");
     <?php echo '</script'; ?>
 >
-    
-    
-            <!-- Smartsupp Live Chat script -->
-<?php echo '<script'; ?>
- type="text/javascript">
-var _smartsupp = _smartsupp || {};
-_smartsupp.key = 'a97bcec3b0545c63429a968770cce494447efbf1';
-window.smartsupp||(function(d) {
-  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-  c.type='text/javascript';c.charset='utf-8';c.async=true;
-  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-})(document);
-<?php echo '</script'; ?>
->
-<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
-
-<!-- Google tag (gtag.js) -->
-<?php echo '<script'; ?>
- async src="https://www.googletagmanager.com/gtag/js?id=G-W311WTG5DY"><?php echo '</script'; ?>
->
-<?php echo '<script'; ?>
->
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-W311WTG5DY');
-<?php echo '</script'; ?>
->
-        
   </head>
 
   <body

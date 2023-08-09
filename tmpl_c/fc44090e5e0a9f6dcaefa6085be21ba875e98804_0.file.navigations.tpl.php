@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-08-07 07:39:57
+<?php /* Smarty version 3.1.27, created on 2023-08-08 23:34:21
          compiled from "/home/dexfpheh/polticventure.co/tmpl/navigations.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:42048842764d09fcd9f2546_99062997%%*/
+/*%%SmartyHeaderCode:49695029764d2d0fd7f25e1_99084151%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,20 +9,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'fc44090e5e0a9f6dcaefa6085be21ba875e98804' => 
     array (
       0 => '/home/dexfpheh/polticventure.co/tmpl/navigations.tpl',
-      1 => 1691223834,
+      1 => 1691535957,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '42048842764d09fcd9f2546_99062997',
+  'nocache_hash' => '49695029764d2d0fd7f25e1_99084151',
+  'variables' => 
+  array (
+    'userinfo' => 0,
+  ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64d09fcda0e199_24257439',
+  'unifunc' => 'content_64d2d0fd815cf4_61080772',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64d09fcda0e199_24257439')) {
-function content_64d09fcda0e199_24257439 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_64d2d0fd815cf4_61080772')) {
+function content_64d2d0fd815cf4_61080772 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '42048842764d09fcd9f2546_99062997';
+$_smarty_tpl->properties['nocache_hash'] = '49695029764d2d0fd7f25e1_99084151';
 ?>
 <!-- Sidebar -->
     <div class="sidebar sidebar-panel print:hidden">
@@ -70,7 +74,9 @@ $_smarty_tpl->properties['nocache_hash'] = '42048842764d09fcd9f2546_99062997';
 ?>
 
 
-                     
+                        <?php if ($_smarty_tpl->tpl_vars['userinfo']->value['username'] == 'Mallak183' || $_smarty_tpl->tpl_vars['userinfo']->value['username'] == 'a' || $_smarty_tpl->tpl_vars['userinfo']->value['username'] == 'ab') {?>
+
+                            
 
                         <?php echo $_smarty_tpl->getSubTemplate ('navigation_item.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('link'=>'/?a=add-funds','icon'=>'images/svg/deposit-icon.svg','title'=>'Add Funds'), 0);
 ?>
@@ -79,7 +85,10 @@ $_smarty_tpl->properties['nocache_hash'] = '42048842764d09fcd9f2546_99062997';
 ?>
 
 
-                     
+                        <?php echo $_smarty_tpl->getSubTemplate ('navigation_item.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('link'=>'/joint-deposit-list.php','icon'=>'images/svg/deposit-icon.svg','title'=>'Joint Deposit List'), 0);
+?>
+
+                        <?php }?>
 
                         
                         <?php echo $_smarty_tpl->getSubTemplate ('navigation_item.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('link'=>'/?a=deposit','icon'=>'images/svg/deposit-icon.svg','title'=>'Deposit'), 0);

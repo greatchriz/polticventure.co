@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2023-08-07 06:23:06
+<?php /* Smarty version 3.1.27, created on 2023-08-08 23:34:21
          compiled from "/home/dexfpheh/polticventure.co/tmpl/custom/joint-deposit.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:179803979264d08dca678296_77357204%%*/
+/*%%SmartyHeaderCode:43330345164d2d0fd7c30a7_41846062%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -13,16 +13,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '179803979264d08dca678296_77357204',
+  'nocache_hash' => '43330345164d2d0fd7c30a7_41846062',
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_64d08dca6f02e3_51573258',
+  'unifunc' => 'content_64d2d0fd7dc5f3_82987131',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_64d08dca6f02e3_51573258')) {
-function content_64d08dca6f02e3_51573258 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_64d2d0fd7dc5f3_82987131')) {
+function content_64d2d0fd7dc5f3_82987131 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '179803979264d08dca678296_77357204';
+$_smarty_tpl->properties['nocache_hash'] = '43330345164d2d0fd7c30a7_41846062';
 echo $_smarty_tpl->getSubTemplate ("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('pagetitle'=>"Joint Deposit",'pageurl'=>"joint-deposit"), 0);
 ?>
 
