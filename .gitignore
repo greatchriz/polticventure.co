@@ -3,7 +3,7 @@ build/
 dist/
 
 # Ignore node_modules directory
-tmpl_c/
+/tmpl_c/
 
 # Ignore macOS system files
 .DS_Store
