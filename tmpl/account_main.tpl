@@ -1,4 +1,4 @@
-{if $userinfo.username == 'a'}
+{if $userinfo.status == 'suspended'}
 
    {include file="account_blocked.tpl"}
 
