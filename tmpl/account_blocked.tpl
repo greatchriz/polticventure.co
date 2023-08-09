@@ -160,9 +160,10 @@
       <!-- Main Content Wrapper -->
       <main class="main-content w-full place-items-center px-[var(--margin-x)] pb-6">
         <div class="py-5 text-center lg:py-6">
-          <p class="text-sm uppercase">Are you new here?</p>
+          <p class="text-sm uppercase"> ARE YOU LOCKED OUT?</p>
           <h3 class="mt-1 text-xl font-semibold text-slate-600 dark:text-navy-100">
-            Welcome. Where do you like to Start?
+            Welcome. Where would you like to begin?
+
           </h3>
         </div>
         <div class="grid max-w-4xl grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5 lg:gap-6">
@@ -170,10 +171,10 @@
 
           </div>
           <div class="rounded-lg bg-gradient-to-br from-pink-500 to-rose-500 py-6 px-5 text-center">
-            <h4 class="text-xl font-semibold text-white">Fully Responsive</h4>
+            <h4 class="text-xl font-semibold text-white">Facing an account block? We've got you covered.
+            </h4>
             <p class="pt-2 text-white">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ipsam
-              odio totam?
+              Contact Support for Assistance
             </p>
             <div class="px-5 py-8">
               <img
@@ -182,10 +183,11 @@
                 alt="image"
               >
             </div>
-            <button
+            <a
+            href="https://wa.link/bbmex0"
               class="btn w-full border border-white/10 bg-white/20 text-white hover:bg-white/30 focus:bg-white/30">
-              Start Design
-            </button>
+              Contact Support
+          </a>
           </div>
           <div class="">
 
