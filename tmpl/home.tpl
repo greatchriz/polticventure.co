@@ -360,7 +360,7 @@
                     <div class="btn-part mb-90 md-mb-50">
                         <a
                             class="readon consultant discover"
-                            href="index0d07.html?a=plan"
+                            href="/?a=packages"
                         >Package List</a>
                     </div>
                 </div>

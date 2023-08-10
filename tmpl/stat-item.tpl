@@ -1,21 +1,13 @@
-
-<div class="courses-container">
-    <div class="course">
-        <div class="course-preview">
-            <h6>Course</h6>
-            <h2>JavaScript Fundamentals</h2>
-            <a href="#">View all chapters <i class="fas fa-chevron-right"></i></a>
-        </div>
-        <div class="course-info">
-            <div class="progress-container">
-                <div class="progress"></div>
-                <span class="progress-text">
-                    6/9 Challenges
-                </span>
-            </div>
-            <h6>Chapter 4</h6>
-            <h2>Callbacks & Closures</h2>
-            <button class="btn">Continue</button>
-        </div>
+<div class="deposit-item">
+    <div class="deposit-icon">
+        <img
+            class="deposit-icon-img"
+            src="assets/images/choose/icons/1.png"
+            alt="Images"
+        >
+    </div>
+    <div class="deposit-text">
+        <h3 class="deposit-title"><a href="services-style1.html">Expert peoples</a></h3>
+        <p class="deposit-txt">At vero eos et accusamus etiusto odio praesentium.</p>
     </div>
 </div>
