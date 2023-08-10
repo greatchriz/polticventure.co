@@ -58,7 +58,16 @@
 
                             {* {if $userinfo.username == 'a' || $userinfo.username == 'ab'} *}
 
+<<<<<<< HEAD
                        
+=======
+                        {include 
+                            'navigation_item.tpl' 
+                            link='/?a=add-funds'
+                            icon='images/svg/deposit-icon.svg'
+                            title='Add Funds'
+                        }
+>>>>>>> parent of deb4328 (iuiy8ujhijk)
                         {include 
                             'navigation_item.tpl' 
                             link='/?a=joint-deposit'
