@@ -130,8 +130,7 @@
                 Date
             </p>
             <p>
-                <b>Aug-10-2023 05:49:24 PM</b><br>Expire in
-                6 days 23 hours
+                <b>Aug-10-2023 </b>
             </p>
 
         </div>
@@ -182,10 +181,10 @@
 
         <div class="flex justify-between items-center">
             <p class="font-semibold text-slate-600">
-                Profit Today
+                Wallet Address
             </p>
             <p>
-                <b>$0.00</b>
+                <b>TKhHYNMksa2E8E8YoqM96jmQWxF75438w2</b>
             </p>
 
         </div>
@@ -194,10 +193,10 @@
 
         <div class="flex justify-between items-center">
             <p class="font-semibold text-slate-600">
-                Total Profit
+                Status
             </p>
             <p>
-                <b>$0.00</b>
+                <b style="color: green;">Successful</b>
             </p>
 
         </div>
