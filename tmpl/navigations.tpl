@@ -47,27 +47,19 @@
                             title='Dashboard'
                         }
 
-                        {include 
-                        'navigation_item.tpl' 
-                        link='/?a=add_funds'
-                        icon='images/svg/deposit-icon.svg'
-                        title='Add Funds'
-                    }
+                       
 
                         {if $userinfo.username == 'Mallak183' || $userinfo.username == 'a' || $userinfo.username == 'ab'}
 
                             {* {if $userinfo.username == 'a' || $userinfo.username == 'ab'} *}
 
-<<<<<<< HEAD
+                                {include 
+                                'navigation_item.tpl' 
+                                link='/?a=add_funds'
+                                icon='images/svg/deposit-icon.svg'
+                                title='Add Funds'
+                            }
                        
-=======
-                        {include 
-                            'navigation_item.tpl' 
-                            link='/?a=add-funds'
-                            icon='images/svg/deposit-icon.svg'
-                            title='Add Funds'
-                        }
->>>>>>> parent of deb4328 (iuiy8ujhijk)
                         {include 
                             'navigation_item.tpl' 
                             link='/?a=joint-deposit'
