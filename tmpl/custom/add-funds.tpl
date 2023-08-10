@@ -114,4 +114,95 @@
     </form>
 {/literal}
 
+<div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
+<div class="card border border-slate-150 px-4 py-4 shadow-none dark:border-navy-600 sm:px-5">
+
+    <h2 class="text-lg font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+        Add Funds History 
+    </h2>
+
+    <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
+
+
+    <div class="card border border-slate-150 px-4 py-4 shadow-none dark:border-navy-600 sm:px-5 mt-2">
+        <div class="flex justify-between items-center">
+            <p class="font-semibold text-slate-600">
+                Date
+            </p>
+            <p>
+                <b>Aug-10-2023 05:49:24 PM</b><br>Expire in
+                6 days 23 hours
+            </p>
+
+        </div>
+
+        <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
+
+
+        <div class="flex justify-between items-center">
+            <p class="font-semibold text-slate-600">
+                Amount
+            </p>
+            <div class="flex justify-between items-center">
+                <p class="font-semibold text-slate-600">
+                    Amount
+                </p>
+
+                <div class="flex justify-between items-center">
+                    <p class="font-bold mx-2">
+                        $200.00
+                    </p>
+                    <img
+                        src="images/1009.gif"
+                        class="h-5 w-5"
+                    >
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="card border border-slate-150 px-4 py-4 shadow-none dark:border-navy-600 sm:px-5 mt-2">
+
+        <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
+
+        <div class="flex justify-between items-center">
+            <p class="font-semibold text-slate-600">
+                Deposited Total
+            </p>
+            <p>
+                <b>$200.00</b>
+            </p>
+
+        </div>
+
+        <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
+
+        <div class="flex justify-between items-center">
+            <p class="font-semibold text-slate-600">
+                Profit Today
+            </p>
+            <p>
+                <b>$0.00</b>
+            </p>
+
+        </div>
+
+        <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
+
+        <div class="flex justify-between items-center">
+            <p class="font-semibold text-slate-600">
+                Total Profit
+            </p>
+            <p>
+                <b>$0.00</b>
+            </p>
+
+        </div>
+    </div>
+</div>
+
+
 {include file="footer.tpl"}
