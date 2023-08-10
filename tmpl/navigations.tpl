@@ -53,7 +53,7 @@
 
                         {include 
                             'navigation_item.tpl' 
-                            link='/?a=add-funds'
+                            link='/?a=add_funds'
                             icon='images/svg/deposit-icon.svg'
                             title='Add Funds'
                         }
