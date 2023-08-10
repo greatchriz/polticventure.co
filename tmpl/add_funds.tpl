@@ -1,4 +1,4 @@
-{include file="header.tpl" pagetitle="Add Funds" pageurl="add_funds"}
+{include file="header.tpl"}
 
 {if $frm.say eq 'deposit_success'}
 <h3>The deposit has been successfully saved.</h3>
