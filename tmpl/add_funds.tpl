@@ -47,6 +47,10 @@
 
 
  <div class="grid grid-cols-1 gap-4 sm:gap-5 lg:gap-6">
+  <div class="card px-4 pb-4 sm:px-5">
+    <div class="mt-5 space-y-4">
+      
+
    <div>
      <span>How Much are you Investing ?</span>
      <label class="mt-1 flex -space-x-px">
@@ -85,7 +89,9 @@
 
       {/if}
    {/section}
+  </div>
 
+  </div>
    
  </div>
 
