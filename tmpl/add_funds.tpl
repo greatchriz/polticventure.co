@@ -81,8 +81,7 @@
               class="form-radio is-basic h-5 w-5 rounded-full border-slate-400/70 checked:border-primary checked:bg-primary hover:border-primary focus:border-primary dark:border-navy-400 dark:checked:border-accent dark:checked:bg-accent dark:hover:border-accent dark:focus:border-accent"
               type="radio"
               name=type value="process_{$ps[p].id}" {if $smarty.section.p.index == 0}checked{/if}>
-            />
-            <p>Spend funds from {$ps[p].name}</p>
+            <p>Pay with {$ps[p].name}</p>
           </label>
 
          </div>
