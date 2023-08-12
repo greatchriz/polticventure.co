@@ -55,7 +55,7 @@
                         Total Amount
                     </p>
                     <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
-                        500.00$
+                        $500.00
                     </p>
                 </div>
                 <div>
@@ -63,7 +63,7 @@
                         Paid Amount
                     </p>
                     <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
-                        500.00$
+                        $500.00
                     </p>
                 </div>
                 <div>
@@ -71,7 +71,7 @@
                         Remaining Balance
                     </p>
                     <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
-                        0.00$
+                        $0.00
                     </p>
                 </div>
             </div>
@@ -100,10 +100,10 @@
                         <span class="text-right font-medium text-slate-700 dark:text-navy-100">Mallak183</span>
                     </div>
                     <div class="font-inter">
-                        <span class="text-right font-medium text-slate-700 dark:text-navy-100">200$</span>
+                        <span class="text-right font-medium text-slate-700 dark:text-navy-100">$200.00</span>
                     </div>
                     <div class="font-inter">
-                        <span class="text-right font-medium text-success dark:text-success">Completed</span>
+                        <span class="text-right font-medium text-warning dark:text-warning">Completed</span>
                     </div>
                 </div>
 
@@ -132,7 +132,7 @@
                         <span class="text-right font-medium text-slate-700 dark:text-navy-100">Dreahimself08</span>
                     </div>
                     <div class="font-inter">
-                        <span class="text-right font-medium text-slate-700 dark:text-navy-100">300$</span>
+                        <span class="text-right font-medium text-slate-700 dark:text-navy-100">$300.00</span>
                     </div>
                     <div class="font-inter">
                         <span class="text-right font-medium text-success dark:text-success">Completed</span>
