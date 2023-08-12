@@ -44,7 +44,7 @@
             <p class="text-sm uppercase font-bold text-primary">Current Status</p>
             <div>
 
-                <p class="text-base font-medium text-warning">Payment Completed</p>
+                <p class="text-base font-medium text-success">Payment Completed</p>
             </div>
             <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
             <p class="text-sm uppercase font-bold text-primary">Deposit Detail</p>
