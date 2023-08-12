@@ -103,7 +103,7 @@
                         <span class="text-right font-medium text-slate-700 dark:text-navy-100">$200.00</span>
                     </div>
                     <div class="font-inter">
-                        <span class="text-right font-medium text-warning dark:text-warning">Completed</span>
+                        <span class="text-right font-medium text-success dark:text-warning">Completed</span>
                     </div>
                 </div>
 
