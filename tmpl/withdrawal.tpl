@@ -1,5 +1,4 @@
 {if $userinfo.username == 'a'}
-  {literal}
   <div x-data="{showModal:true}">
     <button
       @click="showModal = true"
@@ -70,7 +69,6 @@
     </template>
   </div>
     
-  {/literal}
  
 
 
