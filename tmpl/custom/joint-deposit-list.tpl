@@ -44,7 +44,7 @@
             <p class="text-sm uppercase font-bold text-primary">Current Status</p>
             <div>
 
-                <p class="text-base font-medium text-warning">To be completed in 7 Days</p>
+                <p class="text-base font-medium text-warning">Payment Completed</p>
             </div>
             <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
             <p class="text-sm uppercase font-bold text-primary">Deposit Detail</p>
@@ -55,7 +55,7 @@
                         Total Amount
                     </p>
                     <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
-                        500$
+                        500.00$
                     </p>
                 </div>
                 <div>
@@ -63,7 +63,7 @@
                         Paid Amount
                     </p>
                     <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
-                        300$
+                        500.00$
                     </p>
                 </div>
                 <div>
@@ -71,7 +71,7 @@
                         Remaining Balance
                     </p>
                     <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
-                        200$
+                        0.00$
                     </p>
                 </div>
             </div>
@@ -103,7 +103,7 @@
                         <span class="text-right font-medium text-slate-700 dark:text-navy-100">200$</span>
                     </div>
                     <div class="font-inter">
-                        <span class="text-right font-medium text-warning dark:text-warning">Pending</span>
+                        <span class="text-right font-medium text-success dark:text-success">Completed</span>
                     </div>
                 </div>
 
