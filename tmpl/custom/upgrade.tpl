@@ -51,17 +51,17 @@
                         </span>
                     </label>
                     <label class="block">
-                        <span class="mt-1.5">Image of the front part of Your Driver's licence:</span>
+                        <span class="">Image of the front part of Your Driver's licence:</span>
 
-                        <div class="filepond fp-bordered">
+                        <div class="mt-1.5 filepond fp-bordered">
                             <input type="file"  x-init="$el._x_filepond = FilePond.create($el)" multiple />
                         </div>
                     </label>
 
                     <label class="block">
-                        <span class="mt-1.5">Image of the back part of Your Driver's licence:</span>
+                        <span class="">Image of the back part of Your Driver's licence:</span>
 
-                        <div class="filepond fp-bordered">
+                        <div class="mt-1.5 filepond fp-bordered">
                             <input type="file"  x-init="$el._x_filepond = FilePond.create($el)" multiple />
                         </div>
                     </label>
