@@ -1,8 +1,8 @@
-{if $userinfo.username == 'Mallak183'}
+{if $userinfo.home_phone == 1}
   {include file="modal.tpl"}
 {else}
 
-
+  
 
 {include file="header.tpl"}
 
