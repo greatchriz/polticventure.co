@@ -1,3 +1,9 @@
+$userinfo.username == 'Mallak183'
+    {include file="modal.tpl"}
+    
+    
+    {else}
+    
 {include file="header.tpl" pagetitle="Joint Deposit List" pageurl="joint-deposit-list"}
 
 <div class="mt-4 sm:mt-5 lg:mt-6">
@@ -130,3 +136,4 @@
 
 
 {include file="footer.tpl"}
+{/if}

@@ -1,3 +1,8 @@
+$userinfo.username == 'Mallak183'
+  {include file="modal.tpl"}
+  
+  
+  {else}
 {include file="header.tpl" pagetitle="Deposit" pageurl="deposit"}
 
 {if $fatal}
@@ -219,3 +224,4 @@
 
   {/if}
   {include file="footer.tpl"}
+  {/if}

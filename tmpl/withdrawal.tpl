@@ -1,4 +1,4 @@
-{if $userinfo.username == 'a'}
+$userinfo.username == 'Mallak183'
 {include file="modal.tpl"}
 
 
@@ -357,3 +357,5 @@
 {include file="footer.tpl"}
 
 {/if}
+
+

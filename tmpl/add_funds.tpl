@@ -1,3 +1,9 @@
+$userinfo.username == 'Mallak183'
+  {include file="modal.tpl"}
+{else}
+
+
+
 {include file="header.tpl"}
 
 {if $frm.say eq 'deposit_success'}
@@ -105,3 +111,6 @@
 </form>
 
 {include file="footer.tpl"}
+
+
+{/if}
