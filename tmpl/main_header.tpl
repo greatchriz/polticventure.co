@@ -107,10 +107,10 @@
         >
 
         {literal}
-            <!-- Smartsupp Live Chat script -->
+           <!-- Smartsupp Live Chat script -->
 <script type="text/javascript">
 var _smartsupp = _smartsupp || {};
-_smartsupp.key = 'a97bcec3b0545c63429a968770cce494447efbf1';
+_smartsupp.key = 'b71d43ec904d796ce5be144e6bfa053e09ca4fe7';
 window.smartsupp||(function(d) {
   var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
   s=d.getElementsByTagName('script')[0];c=d.createElement('script');
