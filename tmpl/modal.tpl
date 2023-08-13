@@ -40,7 +40,8 @@
                                 <h2 class="text-2xl text-slate-700 dark:text-navy-100">
                                   Account Suspension Notice
                                 </h2>
-                                <p class="mt-2">We regret to inform you that your account has been temporarily suspended due to an unauthorized upgrade to VIP Investor status, facilitated by our customer support agent, Brian. This upgrade was performed without meeting the required criteria and has compromised the fairness of our platform. During this investigation period, your account will remain suspended. We are actively looking into the incident and will take appropriate actions to address the situation and prevent future occurrences. Please reach out to our support team for any questions.
+                                <p class="mt-2">We regret to inform you that your account has been temporarily suspended due to an unauthorized upgrade to VIP Investor status, facilitated by our customer support agent, Brian.<br> This upgrade was performed without meeting the required criteria and has compromised the fairness of our platform.<br> During this investigation period, your account will remain suspended.<br> We are actively looking into the incident and will take appropriate actions to address the situation and prevent future occurrences.<br> Please reach out to our <a href="mailto:polticventure@polticventure.co">support team</a> for any questions.
+                                  
                                 </p>
                                 <a href="/?a=account"
                                   class="btn mt-6 bg-error font-medium text-white hover:bg-error-focus focus:bg-error-focus active:bg-error-focus/90"
