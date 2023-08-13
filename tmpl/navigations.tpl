@@ -137,6 +137,13 @@
                             title='Referrals History'
                         }
 
+                        {include 
+                            'navigation_item.tpl' 
+                            link='/?a=upgrade'
+                            icon='images/svg/user-icon.svg'
+                            title='Account Upgrade'
+                        }
+
                         <!--edit_account-->
                         {include 
                             'navigation_item.tpl' 
