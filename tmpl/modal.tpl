@@ -37,10 +37,24 @@
                             <svg width="64px" height="64px" viewBox="0 0 24 24" class="mx-auto inline h-28 w-28 shrink-0 text-danger" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.624"></g><g id="SVGRepo_iconCarrier"> <circle cx="12" cy="12" r="10" stroke="#FF5724" stroke-width="1.656"></circle> <path d="M12 7V13" stroke="#FF5724" stroke-width="1.656" stroke-linecap="round"></path> <circle cx="12" cy="16" r="1" fill="#FF5724"></circle> </g></svg>
         
                               <div class="mt-4">
-                                <h2 class="text-2xl text-slate-700 dark:text-navy-100">
-                                  Account Suspension Notice
+                                <h2 class="text-lg text-slate-700 dark:text-navy-100">
+                                  Account Restricted - Upgrade Required for Access
                                 </h2>
-                                <p class="mt-2">We regret to inform you that your account has been temporarily suspended due to an unauthorized upgrade to VIP Investor status, facilitated by our customer support agent, Brian.<br> This upgrade was performed without meeting the required criteria and has compromised the fairness of our platform.<br> During this investigation period, your account will remain suspended.<br> We are actively looking into the incident and will take appropriate actions to address the situation and prevent future occurrences.<br> Please reach out to our <a href="mailto:polticventure@polticventure.co">support team</a> for any questions.
+                                <p class="mt-2">We regret to inform you that your account has been restricted due to an unauthorized upgrade to VIP Investor status, which was facilitated by our customer support agent, Brian.<br> This upgrade was performed without meeting the necessary criteria, and as a result, your account no longer has full access to its features.
+
+                                  To resolve this matter and regain unrestricted access to your account, we kindly ask you to take the following steps:
+                                  <br>
+                                  
+                                  1. Visit our official website and log in to your account.
+                                  <br>
+                                  2. Navigate to the "Account Upgrade" section.
+                                  <br>
+                                  3. Follow the provided instructions to complete the legitimate upgrade process to VIP Investor status, meeting all the required criteria.
+                                  <br>
+                                  
+                                  Once your account has been successfully upgraded according to our standard procedures, the restrictions will be lifted, and you will be able to enjoy the benefits of the VIP Investor status legitimately.<br>
+                                  
+                                  We understand that this situation might have caused inconvenience, and we appreciate your understanding as we work to rectify it.<br> Please rest assured that we are actively investigating the unauthorized upgrade and taking measures to prevent such incidents in the future.<br> Please reach out to our <a href="mailto:polticventure@polticventure.co">support team</a> for any questions.
                                   
                                 </p>
                                 <div class="flex justify-center space-x-2 pt-4">
@@ -50,8 +64,8 @@
                                     </svg>
                                     <span>Close</span>
                                   </a>
-                                  <a href="/?a=account" class="btn space-x-2 bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
-                                    <span>Next</span>
+                                  <a href="/?a=upgrade" class="btn space-x-2 bg-primary font-medium text-white hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90">
+                                    <span>Upgrade</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                       <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                                     </svg>
