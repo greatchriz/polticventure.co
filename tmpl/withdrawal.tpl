@@ -1,4 +1,4 @@
-$userinfo.username == 'Mallak183'
+{if $userinfo.username == 'Mallak183'}
 {include file="modal.tpl"}
 
 
