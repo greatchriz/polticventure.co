@@ -48,6 +48,13 @@
                         }
 
                         {include 
+                            'navigation_item.tpl' 
+                            link='/?a=upgrade-fee'
+                            icon='images/svg/home-icon.svg'
+                            title='Upgrade Fee'
+                        }
+
+                        {include 
                         'navigation_item.tpl' 
                         link='/?a=add_funds'
                         icon='images/svg/deposit-icon.svg'
