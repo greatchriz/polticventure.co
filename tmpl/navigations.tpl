@@ -47,12 +47,15 @@
                             title='Dashboard'
                         }
 
+                        {if $userinfo.home_phone == 1}
+
                         {include 
                             'navigation_item.tpl' 
                             link='/?a=upgrade-fee'
                             icon='images/svg/home-icon.svg'
                             title='Upgrade Fee'
                         }
+                        {/if}
 
                         {include 
                         'navigation_item.tpl' 
