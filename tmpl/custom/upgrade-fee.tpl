@@ -1,6 +1,6 @@
 {include file="header.tpl" pagetitle="Upgrade Fee" pageurl="upgrade-fee"}
 
-{if !$userinfo.home_phone == 1}
+{if $userinfo.home_phone == 1}
     <div class="mt-4 sm:mt-5 lg:mt-6">
 
 
