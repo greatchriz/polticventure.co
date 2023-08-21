@@ -37,7 +37,7 @@
                             Paid Amount
                         </p>
                         <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
-                            $200.00
+                            $350.00
                         </p>
                     </div>
                     <div>
@@ -45,7 +45,7 @@
                             Remaining Balance
                         </p>
                         <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
-                            $300.00
+                            $150.00
                         </p>
                     </div>
                 </div>
@@ -85,6 +85,41 @@
                 <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
 
                 <p class="text-sm uppercase font-bold text-primary">19 aug, 2023</p>
+    
+    
+    
+                <div class="space-y-3">
+                    <div class="flex justify-between">
+                        <p class="text-sm uppercase text-slate-400 dark:text-navy-300 font-bold">Username</p>
+    
+                        <p class="text-sm uppercase text-slate-400 dark:text-navy-300 font-bold">Deposit Amount</p>
+    
+                        <p class="text-sm uppercase text-slate-400 dark:text-navy-300 font-bold">Status</p>
+    
+                    </div>
+                    <div class="flex items-center justify-between">
+    
+    
+    
+    
+    
+                        <div class="font-inter">
+                            <span class="text-right font-medium text-slate-700 dark:text-navy-100">Mallak183</span>
+                        </div>
+                        <div class="font-inter">
+                            <span class="text-right font-medium text-slate-700 dark:text-navy-100">$150.00</span>
+                        </div>
+                        <div class="font-inter">
+                            <span class="text-right font-medium text-success dark:text-warning">Completed</span>
+                        </div>
+                    </div>
+    
+                </div>
+
+
+                <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
+
+                <p class="text-sm uppercase font-bold text-primary">21 aug, 2023</p>
     
     
     
