@@ -37,7 +37,7 @@
                             Paid Amount
                         </p>
                         <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
-                            $350.00
+                            $500.00
                         </p>
                     </div>
                     <div>
@@ -45,7 +45,7 @@
                             Remaining Balance
                         </p>
                         <p class="text-lg font-semibold text-slate-700 dark:text-navy-100">
-                            $150.00
+                            $0.00
                         </p>
                     </div>
                 </div>
