@@ -18,7 +18,7 @@
                 <p class="text-sm uppercase font-bold text-primary">Current Status</p>
                 <div>
     
-                    <p class="text-base font-medium text-warning">Pending</p>
+                    <p class="text-base font-medium text-success">Completed</p>
                 </div>
                 <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
                 <p class="text-sm uppercase font-bold text-primary">Deposit Detail</p>
@@ -150,10 +150,14 @@
                     </div>
     
                 </div>
-                {* <p class="text-sm uppercase font-bold text-primary">Second Investor</p>
+
+                
+                <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
+
+                <p class="text-sm uppercase font-bold text-primary">23 aug, 2023</p>
     
-    
-    
+
+
                 <div class="space-y-3">
                     <div class="flex justify-between">
                         <p class="text-sm uppercase text-slate-400 dark:text-navy-300 font-bold">Username</p>
@@ -170,17 +174,17 @@
     
     
                         <div class="font-inter">
-                            <span class="text-right font-medium text-slate-700 dark:text-navy-100">Dreahimself08</span>
+                            <span class="text-right font-medium text-slate-700 dark:text-navy-100">Mallak183</span>
                         </div>
                         <div class="font-inter">
-                            <span class="text-right font-medium text-slate-700 dark:text-navy-100">$300.00</span>
+                            <span class="text-right font-medium text-slate-700 dark:text-navy-100">$150.00</span>
                         </div>
                         <div class="font-inter">
-                            <span class="text-right font-medium text-success dark:text-success">Completed</span>
+                            <span class="text-right font-medium text-success dark:text-warning">Completed</span>
                         </div>
                     </div>
     
-                </div> *}
+                </div>             
     
     
     
