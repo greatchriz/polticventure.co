@@ -6,7 +6,7 @@
 
 
 {include file="header.tpl" pagetitle="Dashboard" pageurl="account"}
-<div class="grid grid-cols-1 gap-4 sm:gap-5 lg:gap-6">
+<div class="grid grid-cols-1 gap-4 sm:gap-5 lg:gap-6 mt-4 sm:mt-5 sm:gap-5">
    <div class="card px-4 pb-4 sm:px-5">
       <div class="my-3 flex h-8 items-center justify-between">
         <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
