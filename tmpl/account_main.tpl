@@ -12,6 +12,7 @@
 
 <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 lg:gap-6 xl:grid-cols-4">
 
+   {literal}
    <div class="card">
       <div class="p-2 text-right">
         <div x-data="usePopper({placement:'bottom-end',offset:4})" @click.outside="isShowPopper &amp;&amp; (isShowPopper = false)" class="inline-flex">
@@ -79,6 +80,8 @@
         </div>
       </div>
     </div>
+   {/literal}
+  
 
 
    <div class="mt-4 grid grid-cols-12 gap-4 sm:mt-5 sm:gap-5 lg:mt-6 lg:gap-6">
