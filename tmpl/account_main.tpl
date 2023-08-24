@@ -24,12 +24,11 @@
          }
 
 
-         {* {include file="cards/accounts.tpl" ps=$ps} *}
+         {include file="cards/accounts.tpl" ps=$ps} 
 
          {include file="cards/user_details.tpl"
             info="{$userinfo}"
          }
-         {/if}
 
          {include file="cards/watchlist.tpl"}
 
