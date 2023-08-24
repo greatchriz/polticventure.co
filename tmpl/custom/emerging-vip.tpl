@@ -2,116 +2,68 @@
 <div class="mt-4 grid grid-cols-12 gap-4 sm:mt-5 sm:gap-5 lg:mt-6 lg:gap-6">
     <div class="col-span-12">
         <div class="grid grid-cols-1 gap-4 sm:gap-5 lg:gap-6">
+        
+        <div class="grid grid-cols-2 gap-4 sm:order-first sm:grid-cols-4 sm:gap-5 lg:gap-6">
+            
 
-            <div class="grid grid-cols-2 gap-4 sm:order-first sm:grid-cols-4 sm:gap-5 lg:gap-6">
-                <div class="rounded-lg border border-slate-200 bg-slate-150p-3 dark:border-navy-700">
-                    <div class="flex justify-between space-x-1">
-                        <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
-                            $5,679
-                        </p>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5 shrink-0 text-primary dark:text-accent"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="1.5"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
-                            ></path>
-                        </svg>
-                    </div>
-                    <p class="mt-1 text-xs+ line-clamp-1">Total Mining</p>
-                </div>
-                <div class="rounded-lg border border-slate-200 bg-slate-150p-3 dark:border-navy-700">
-                    <div class="flex justify-between space-x-1">
-                        <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
-                            $5,679
-                        </p>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5 shrink-0 text-primary dark:text-accent"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="1.5"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
-                            ></path>
-                        </svg>
-                    </div>
-                    <p class="mt-1 text-xs+ line-clamp-1">Total Mining</p>
-                </div>
-                <div class="rounded-lg border border-slate-200 bg-slate-150p-3 dark:border-navy-700">
-                    <div class="flex justify-between">
-                        <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
-                            $12.6k
-                        </p>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5 shrink-0 text-success"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                        >
-                            <path
-                                d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"
-                            ></path>
-                        </svg>
-                    </div>
-                    <p class="mt-1 text-xs+ line-clamp-1">Total Networth</p>
-                </div>
-                <div class="rounded-lg border border-slate-200 bg-slate-150p-3 dark:border-navy-700">
-                    <div class="flex justify-between">
-                        <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
-                            $10.3k
-                        </p>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5 text-warning"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="1.5"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                            ></path>
-                        </svg>
-                    </div>
-                    <p class="mt-1 text-xs+ line-clamp-1">Earnings</p>
-                </div>
-                <div class="rounded-lg border border-slate-200 bg-slate-150p-3 dark:border-navy-700">
-                    <div class="flex justify-between">
-                        <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
-                            651
-                        </p>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5 text-info"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="1.5"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-                            ></path>
-                        </svg>
-                    </div>
-                    <p class="mt-1 text-xs+ line-clamp-1">Harvested Losses</p>
-                </div>
+
+
+    <div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700">
+            <div class="flex justify-between space-x-1">
+                <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                $5,679
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 shrink-0 text-primary dark:text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+                </svg>
             </div>
-
+            <p class="mt-1 text-xs+ line-clamp-1">Total Mining</p>
+            </div><div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700">
+            <div class="flex justify-between space-x-1">
+                <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                $5,679
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 shrink-0 text-primary dark:text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+                </svg>
+            </div>
+            <p class="mt-1 text-xs+ line-clamp-1">Total Mining</p>
+            </div>
+            <div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700">
+            <div class="flex justify-between">
+                <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                $12.6k
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 shrink-0 text-success" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"></path>
+                </svg>
+            </div>
+            <p class="mt-1 text-xs+ line-clamp-1">Total Networth</p>
+            </div>
+            <div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700">
+            <div class="flex justify-between">
+                <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                $10.3k
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-warning" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+            </div>
+            <p class="mt-1 text-xs+ line-clamp-1">Earnings</p>
+            </div>
+            <div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700">
+            <div class="flex justify-between">
+                <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+                651
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-info" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                </svg>
+            </div>
+            <p class="mt-1 text-xs+ line-clamp-1">Harvested Losses</p>
+            </div>
+        </div>
+        
         </div>
     </div>
 </div>
@@ -121,107 +73,107 @@
             Employees &amp; Personnel
         </h2>
         {literal}
-            <div class="flex">
-                <div
-                    class="flex items-center"
-                    x-data="{isInputActive:false}"
-                >
-                    <label class="block">
-                        <input
-                            x-effect="isInputActive === true &amp;&amp; $nextTick(() => { $el.focus()});"
-                            :class="isInputActive ? 'w-32 lg:w-48' : 'w-0'"
-                            class="form-input bg-transparent px-1 text-right transition-all duration-100 placeholder:text-slate-500 dark:placeholder:text-navy-200 w-0"
-                            placeholder="Search here..."
-                            type="text"
-                        >
-                    </label>
-                    <button
-                        @click="isInputActive = !isInputActive"
-                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25"
+        <div class="flex">
+            <div
+                class="flex items-center"
+                x-data="{isInputActive:false}"
+            >
+                <label class="block">
+                    <input
+                        x-effect="isInputActive === true &amp;&amp; $nextTick(() => { $el.focus()});"
+                        :class="isInputActive ? 'w-32 lg:w-48' : 'w-0'"
+                        class="form-input bg-transparent px-1 text-right transition-all duration-100 placeholder:text-slate-500 dark:placeholder:text-navy-200 w-0"
+                        placeholder="Search here..."
+                        type="text"
                     >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-4.5 w-4.5"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="1.5"
-                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                            ></path>
-                        </svg>
-                    </button>
-                </div>
-                <div
-                    x-data="usePopper({placement:'bottom-end',offset:4})"
-                    @click.outside="isShowPopper &amp;&amp; (isShowPopper = false)"
-                    class="inline-flex"
+                </label>
+                <button
+                    @click="isInputActive = !isInputActive"
+                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25"
                 >
-                    <button
-                        x-ref="popperRef"
-                        @click="isShowPopper = !isShowPopper"
-                        class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25"
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4.5 w-4.5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
                     >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-4.5 w-4.5"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
-                            ></path>
-                        </svg>
-                    </button>
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1.5"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                        ></path>
+                    </svg>
+                </button>
+            </div>
+            <div
+                x-data="usePopper({placement:'bottom-end',offset:4})"
+                @click.outside="isShowPopper &amp;&amp; (isShowPopper = false)"
+                class="inline-flex"
+            >
+                <button
+                    x-ref="popperRef"
+                    @click="isShowPopper = !isShowPopper"
+                    class="btn h-8 w-8 rounded-full p-0 hover:bg-slate-300/20 focus:bg-slate-300/20 active:bg-slate-300/25 dark:hover:bg-navy-300/20 dark:focus:bg-navy-300/20 dark:active:bg-navy-300/25"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4.5 w-4.5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+                        ></path>
+                    </svg>
+                </button>
+                <div
+                    x-ref="popperRoot"
+                    class="popper-root"
+                    :class="isShowPopper &amp;&amp; 'show'"
+                    style="position: fixed; inset: 0px 0px auto auto; margin: 0px; transform: translate(-23.3333px, 335.556px);"
+                    data-popper-placement="bottom-end"
+                >
                     <div
-                        x-ref="popperRoot"
-                        class="popper-root"
-                        :class="isShowPopper &amp;&amp; 'show'"
-                        style="position: fixed; inset: 0px 0px auto auto; margin: 0px; transform: translate(-23.3333px, 335.556px);"
-                        data-popper-placement="bottom-end"
-                    >
-                        <div
-                            class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
-                            <ul>
-                                <li>
-                                    <a
-                                        href="#"
-                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
-                                    >Action</a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="#"
-                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
-                                    >Another Action</a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="#"
-                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
-                                    >Something else</a>
-                                </li>
-                            </ul>
-                            <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
-                            <ul>
-                                <li>
-                                    <a
-                                        href="#"
-                                        class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
-                                    >Separated Link</a>
-                                </li>
-                            </ul>
-                        </div>
+                        class="popper-box rounded-md border border-slate-150 bg-white py-1.5 font-inter dark:border-navy-500 dark:bg-navy-700">
+                        <ul>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                                >Action</a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                                >Another Action</a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                                >Something else</a>
+                            </li>
+                        </ul>
+                        <div class="my-1 h-px bg-slate-150 dark:bg-navy-500"></div>
+                        <ul>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="flex h-8 items-center px-3 pr-8 font-medium tracking-wide outline-none transition-all hover:bg-slate-100 hover:text-slate-800 focus:bg-slate-100 focus:text-slate-800 dark:hover:bg-navy-600 dark:hover:text-navy-100 dark:focus:bg-navy-600 dark:focus:text-navy-100"
+                                >Separated Link</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
+        </div>
         {/literal}
     </div>
     <div class="mt-3 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 lg:gap-6">
