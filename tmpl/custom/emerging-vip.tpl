@@ -10,16 +10,18 @@
 
                 {include file="cards/team_stat.tpl" value="Mallak183" title="Project Leader"}
 
-                {include file="cards/team_stat.tpl" value="9 Members" title="Total Members"}
+                {include file="cards/team_stat.tpl" value="9 Investors" title="Total Number of Investors"}
+
+                {include file="cards/team_stat.tpl" value="3 Investorss" title="Total Amount Paid"}
 
                 {include file="cards/team_stat.tpl" value="$50,000.00" title="Target Amount"}
 
-                {include file="cards/team_stat.tpl" value="$29,000" title="Amount Paid"}
+                {include file="cards/team_stat.tpl" value="$29,000" title="Total Amount Paid"}
 
-                {include file="cards/team_stat.tpl" value="24 Sep, 2023" title="Project Due Date"}
+                {include file="cards/team_stat.tpl" value="29 July, 2023" title="Project Due Date"}
 
-                {* {include file="cards/team_stat.tpl" value="" title="24 Sep, 2023"} *}
 
+                {include file="cards/team_stat.tpl" value="24 Sep, 2023" title="Project Start Date"}
 
         </div>
     </div>
@@ -1154,3 +1156,6 @@
     </div>
 </div> *}
 {include file="footer.tpl"}
+
+
+Project Start Date
