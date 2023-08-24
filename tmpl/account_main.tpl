@@ -41,7 +41,7 @@
              <button
              class="btn space-x-2 bg-info font-medium text-white hover:bg-info-focus hover:shadow-lg hover:shadow-info/50 focus:bg-info-focus focus:shadow-lg focus:shadow-info/50 active:bg-info-focus/90"
            >
-             <span>Cloud</span>
+             <span>Your Network</span>
              <svg
                xmlns="http://www.w3.org/2000/svg"
                class="h-4 w-4"
