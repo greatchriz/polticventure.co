@@ -1,8 +1,9 @@
 {include file="header.tpl" pagetitle="Emerging Vip" pageurl="emerging-vip"}
+<h2 class="text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
+    VIP PLAN DEPOSIT Project
+</h2>
 <div class="mt-4 grid grid-cols-12 gap-4 sm:mt-5 sm:gap-5 lg:mt-6 lg:gap-6">
-    <h2 class="text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
-        VIP PLAN DEPOSIT Project
-    </h2>
+    
     <div class="col-span-12">
         <div class="grid grid-cols-1 gap-4 sm:gap-5 lg:gap-6">
 
