@@ -34,10 +34,7 @@
 
       </div>
       <div class="max-w-2xl">
-        <p>
-            
-            The Emerging VIP Investors Collective comprises five enthusiastic individuals who have transitioned from being regular investors to embracing the realm of VIP investor services within the cryptocurrency landscape. As beginners in this elevated arena, they embark on a journey of learning and growth, exploring the exclusive insights and opportunities that VIP services offer.
-         </p>
+       
         <div class="inline-space mt-5">
           <div class="avatar h-8 w-8">
             <img class="rounded-full" src="images/avatar/avatar-16.jpg" alt="avatar">

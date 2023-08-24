@@ -3,12 +3,12 @@
 <div class="mt-4 grid grid-cols-12 gap-4 bg-slate-150 py-5 dark:bg-navy-800 sm:mt-5 sm:gap-5 lg:mt-6 lg:gap-6">
     <div class="col-span-12 flex flex-col px-[var(--margin-x)] transition-all duration-[.25s] lg:col-span-3 lg:pr-0">
         <h2 class="text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-xl">
-            Top Sellers
+            Emerging Vip Member's Page
         </h2>
 
         <p class="mt-3 grow">
-            The top sellers is calculated based on the sales of a product and
-            undergoes hourly updations.
+            
+            The Emerging VIP Investors Collective comprises five enthusiastic individuals who have transitioned from being regular investors to embracing the realm of VIP investor services within the cryptocurrency landscape. As beginners in this elevated arena, they embark on a journey of learning and growth, exploring the exclusive insights and opportunities that VIP services offer.
         </p>
 
         <div class="mt-4">
