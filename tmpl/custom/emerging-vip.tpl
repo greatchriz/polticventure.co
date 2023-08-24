@@ -27,7 +27,7 @@
         </div>
     </div>
 </div>
-<div class="mt-4 sm:mt-5 lg:mt-6">
+{* <div class="mt-4 sm:mt-5 lg:mt-6">
     <div class="flex items-center justify-between">
         <h2 class="text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
             Employees &amp; Personnel
@@ -1155,5 +1155,5 @@
             </div>
         </div>
     </div>
-</div>
+</div> *}
 {include file="footer.tpl"}
