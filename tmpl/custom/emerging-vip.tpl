@@ -72,6 +72,7 @@
         <h2 class="text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
             Employees &amp; Personnel
         </h2>
+        {literal}
         <div class="flex">
             <div
                 class="flex items-center"
@@ -173,6 +174,7 @@
                 </div>
             </div>
         </div>
+        {/literal}
     </div>
     <div class="mt-3 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 lg:gap-6">
         <div class="card space-y-9 p-4 sm:p-5">
