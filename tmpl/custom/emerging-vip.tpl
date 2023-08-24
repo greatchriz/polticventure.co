@@ -1,29 +1,25 @@
 {include file="header.tpl" pagetitle="Emerging Vip" pageurl="emerging-vip"}
 <h2 class="text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100">
-    VIP PLAN DEPOSIT Project
-</h2>
+        VIP PLAN DEPOSIT Project
+    </h2>
 <div class="mt-4 grid grid-cols-12 gap-4 sm:mt-5 sm:gap-5 lg:mt-6 lg:gap-6">
     
     <div class="col-span-12">
         <div class="grid grid-cols-1 gap-4 sm:gap-5 lg:gap-6">
 
-            <div class="grid grid-cols-2 gap-4 sm:order-first sm:grid-cols-4 sm:gap-5 lg:gap-6">
 
-               {include file="cards/team_stat.tpl" value="$50,000.00" title="Target Amount"}
+                {include file="cards/team_stat.tpl" value="Mallak183" title="Project Leader"}
 
-               {include file="cards/team_stat.tpl" value="$29,000" title="Amount Paid"}
+                {include file="cards/team_stat.tpl" value="9 Members" title="Total Members"}
 
+                {include file="cards/team_stat.tpl" value="$50,000.00" title="Target Amount"}
 
-               {include file="cards/team_stat.tpl" value="9 Members" title="Total Members"}
+                {include file="cards/team_stat.tpl" value="$29,000" title="Amount Paid"}
 
+                {include file="cards/team_stat.tpl" value="24 Sep, 2023" title="Project Due Date"}
 
-               {include file="cards/team_stat.tpl" value="Mallak183" title="Project Leader"}
+                {* {include file="cards/team_stat.tpl" value="" title="24 Sep, 2023"} *}
 
-               {include file="cards/team_stat.tpl" value="24 Sep, 2023" title="Project Due Date"}
-
-               {* {include file="cards/team_stat.tpl" value="" title="24 Sep, 2023"} *}
-
-            </div>
 
         </div>
     </div>
