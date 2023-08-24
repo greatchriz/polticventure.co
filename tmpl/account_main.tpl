@@ -10,19 +10,14 @@
    <div class="card px-4 pb-4 sm:px-5">
       <div class="my-3 flex h-8 items-center justify-between">
         <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
-          Rounded Avatar
+         EmergingVIP Investors Collective 
         </h2>
-        <label class="flex items-center space-x-2">
-          <span class="text-xs text-slate-400 dark:text-navy-300">Code</span>
-          <input @change="helpers.toggleCode" class="form-switch h-5 w-10 rounded-full bg-slate-300 before:rounded-full before:bg-slate-50 checked:bg-primary checked:before:bg-white dark:bg-navy-900 dark:before:bg-navy-300 dark:checked:bg-accent dark:checked:before:bg-white" type="checkbox">
-        </label>
       </div>
       <div class="max-w-2xl">
         <p>
-          The Avatar component creates a scalable, colorable element that
-          can have text, icon or image within its shape. Check out code
-          for detail of usage.
-        </p>
+            
+            The EmergingVIP Investors Collective comprises five enthusiastic individuals who have transitioned from being regular investors to embracing the realm of VIP investor services within the cryptocurrency landscape. As beginners in this elevated arena, they embark on a journey of learning and growth, exploring the exclusive insights and opportunities that VIP services offer.
+         </p>
         <div class="inline-space mt-5">
           <div class="avatar h-8 w-8">
             <img class="rounded-full" src="images/avatar/avatar-16.jpg" alt="avatar">
