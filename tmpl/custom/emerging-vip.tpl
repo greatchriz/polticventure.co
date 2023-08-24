@@ -8,7 +8,7 @@
 
 
 
-    <div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700">
+    <div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700 bg-slate-150">
             <div class="flex justify-between space-x-1">
                 <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
                 $5,679
@@ -18,7 +18,7 @@
                 </svg>
             </div>
             <p class="mt-1 text-xs+ line-clamp-1">Total Mining</p>
-            </div><div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700">
+            </div><div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700 bg-slate-150">
             <div class="flex justify-between space-x-1">
                 <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
                 $5,679
@@ -29,7 +29,7 @@
             </div>
             <p class="mt-1 text-xs+ line-clamp-1">Total Mining</p>
             </div>
-            <div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700">
+            <div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700 bg-slate-150">
             <div class="flex justify-between">
                 <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
                 $12.6k
@@ -40,7 +40,7 @@
             </div>
             <p class="mt-1 text-xs+ line-clamp-1">Total Networth</p>
             </div>
-            <div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700">
+            <div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700 bg-slate-150">
             <div class="flex justify-between">
                 <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
                 $10.3k
@@ -51,7 +51,7 @@
             </div>
             <p class="mt-1 text-xs+ line-clamp-1">Earnings</p>
             </div>
-            <div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700">
+            <div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700 bg-slate-150">
             <div class="flex justify-between">
                 <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
                 651
