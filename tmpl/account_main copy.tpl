@@ -1,137 +1,92 @@
-{include file="header.tpl"}
+{if $userinfo.status == 'suspended'}
 
-   {loaddata name="user_notices" var=notices}
+   {include file="account_blocked.tpl"}
 
-   {if $notices}
-      <ul style="color:red">
-         {foreach from=$notices item=n}
-            <li><b>{$n.title}</b> {$n.text|nl2br}
-               <form method=post>
-                  <input
-                     type=hidden
-                     name=a
-                     value=user_notices
-                  >
-                  <input
-                     type=hidden
-                     name=action
-                     value=notified
-                  >
-                  <input
-                     type=hidden
-                     name=id
-                     value={$n.id}
-                  >
-                  <input
-                     type=submit
-                     value="Dismiss"
-                  >
-               </form>
-            {/foreach}
-      </ul>
-   {/if}
+{else}
 
-   <h3>Your account:</h3><br>
 
-   {if $settings.use_transaction_code ==1 && $userinfo.transaction_code == ''} <b>Note: currently you have not specified
-         a Transaction code. The Transaction code strengthens your funds security in our
-         system. The code is required to withdraw funds from your account{if $settings.internal_transfer_enabled}
-         and for internal transfer to another user account{/if}. Just do not change 'Transaction
-      code' in your account information if you do not want to use this feature. <a href=?a=edit_account>Click
-            here</a> to specify a new transaction code .</b> <br>
-      <br>
-   {/if}
+{include file="header.tpl" pagetitle="Dashboard" pageurl="account"}
+<div class="grid grid-cols-1 gap-4 sm:gap-5 lg:gap-6 mt-4 sm:mt-5 sm:gap-5 place-items-center">
+   <div class="card px-4 pb-4 sm:px-5">
+      <div class="my-3 flex h-8 items-center justify-between">
+        <h2 class="font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100 lg:text-base">
+         Emerging VIP Investors Collective 
+        </h2>
+        <a href="/?a=emerging-vip"
+           class="btn space-x-2 border border-warning/30 bg-warning/10 font-medium text-warning hover:bg-warning/20 focus:bg-warning/20 active:bg-warning/25"
+        >
+           <span>Emerging VIP</span>
+           <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+           >
+              <path
+                 stroke-linecap="round"
+                 stroke-linejoin="round"
+                 stroke-width="2"
+                 d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
+              />
+           </svg>
+        </button>
 
-   {if $userinfo.tfa_not_enabled}
-      <b>Security Note: please, activate <a href="{"?a=security"|encurl}">Two Factor Authentication</a> to keep your
-         account
-         safe.</b>
-   {/if}
+      </div>
+      <div class="max-w-2xl">
+       
+        <div class="inline-space mt-5">
+          <div class="avatar h-8 w-8">
+            <img class="rounded-full" src="images/avatar/avatar-16.jpg" alt="avatar">
+          </div>
 
-   <table
-      cellspacing=0
-      cellpadding=2
-      border=0
-   >
-      <tr>
-         <td>User:</td>
-         <td>{$userinfo.username}</td>
-      </tr>
-      <tr>
-         <td>Registration Date:</td>
-         <td>{$userinfo.create_account_date}</td>
-      </tr>
-      <tr>
-         <td>Last Access:</td>
-         <td>{$last_access|default:"n/a"}&nbsp;</td>
-      </tr>
-      <tr>
-         <td>&nbsp;</td>
-      </tr>
-      <tr>
-         <td valign=top>Account Balance:</td>
-         <td>{$currency_sign}<b>{$ab_formated.total}</b><br>
-            <small>
-               {foreach from=$ps item=p}
-                  {if $p.balance > 0}{$currency_sign}{$p.balance} of {$p.name}<br>{/if}
-               {/foreach}
-      </tr>
-      <tr>
-         <td>Earned Total:</td>
-         <td>{$currency_sign}<b>{$ab_formated.earning}</b></td>
-      </tr>
-      <tr>
-         <td>Pending Withdrawal:</td>
-         <td>{$currency_sign}<b>{$ab_formated.withdraw_pending}</b></td>
-      </tr>
-      <tr>
-         <td>Withdrew Total:</td>
-         <td>{$currency_sign}<b>{$ab_formated.withdrawal}</b></td>
-      </tr>
-      <tr>
-         <td>Active Deposit:</td>
-         <td>{$currency_sign}<b>{$ab_formated.active_deposit}</b></td>
-      </tr>
-      <tr>
-         <td>&nbsp;</td>
-      </tr>
-      {if $last_deposit}
-         <tr>
-            <td>Last Deposit:</td>
-            <td>{$currency_sign}<b>{$last_deposit|default:"n/a"}</b> &nbsp;
-               <small>{$last_deposit_date|default:"n/a"}</small>
-            </td>
-         </tr>
-      {/if}
-      {if $ab_formated.deposit != 0}
-         <tr>
-            <td>Total Deposit:</td>
-            <td>{$currency_sign}<b>{$ab_formated.deposit}</b></td>
-         </tr>
-      {/if}
-      {if $last_withdrawal}
-         <tr>
-            <td>Last Withdrawal:</td>
-            <td>{$currency_sign}<b>{$last_withdrawal|default:"n/a"}</b> &nbsp;
-               <small>{$last_withdrawal_date|default:"n/a"}</small>
-            </td>
-         </tr>
-      {/if}
-      {if $ab_formated.withdrawal > 0}
-         <tr>
-            <td>Withdrew Total:</td>
-            <td>{$currency_sign}<b>{$ab_formated.withdrawal}</b></td>
-         </tr>
-      {/if}
-      <tr>
-         <td>&nbsp;</td>
-      </tr>
-   </table>
+          <div class="avatar h-10 w-10">
+            <img class="rounded-full" src="images/avatar/avatar-10.jpg" alt="avatar">
+          </div>
 
-   {section name=p loop=$ps}
-      {if $ps[p].pending_col > 0}{$ps[p].pending_col} {$ps[p].name} deposit{if $ps[p].pending_col > 1}s{/if} of
-   {$currency_sign}{$ps[p].pending_amount} total pending<br>{/if}
-   {/section}
+          <div class="avatar h-12 w-12">
+            <img class="rounded-full" src="images/avatar/avatar-20.jpg" alt="avatar">
+          </div>
 
+          <div class="avatar h-16 w-16">
+            <img class="rounded-full" src="images/avatar/avatar-19.jpg" alt="avatar">
+          </div>
+
+          <div class="avatar h-20 w-20">
+            <img class="rounded-full" src="images/avatar/avatar-8.jpg" alt="avatar">
+          </div>
+
+          <div class="avatar h-24 w-24">
+            <img class="rounded-full" src="images/avatar/avatar-5.jpg" alt="avatar">
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<div class="mt-4 grid grid-cols-12 gap-4 sm:mt-5 sm:gap-5 lg:mt-6 lg:gap-6">
+   <div class="col-span-12">
+
+      {include file="cards/balance.tpl"
+         total_balance="{$currency_sign}{$ab_formated.total}" 
+         total_deposits="{$currency_sign}{$ab_formated.deposit}" 
+         total_withdrawals="{$currency_sign}{$ab_formated.withdrawal}" 
+      }
+
+
+      {* {include file="cards/accounts.tpl" ps=$ps} *}
+
+      {include file="cards/user_details.tpl"
+         info="{$userinfo}"
+      }
+
+      {include file="cards/watchlist.tpl"}
+
+      {include file="cards/chart.tpl"}
+
+   </div>
+</div>
 
 {include file="footer.tpl"}
+{/if}
