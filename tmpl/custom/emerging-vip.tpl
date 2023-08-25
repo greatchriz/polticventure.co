@@ -42,13 +42,13 @@
         <div class="space-y-4 mt-4">
             {include file="emerging-vip-member.tpl" image="images/avatar/avatar-5.jpg" username="Mallak183" date="August 25, 2023" bamount="$0.00"  pamount="$0.00"}
 
-            {include file="emerging-vip-member.tpl" image="images/avatar/avatar-9.jpg" username="Mallak183" date="August 18, 2023" bamount="$2,800.00"  pamount="$7,200"}
+            {include file="emerging-vip-member.tpl" image="images/avatar/avatar-9.jpg" username="Hamedbeiramy" date="August 18, 2023" bamount="$2,800.00"  pamount="$7,200"}
 
-            {include file="emerging-vip-member.tpl" image="images/avatar/avatar-12.jpg" username="Mallak183" date="August 10, 2023" bamount="$4,200.00"  pamount="$5,800"}
+            {include file="emerging-vip-member.tpl" image="images/avatar/avatar-12.jpg" username="Samadhan27" date="August 10, 2023" bamount="$4,200.00"  pamount="$5,800"}
 
-            {include file="emerging-vip-member.tpl" image="images/avatar/avatar-10.jpg" username="Mallak183" date="August 6, 2023" bamount="$1,500.00"  pamount="$8,500"}
+            {include file="emerging-vip-member.tpl" image="images/avatar/avatar-10.jpg" username="Danielgates16" date="August 6, 2023" bamount="$1,500.00"  pamount="$8,500"}
 
-            {include file="emerging-vip-member.tpl" image="images/avatar/avatar-2.jpg" username="Mallak183" date="July 31, 2023" bamount="$2,500.00"  pamount="$7,500"}
+            {include file="emerging-vip-member.tpl" image="images/avatar/avatar-2.jpg" username="Manabu1" date="July 31, 2023" bamount="$2,500.00"  pamount="$7,500"}
 
 
         
