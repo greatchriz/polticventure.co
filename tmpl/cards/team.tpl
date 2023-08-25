@@ -14,24 +14,22 @@
        </div>
        <div class="max-w-2xl">
          <div class="inline-space mt-5">
-           <div class="avatar h-8 w-8">
-             <img class="rounded-full" src="images/avatar/avatar-16.jpg" alt="avatar">
-           </div>
+ 
  
            <div class="avatar h-10 w-10">
-             <img class="rounded-full" src="images/avatar/avatar-10.jpg" alt="avatar">
+             <img class="rounded-full" src="images/avatar/avatar-2.jpg" alt="avatar">
            </div>
  
            <div class="avatar h-12 w-12">
-             <img class="rounded-full" src="images/avatar/avatar-20.jpg" alt="avatar">
+             <img class="rounded-full" src="images/avatar/avatar-10.jpg" alt="avatar">
            </div>
  
            <div class="avatar h-16 w-16">
-             <img class="rounded-full" src="images/avatar/avatar-19.jpg" alt="avatar">
+             <img class="rounded-full" src="images/avatar/avatar-12.jpg" alt="avatar">
            </div>
  
            <div class="avatar h-20 w-20">
-             <img class="rounded-full" src="images/avatar/avatar-8.jpg" alt="avatar">
+             <img class="rounded-full" src="images/avatar/avatar-9.jpg" alt="avatar">
            </div>
  
            <div class="avatar h-24 w-24">
