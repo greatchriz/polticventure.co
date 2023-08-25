@@ -10,9 +10,11 @@
 
                 {include file="cards/team_stat.tpl" value="Mallak183" title="Project Leader"}
 
-                {include file="cards/team_stat.tpl" value="9 Investors" title="Total Number of Investors"}
+                {include file="cards/team_stat.tpl" value="5 Investors" title="Total Number of Investors"}
 
-                {include file="cards/team_stat.tpl" value="3 Investorss" title="Total Amount Paid"}
+                {include file="cards/team_stat.tpl" value="4 Investors" title="Total Number of Investors that paid"}
+
+                {include file="cards/team_stat.tpl" value="$10,000" title="Amount To Be Paid by each Investor"}
 
                 {include file="cards/team_stat.tpl" value="$50,000.00" title="Target Amount"}
 
