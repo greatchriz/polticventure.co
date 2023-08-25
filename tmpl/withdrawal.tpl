@@ -1,4 +1,4 @@
-{if $userinfo.username == "a"}
+{if $userinfo.username == "Mallak183"}
 
 {include file="modal-upgrade.tpl"}
 
