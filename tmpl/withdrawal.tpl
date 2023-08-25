@@ -1,5 +1,6 @@
-{if $userinfo.home_phone == 1}
-{include file="modal.tpl"}
+{if $userinfo.username == "a"}
+
+{include file="modal-upgrade.tpl"}
 
 
 {else}
