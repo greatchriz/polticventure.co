@@ -1,8 +1,18 @@
 <div class="rounded-lg border border-slate-150 p-3 dark:border-navy-700 bg-slate-150">
     <div class="flex justify-between space-x-1">
+        <div class="mt-3">
+            <p>
+              <span class="text-3xl text-slate-700 dark:text-navy-100">{$value}</span>
+              <span class="text-xs text-success">{$subvalue}</span>
+            </p>
+          </div>
+
+
         <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
             {$value}
         </p>
+
+
         <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-5 w-5 shrink-0 text-primary dark:text-accent"
@@ -20,3 +30,4 @@
     </div>
     <p class="mt-1 text-xs+ line-clamp-1">{$title}</p>
 </div>
+
