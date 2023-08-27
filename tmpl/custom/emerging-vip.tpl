@@ -134,100 +134,15 @@
                   320
                 </td>
               </tr>
-              <tr>
-                <td class="whitespace-nowrap rounded-l-lg px-4 py-3 sm:px-5">
-                  3
-                </td>
-                <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                  <div>
-                    <p class="font-medium text-slate-600 dark:text-navy-100">
-                      CRM App
-                    </p>
-                    <p class="text-xs+">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing
-                      elit. Distinctio et ipsa modi.
-                    </p>
-                  </div>
-                </td>
-                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
-                  80
-                </td>
-                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
-                  65
-                </td>
-                <td class="w-3/12 whitespace-nowrap rounded-r-lg px-4 py-3 text-right font-semibold sm:px-5">
-                  5200
-                </td>
-              </tr>
-              <tr>
-                <td class="whitespace-nowrap rounded-l-lg px-4 py-3 sm:px-5">
-                  4
-                </td>
-                <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                  <div>
-                    <p class="font-medium text-slate-600 dark:text-navy-100">
-                      CMS App
-                    </p>
-                    <p class="text-xs+">
-                      Lorem ipsum dolor sit amet, consectetur.
-                    </p>
-                  </div>
-                </td>
-                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
-                  25
-                </td>
-                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
-                  35
-                </td>
-                <td class="w-3/12 whitespace-nowrap rounded-r-lg px-4 py-3 text-right font-semibold sm:px-5">
-                  875
-                </td>
-              </tr>
-              <tr>
-                <td class="whitespace-nowrap rounded-l-lg px-4 py-3 sm:px-5">
-                  5
-                </td>
-                <td class="whitespace-nowrap px-4 py-3 sm:px-5">
-                  <div>
-                    <p class="font-medium text-slate-600 dark:text-navy-100">
-                      UI/UX Design
-                    </p>
-                    <p class="text-xs+">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing
-                      elit. Animi
-                    </p>
-                  </div>
-                </td>
-                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
-                  25
-                </td>
-                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
-                  15
-                </td>
-                <td class="w-3/12 whitespace-nowrap rounded-r-lg px-4 py-3 text-right font-semibold sm:px-5">
-                  375
-                </td>
-              </tr>
+              
+              
+              
             </tbody>
           </table>
         </div>
         <div class="my-7 h-px bg-slate-200 dark:bg-navy-500"></div>
         
       </div>
-
-    {* <div class="card px-4 pb-5 sm:px-5">
-        <div class="my-3 flex h-8 items-center justify-between">
-          <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
-            Withdrawal History
-          </h2>
-       
-        </div>
-        <div class="space-y-4 mt-4">
-       
-            {include file="emerging-vip-withdrawals.tpl" image="images/avatar/avatar-10.jpg" username="Danielgates16" date="August 6, 2023" bamount="$0.00"  pamount="$10,000"}
-
-        </div>
-    </div> *}
 
 
 </div>
