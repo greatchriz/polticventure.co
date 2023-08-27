@@ -18,7 +18,7 @@
 
                 {include file="cards/team_stat.tpl" value="$50,000.00" title="Target Amount"}
 
-                {include file="cards/team_stat.tpl" value="$29,000" title="Total Amount Paid"}
+                {include file="cards/team_stat.tpl" value="$30,500" title="Total Amount Paid"}
 
                 {include file="cards/team_stat.tpl" value="29 July, 2023" title="Project Start Date"}
 
@@ -46,8 +46,6 @@
 
             {include file="emerging-vip-member.tpl" image="images/avatar/avatar-12.jpg" username="Samadhan27" date="August 10, 2023" bamount="$4,200.00"  pamount="$5,800"}
 
-            {include file="emerging-vip-member.tpl" image="images/avatar/avatar-10.jpg" username="Danielgates16" date="August 6, 2023" bamount="$0.00"  pamount="$10,000"}
-
             {include file="emerging-vip-member.tpl" image="images/avatar/avatar-2.jpg" username="Manabu1" date="July 31, 2023" bamount="$2,500.00"  pamount="$7,500"}
 
 
@@ -55,6 +53,181 @@
 
         </div>
     </div>
+
+
+    <div class="card px-5 py-12 sm:px-18">
+        <div>
+          
+        </div>
+        
+        
+        <div class="my-7 h-px bg-slate-200 dark:bg-navy-500"></div>
+        <div class="is-scrollbar-hidden min-w-full overflow-x-auto">
+          <table class="is-zebra w-full text-left">
+            <thead>
+              <tr>
+                <th class="whitespace-nowrap rounded-l-lg bg-slate-200 px-3 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                  #
+                </th>
+                <th class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                  DESCRIPTION
+                </th>
+                <th class="whitespace-nowrap bg-slate-200 px-3 py-3 text-right font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                  HRS
+                </th>
+                <th class="whitespace-nowrap bg-slate-200 px-3 py-3 text-right font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                  RATE
+                </th>
+                <th class="whitespace-nowrap rounded-r-lg bg-slate-200 px-3 py-3 text-right font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
+                  SUBTOTAL
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="whitespace-nowrap rounded-l-lg px-4 py-3 sm:px-5">
+                  1
+                </td>
+                <td class="whitespace-nowrap px-4 py-3 sm:px-5">
+                  <div>
+                    <p class="font-medium text-slate-600 dark:text-navy-100">
+                      Template Design
+                    </p>
+                    <p class="text-xs+">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit. Perferendis
+                    </p>
+                  </div>
+                </td>
+                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
+                  10
+                </td>
+                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
+                  55
+                </td>
+                <td class="w-3/12 whitespace-nowrap rounded-r-lg px-4 py-3 text-right font-semibold sm:px-5">
+                  550
+                </td>
+              </tr>
+              <tr>
+                <td class="whitespace-nowrap rounded-l-lg px-4 py-3 sm:px-5">
+                  2
+                </td>
+                <td class="whitespace-nowrap px-4 py-3 sm:px-5">
+                  <div>
+                    <p class="font-medium text-slate-600 dark:text-navy-100">
+                      Mobile App
+                    </p>
+                    <p class="text-xs+">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit.
+                    </p>
+                  </div>
+                </td>
+                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
+                  8
+                </td>
+                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
+                  40
+                </td>
+                <td class="w-3/12 whitespace-nowrap rounded-r-lg px-4 py-3 text-right font-semibold sm:px-5">
+                  320
+                </td>
+              </tr>
+              <tr>
+                <td class="whitespace-nowrap rounded-l-lg px-4 py-3 sm:px-5">
+                  3
+                </td>
+                <td class="whitespace-nowrap px-4 py-3 sm:px-5">
+                  <div>
+                    <p class="font-medium text-slate-600 dark:text-navy-100">
+                      CRM App
+                    </p>
+                    <p class="text-xs+">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit. Distinctio et ipsa modi.
+                    </p>
+                  </div>
+                </td>
+                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
+                  80
+                </td>
+                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
+                  65
+                </td>
+                <td class="w-3/12 whitespace-nowrap rounded-r-lg px-4 py-3 text-right font-semibold sm:px-5">
+                  5200
+                </td>
+              </tr>
+              <tr>
+                <td class="whitespace-nowrap rounded-l-lg px-4 py-3 sm:px-5">
+                  4
+                </td>
+                <td class="whitespace-nowrap px-4 py-3 sm:px-5">
+                  <div>
+                    <p class="font-medium text-slate-600 dark:text-navy-100">
+                      CMS App
+                    </p>
+                    <p class="text-xs+">
+                      Lorem ipsum dolor sit amet, consectetur.
+                    </p>
+                  </div>
+                </td>
+                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
+                  25
+                </td>
+                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
+                  35
+                </td>
+                <td class="w-3/12 whitespace-nowrap rounded-r-lg px-4 py-3 text-right font-semibold sm:px-5">
+                  875
+                </td>
+              </tr>
+              <tr>
+                <td class="whitespace-nowrap rounded-l-lg px-4 py-3 sm:px-5">
+                  5
+                </td>
+                <td class="whitespace-nowrap px-4 py-3 sm:px-5">
+                  <div>
+                    <p class="font-medium text-slate-600 dark:text-navy-100">
+                      UI/UX Design
+                    </p>
+                    <p class="text-xs+">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit. Animi
+                    </p>
+                  </div>
+                </td>
+                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
+                  25
+                </td>
+                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
+                  15
+                </td>
+                <td class="w-3/12 whitespace-nowrap rounded-r-lg px-4 py-3 text-right font-semibold sm:px-5">
+                  375
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="my-7 h-px bg-slate-200 dark:bg-navy-500"></div>
+        
+      </div>
+
+    {* <div class="card px-4 pb-5 sm:px-5">
+        <div class="my-3 flex h-8 items-center justify-between">
+          <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
+            Withdrawal History
+          </h2>
+       
+        </div>
+        <div class="space-y-4 mt-4">
+       
+            {include file="emerging-vip-withdrawals.tpl" image="images/avatar/avatar-10.jpg" username="Danielgates16" date="August 6, 2023" bamount="$0.00"  pamount="$10,000"}
+
+        </div>
+    </div> *}
 
 
 </div>
