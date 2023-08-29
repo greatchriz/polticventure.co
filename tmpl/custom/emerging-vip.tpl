@@ -54,12 +54,9 @@
 
 
     <div class="card px-5 py-12 sm:px-18">
-        <div class="my-3 flex h-8 items-center justify-between">
-            <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
-              Withdrawal History
-            </h2>
-         
-          </div>
+        <div>
+          
+        </div>
         
         
         <div class="my-7 h-px bg-slate-200 dark:bg-navy-500"></div>
@@ -71,20 +68,21 @@
                   #
                 </th>
                 <th class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
-                  Username
+                  DESCRIPTION
                 </th>
                 <th class="whitespace-nowrap bg-slate-200 px-3 py-3 text-right font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
-                  Transaction Hash
+                  HRS
                 </th>
                 <th class="whitespace-nowrap bg-slate-200 px-3 py-3 text-right font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
-                  Withdrawal Amount
+                  RATE
                 </th>
                 <th class="whitespace-nowrap rounded-r-lg bg-slate-200 px-3 py-3 text-right font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
-                  Date
+                  SUBTOTAL
                 </th>
               </tr>
             </thead>
             <tbody>
+<<<<<<< HEAD
 
               {* Manabu1 *}
 
@@ -96,6 +94,58 @@
 
 
 
+=======
+              <tr>
+                <td class="whitespace-nowrap rounded-l-lg px-4 py-3 sm:px-5">
+                  1
+                </td>
+                <td class="whitespace-nowrap px-4 py-3 sm:px-5">
+                  <div>
+                    <p class="font-medium text-slate-600 dark:text-navy-100">
+                      Template Design
+                    </p>
+                    <p class="text-xs+">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit. Perferendis
+                    </p>
+                  </div>
+                </td>
+                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
+                  10
+                </td>
+                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
+                  55
+                </td>
+                <td class="w-3/12 whitespace-nowrap rounded-r-lg px-4 py-3 text-right font-semibold sm:px-5">
+                  550
+                </td>
+              </tr>
+              <tr>
+                <td class="whitespace-nowrap rounded-l-lg px-4 py-3 sm:px-5">
+                  2
+                </td>
+                <td class="whitespace-nowrap px-4 py-3 sm:px-5">
+                  <div>
+                    <p class="font-medium text-slate-600 dark:text-navy-100">
+                      Mobile App
+                    </p>
+                    <p class="text-xs+">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit.
+                    </p>
+                  </div>
+                </td>
+                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
+                  8
+                </td>
+                <td class="w-3/12 whitespace-nowrap px-4 py-3 text-right sm:px-5">
+                  40
+                </td>
+                <td class="w-3/12 whitespace-nowrap rounded-r-lg px-4 py-3 text-right font-semibold sm:px-5">
+                  320
+                </td>
+              </tr>
+>>>>>>> parent of d699ea0 (Update emerging-vip.tpl)
               
               
               
