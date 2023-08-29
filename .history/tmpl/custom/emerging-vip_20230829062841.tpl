@@ -53,7 +53,7 @@
     </div>
 
 
-    <div class="card px-5 py-12 sm:px-18 mt-4 sm:mt-5 lg:mt-6">
+    <div class="card px-5 py-12 sm:px-18">
       <div class="my-3 flex h-8 items-center justify-between">
           <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
             Top Up History
@@ -110,7 +110,7 @@
     
 
 
-    <div class="card px-5 py-12 sm:px-18 mt-4 sm:mt-5 lg:mt-6">
+    <div class="card px-5 py-12 sm:px-18">
         <div class="my-3 flex h-8 items-center justify-between">
             <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
               Withdrawal History
