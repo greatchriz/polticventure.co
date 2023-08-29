@@ -8,6 +8,10 @@
           </div>
 
 
+        <p class="text-xl font-semibold text-slate-700 dark:text-navy-100">
+            {$value}
+        </p>
+
 
         <svg
             xmlns="http://www.w3.org/2000/svg"
