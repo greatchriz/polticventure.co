@@ -1,0 +1,16 @@
+Mysql host
+localhost
+Mysql database name:	
+dexfpheh_polticventure2
+Mysql username:	
+dexfpheh_polticventure
+Mysql password:	
+8RzdR86ZG;yN
+License data:
+Host:	polticventure.co
+Admin account data:
+E-mail:	
+polticventure@polticventure.co
+Password:	
+c3h-eG.wO3d7
+ 	
