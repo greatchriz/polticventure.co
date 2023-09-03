@@ -8,7 +8,7 @@
         <div class="grid grid-cols-1 gap-4 sm:gap-5 lg:gap-6">
 
 
-                {include file="cards/team_stat.tpl" value="Mallak183" title="Project Leader"}
+                {include file="cards/team_stat.tpl" value="fariba" title="Project Leader"}
 
                 {include file="cards/team_stat.tpl" value="5 Investors" title="Total Number of Investors"  subvalue="-2 investor"}
 
@@ -40,7 +40,7 @@
        
         </div>
         <div class="space-y-4 mt-4">
-            {include file="emerging-vip-member.tpl" image="images/avatar/avatar-5.jpg" username="Mallak183" date="August 25, 2023" bamount="$0.00"  pamount="$0.00"}
+            {include file="emerging-vip-member.tpl" image="images/avatar/avatar-5.jpg" username="Fariba37" date="Sep 3, 2023" bamount="$700.00"  pamount="$0.00"}
 
             {include file="emerging-vip-member.tpl" image="images/avatar/avatar-9.jpg" username="Hamedbeiramy" date="August 18, 2023" bamount="$2,800.00"  pamount="$7,200"}
 
@@ -77,7 +77,7 @@
                 Transaction Hash
               </th>
               <th class="whitespace-nowrap bg-slate-200 px-3 py-3 text-right font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
-                Withdrawal Amount
+                Top up Amount
               </th>
               <th class="whitespace-nowrap rounded-r-lg bg-slate-200 px-3 py-3 text-right font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
                 Date
@@ -86,12 +86,16 @@
           </thead>
           <tbody>
 
-            {* Manabu1 *}
+
+
+{include file="emerging-vip-withdrawals.tpl" image="images/avatar/avatar-12.jpg" trx="053e4f1168f6b5c2bbcdc4ceecf099173b7df0741cc2c55fea3bf0d6aa9ef717" username="Fariba37" date="September 3, 2023" amount="$700"}            {* Manabu1 *}
 
             {include file="emerging-vip-withdrawals.tpl" image="images/avatar/avatar-12.jpg" trx="053e4f1168f6b5c2bbcdc4ceecf099173b7df0741cc2c55fea3bf0d6aa9ef717" username="Samadhan27" date="August 29, 2023" amount="$852"}
+
+
+
             
             {* Danielgates16 *}
-
 
 
 
@@ -113,7 +117,7 @@
     <div class="card px-5 py-12 sm:px-18 mt-4 sm:mt-5 lg:mt-6">
         <div class="my-3 flex h-8 items-center justify-between">
             <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
-              Withdrawal History
+              Deposit completed History
             </h2>
          
           </div>
