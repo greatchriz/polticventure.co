@@ -8,7 +8,7 @@
         <div class="grid grid-cols-1 gap-4 sm:gap-5 lg:gap-6">
 
 
-                {include file="cards/team_stat.tpl" value="fariba" title="Project Leader"}
+                {include file="cards/team_stat.tpl" value="Mallak183" title="Project Leader"}
 
                 {include file="cards/team_stat.tpl" value="5 Investors" title="Total Number of Investors"  subvalue="-2 investor"}
 
@@ -40,11 +40,11 @@
        
         </div>
         <div class="space-y-4 mt-4">
-            {include file="emerging-vip-member.tpl" image="images/avatar/avatar-5.jpg" username="Fariba37" date="Sep 3, 2023" bamount="$700.00"  pamount="$0.00"}
+            {include file="emerging-vip-member.tpl" image="images/avatar/avatar-5.jpg" username="Mallak183" date="August 25, 2023" bamount="$0.00"  pamount="$0.00"}
 
             {include file="emerging-vip-member.tpl" image="images/avatar/avatar-9.jpg" username="Hamedbeiramy" date="August 18, 2023" bamount="$2,800.00"  pamount="$7,200"}
 
-            {include file="emerging-vip-member.tpl" image="images/avatar/avatar-12.jpg" username="Samadhan27" date="August 10, 2023" bamount="$3,548.00"  pamount="$6,652"}
+            {include file="emerging-vip-member.tpl" image="images/avatar/avatar-12.jpg" username="Samadhan27" date="August 10, 2023" bamount="$4,200.00"  pamount="$5,800"}
 
 
         
@@ -53,71 +53,10 @@
     </div>
 
 
-    <div class="card px-5 py-12 sm:px-18 mt-4 sm:mt-5 lg:mt-6">
-      <div class="my-3 flex h-8 items-center justify-between">
-          <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
-            Top Up History
-          </h2>
-       
-        </div>
-      
-      
-      <div class="my-7 h-px bg-slate-200 dark:bg-navy-500"></div>
-      <div class="is-scrollbar-hidden min-w-full overflow-x-auto">
-        <table class="is-zebra w-full text-left">
-          <thead>
-            <tr>
-              <th class="whitespace-nowrap rounded-l-lg bg-slate-200 px-3 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
-                #
-              </th>
-              <th class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
-                Username
-              </th>
-              <th class="whitespace-nowrap bg-slate-200 px-3 py-3 text-right font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
-                Transaction Hash
-              </th>
-              <th class="whitespace-nowrap bg-slate-200 px-3 py-3 text-right font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
-                Top up Amount
-              </th>
-              <th class="whitespace-nowrap rounded-r-lg bg-slate-200 px-3 py-3 text-right font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5">
-                Date
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-
-
-
-{include file="emerging-vip-withdrawals.tpl" image="images/avatar/avatar-12.jpg" trx="053e4f1168f6b5c2bbcdc4ceecf099173b7df0741cc2c55fea3bf0d6aa9ef717" username="Fariba37" date="September 3, 2023" amount="$700"}            {* Manabu1 *}
-
-            {include file="emerging-vip-withdrawals.tpl" image="images/avatar/avatar-12.jpg" trx="053e4f1168f6b5c2bbcdc4ceecf099173b7df0741cc2c55fea3bf0d6aa9ef717" username="Samadhan27" date="August 29, 2023" amount="$852"}
-
-
-
-            
-            {* Danielgates16 *}
-
-
-
-            
-            
-            
-          </tbody>
-        </table>
-      </div>
-      <div class="my-7 h-px bg-slate-200 dark:bg-navy-500"></div>
-      
-    </div>
-    
-
-
-    
-
-
-    <div class="card px-5 py-12 sm:px-18 mt-4 sm:mt-5 lg:mt-6">
+    <div class="card px-5 py-12 sm:px-18">
         <div class="my-3 flex h-8 items-center justify-between">
             <h2 class="font-medium tracking-wide text-slate-700 dark:text-navy-100">
-              Deposit completed History
+              Withdrawal History
             </h2>
          
           </div>
